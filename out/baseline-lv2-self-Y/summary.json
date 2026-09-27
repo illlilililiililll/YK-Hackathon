@@ -1,0 +1,128 @@
+{
+  "args": {
+    "candidate": "bots/dist/starter/python/example_lv2.py",
+    "opponent": "bots/dist/starter/python/example_lv2.py",
+    "side": "Y",
+    "seeds": 10,
+    "name": "baseline-lv2-self-Y"
+  },
+  "summary": {
+    "win": 0,
+    "draw": 10,
+    "loss": 0,
+    "forfeit": 0,
+    "max_turn_ms": 94.36
+  },
+  "results": [
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 8,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 0,
+      "candidate_max_turn_ms": 89.52
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 16,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 1,
+      "candidate_max_turn_ms": 73.4
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 20,
+        "K": 20
+      },
+      "turns": 160,
+      "seed": 2,
+      "candidate_max_turn_ms": 70.2
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 15,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 3,
+      "candidate_max_turn_ms": 63.41
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 10,
+        "K": 10
+      },
+      "turns": 160,
+      "seed": 4,
+      "candidate_max_turn_ms": 72.28
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 15,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 5,
+      "candidate_max_turn_ms": 65.44
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 12,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 6,
+      "candidate_max_turn_ms": 75.94
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 16,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 7,
+      "candidate_max_turn_ms": 64.63
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 15,
+        "K": 15
+      },
+      "turns": 160,
+      "seed": 8,
+      "candidate_max_turn_ms": 94.36
+    },
+    {
+      "winner": "DRAW",
+      "reason": "draw",
+      "score": {
+        "Y": 16,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 9,
+      "candidate_max_turn_ms": 79.42
+    }
+  ]
+}
