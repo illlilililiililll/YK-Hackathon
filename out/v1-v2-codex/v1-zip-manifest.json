@@ -1,0 +1,146 @@
+{
+  "what": "Metadata of the ZIP uploaded as submission v1 (file name y-agent-v1.zip). The ZIP was deleted from the repository because it is rebuilt bit for bit from the source/ folder next to this file plus this list (python out/tools/evaluation/verify_artifacts.py does that check).",
+  "uploaded_file_name": "y-agent-v1.zip",
+  "zip_sha256": "8a9090f107d4ab3162948298b684a4cc052c0754ec0845986dfc456738a28890",
+  "zip_bytes": 9177,
+  "server_result": "rejected 2026-09-27 19:06 KST: EXECUTABLE_FILE (executable files are not allowed)",
+  "cause": "every entry has unix mode 0o100777 (built under WSL on a Windows drive)",
+  "recipe": "zipfile.ZipFile(mode='w', compression=ZIP_DEFLATED); one zipfile.ZipInfo per entry with the date_time, external_attr = mode << 16 and create_system below, in this order, data = the file of the same name in source/ (next to this file)",
+  "entries": [
+    {
+      "name": "_generated.py",
+      "sha256": "8cf113fe574425e1f761911e59fe43394aad147946b07ed4a837e1da6b25fcfc",
+      "bytes": 1698,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "campus_bot.py",
+      "sha256": "2568119d19d9def58dd824b06eac332f018f23c0dee24ba1ccddf3169a151e7b",
+      "bytes": 4662,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "example_lv1.py",
+      "sha256": "15183b1c05b8daa12212cb2d64fe54dbc81deba69a7e9999b3fac4b3d5ccbc1d",
+      "bytes": 962,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "example_lv2.py",
+      "sha256": "91c174b0259ea2759d3ff390bb80ff0d6494fbea59003cb5b0a607bf1370bd4f",
+      "bytes": 3002,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "main.py",
+      "sha256": "bc06703ea2dcf73fbf36c7ec9fc1e6f4f68a8dbe3dcf59bee354fef6bb4961df",
+      "bytes": 4856,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        18,
+        59,
+        16
+      ]
+    },
+    {
+      "name": "mybot_template.py",
+      "sha256": "6d6ee8564548c9bf81562d60c270b69968813045c900c94ce95b5c261456d43b",
+      "bytes": 180,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "protocol.py",
+      "sha256": "67a5d27ced038de39d7cd3b069bf01786bf4cc9e6c1d39269d1f7e67b185c194",
+      "bytes": 1391,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "search.py",
+      "sha256": "34cc73421e056d857549d28523ada709c6531152e4a0e08b8f8eddbad5073e45",
+      "bytes": 1845,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "submission.json",
+      "sha256": "ff5431b97ab8dc3d045d053fe1e3148eca20bfe900ec66cd9e7f7f5e542f3de5",
+      "bytes": 49,
+      "mode": "0o100777",
+      "create_system": 3,
+      "date_time": [
+        2026,
+        9,
+        27,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

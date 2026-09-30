@@ -1,0 +1,16 @@
+﻿loss  K T15  W  55.8  on-own 9%  near-own 61%  near-enemy-bld 6%  stacks 17.9  max W within r2 of a cell  30.5
+loss  K T20  W  75.2  on-own 12%  near-own 57%  near-enemy-bld 7%  stacks 22.6  max W within r2 of a cell  31.6
+loss  K T30  W 105.0  on-own 10%  near-own 47%  near-enemy-bld 25%  stacks 25.5  max W within r2 of a cell  43.8
+loss  K T40  W 106.9  on-own 11%  near-own 53%  near-enemy-bld 13%  stacks 25.6  max W within r2 of a cell  39.9
+loss  Y T15  W  48.0  on-own 22%  near-own 57%  near-enemy-bld 1%  stacks 16.4  max W within r2 of a cell  29.2
+loss  Y T20  W  68.8  on-own 26%  near-own 46%  near-enemy-bld 3%  stacks 21.9  max W within r2 of a cell  33.2
+loss  Y T30  W  94.0  on-own 25%  near-own 47%  near-enemy-bld 1%  stacks 24.2  max W within r2 of a cell  52.6
+loss  Y T40  W  92.8  on-own 18%  near-own 58%  near-enemy-bld 4%  stacks 24.5  max W within r2 of a cell  45.1
+win   K T15  W  49.5  on-own 18%  near-own 52%  near-enemy-bld 5%  stacks 16.0  max W within r2 of a cell  26.0
+win   K T20  W  64.8  on-own 36%  near-own 50%  near-enemy-bld 3%  stacks 18.5  max W within r2 of a cell  27.0
+win   K T30  W  83.5  on-own 27%  near-own 43%  near-enemy-bld 6%  stacks 21.0  max W within r2 of a cell  42.2
+win   K T40  W  97.2  on-own 33%  near-own 49%  near-enemy-bld 6%  stacks 18.5  max W within r2 of a cell  41.8
+win   Y T15  W  54.2  on-own 22%  near-own 59%  near-enemy-bld 4%  stacks 17.8  max W within r2 of a cell  29.2
+win   Y T20  W  72.2  on-own 27%  near-own 56%  near-enemy-bld 1%  stacks 17.0  max W within r2 of a cell  34.5
+win   Y T30  W  90.5  on-own 25%  near-own 57%  near-enemy-bld 4%  stacks 21.5  max W within r2 of a cell  43.5
+win   Y T40  W 111.2  on-own 34%  near-own 41%  near-enemy-bld 3%  stacks 23.8  max W within r2 of a cell  67.2

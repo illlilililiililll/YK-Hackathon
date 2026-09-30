@@ -1,0 +1,7 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep1        base        K     30    29-0-1    29.9      1511      465   0     17     80
+indep1        cap7        K     30    30-0-0    33.9       682      459   0     17    100
+indep1        lv2         K     30    30-0-0    33.6       385      354   0     24    100
+indep1        rush        K     30    30-0-0    33.3       600      370   0     16    100
+indep1        v2          K     30    30-0-0    33.3       505      430   0     20    100
+indep1        v3          K     30    30-0-0    33.8       682      420   0     18    100

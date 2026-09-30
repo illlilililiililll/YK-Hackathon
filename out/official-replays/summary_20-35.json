@@ -1,0 +1,2766 @@
+[
+  {
+    "file": "20_AI고_e1992c0a.json",
+    "gameId": "rolling-game-e1992c0a56db07022a3f6c5e2b147110e22f57e17ca00fd9f38302f015594350",
+    "result": {
+      "reason": "instant",
+      "winner": "Y"
+    },
+    "end_turn": 39,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 9
+        },
+        "resources": {
+          "K": 40,
+          "Y": 30
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 4
+        },
+        "center": {
+          "Y": 1,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 30,
+            "S": 0
+          },
+          "K": {
+            "F": 10,
+            "W": 0,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 120,
+          "K": 50
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 20
+        },
+        "resources": {
+          "K": 36,
+          "Y": 13
+        },
+        "buildings": {
+          "Y": 9,
+          "K": 4
+        },
+        "center": {
+          "Y": 5,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 93,
+            "S": 0
+          },
+          "K": {
+            "F": 20,
+            "W": 0,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 309,
+          "K": 100
+        },
+        "plaza": "Y"
+      },
+      "39": {
+        "turn": 39,
+        "score": {
+          "K": 0,
+          "Y": 29
+        },
+        "resources": {
+          "K": 38,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 14,
+          "K": 0
+        },
+        "center": {
+          "Y": 5,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 194,
+            "S": 0
+          },
+          "K": {
+            "F": 24,
+            "W": 0,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 612,
+          "K": 120
+        },
+        "plaza": "N"
+      }
+    },
+    "commands": {
+      "SPAWN F": 4,
+      "MOVE": 638,
+      "PRIORITY": 39,
+      "SPAWN W": 36
+    },
+    "spawned": {
+      "F": 6,
+      "W": 194
+    },
+    "events": {
+      "capture": 46,
+      "neutral": 32,
+      "battle": 3
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      262
+    ],
+    "max_response_after_first": [
+      2,
+      19
+    ]
+  },
+  {
+    "file": "21_우주류_d0561a85.json",
+    "gameId": "rolling-game-d0561a851c8584800172696da0617cf0ddc471dfaeb203bd69723e1fc4608171",
+    "result": {
+      "reason": "score",
+      "winner": "K"
+    },
+    "end_turn": 160,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 17
+        },
+        "resources": {
+          "K": 39,
+          "Y": 9
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 4
+        },
+        "center": {
+          "Y": 3,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 27,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 18,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 106,
+          "K": 79
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 19
+        },
+        "resources": {
+          "K": 12,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 7
+        },
+        "center": {
+          "Y": 3,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 22,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 39,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 96,
+          "K": 132
+        },
+        "plaza": "N"
+      },
+      "80": {
+        "turn": 80,
+        "score": {
+          "K": null,
+          "Y": 11
+        },
+        "resources": {
+          "K": 13,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 10
+        },
+        "center": {
+          "Y": 1,
+          "K": 5
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 16,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 157,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 73,
+          "K": 486
+        },
+        "plaza": "N"
+      },
+      "160": {
+        "turn": 160,
+        "score": {
+          "K": null,
+          "Y": 10
+        },
+        "resources": {
+          "K": 13,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 12
+        },
+        "center": {
+          "Y": 1,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 15,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 369,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 70,
+          "K": 1127
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 119,
+      "MOVE": 1885,
+      "PRIORITY": 160,
+      "SPAWN W": 154
+    },
+    "spawned": {
+      "F": 172,
+      "W": 491
+    },
+    "events": {
+      "capture": 42,
+      "battle": 281,
+      "neutral": 20,
+      "pulled": 5
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      320
+    ],
+    "max_response_after_first": [
+      41,
+      24
+    ]
+  },
+  {
+    "file": "22_파전_c953d4b6.json",
+    "gameId": "rolling-game-c953d4b6692ae9822ddb3dd8371424cd98dcfa3fba6f6a1698703892758549d1",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 104,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 14
+        },
+        "resources": {
+          "K": 12,
+          "Y": 12
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 5
+        },
+        "center": {
+          "Y": 4,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 31,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 30,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 118,
+          "K": 110
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 12
+        },
+        "resources": {
+          "K": 10,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 10
+        },
+        "center": {
+          "Y": 2,
+          "K": 5
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 71,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 78,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 243,
+          "K": 254
+        },
+        "plaza": "K"
+      },
+      "52": {
+        "turn": 52,
+        "score": {
+          "K": null,
+          "Y": 8
+        },
+        "resources": {
+          "K": 12,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 11
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 44,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 111,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 157,
+          "K": 353
+        },
+        "plaza": "K"
+      },
+      "104": {
+        "turn": 104,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 16,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 15
+        },
+        "center": {
+          "Y": 0,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 2,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 220,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 10,
+          "K": 675
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 67,
+      "MOVE": 1426,
+      "PRIORITY": 104,
+      "SPAWN W": 96
+    },
+    "spawned": {
+      "F": 102,
+      "W": 333
+    },
+    "events": {
+      "capture": 51,
+      "battle": 187,
+      "neutral": 31,
+      "pulled": 5
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      509
+    ],
+    "max_response_after_first": [
+      72,
+      25
+    ]
+  },
+  {
+    "file": "23_Team24_c060eb51.json",
+    "gameId": "rolling-game-c060eb5190ca1ed24bb4b7c1f349a7f1eae858677a61792694af2bbb8ecb70e2",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 33,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 13
+        },
+        "resources": {
+          "K": 11,
+          "Y": 13
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 8
+        },
+        "center": {
+          "Y": 2,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 20,
+            "S": 0
+          },
+          "K": {
+            "F": 8,
+            "W": 33,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 90,
+          "K": 139
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 7
+        },
+        "resources": {
+          "K": 11,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 4,
+          "K": 13
+        },
+        "center": {
+          "Y": 1,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 3,
+            "W": 44,
+            "S": 0
+          },
+          "K": {
+            "F": 8,
+            "W": 70,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 147,
+          "K": 250
+        },
+        "plaza": "K"
+      },
+      "33": {
+        "turn": 33,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 14,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 16
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 1,
+            "W": 20,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 115,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 65,
+          "K": 380
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 24,
+      "MOVE": 314,
+      "PRIORITY": 33,
+      "SPAWN W": 20
+    },
+    "spawned": {
+      "F": 40,
+      "W": 63
+    },
+    "events": {
+      "capture": 35,
+      "battle": 50,
+      "neutral": 19
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      409
+    ],
+    "max_response_after_first": [
+      4,
+      21
+    ]
+  },
+  {
+    "file": "24_건성건성_bdb44a3d.json",
+    "gameId": "rolling-game-bdb44a3dd02332fc51d2e7c43b804f0e83a94ba97c0fda79c6ad2009a216fdf0",
+    "result": {
+      "reason": "score",
+      "winner": "K"
+    },
+    "end_turn": 160,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 14
+        },
+        "resources": {
+          "K": 14,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 6
+        },
+        "center": {
+          "Y": 3,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 23,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 23,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 99,
+          "K": 104
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 19
+        },
+        "resources": {
+          "K": 13,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 9,
+          "K": 8
+        },
+        "center": {
+          "Y": 4,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 55,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 71,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 195,
+          "K": 248
+        },
+        "plaza": "Y"
+      },
+      "80": {
+        "turn": 80,
+        "score": {
+          "K": null,
+          "Y": 15
+        },
+        "resources": {
+          "K": 12,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 10
+        },
+        "center": {
+          "Y": 3,
+          "K": 4
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 70,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 145,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 240,
+          "K": 460
+        },
+        "plaza": "K"
+      },
+      "160": {
+        "turn": 160,
+        "score": {
+          "K": null,
+          "Y": 4
+        },
+        "resources": {
+          "K": 14,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 2,
+          "K": 15
+        },
+        "center": {
+          "Y": 1,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 3,
+            "W": 2,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 418,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 21,
+          "K": 1279
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 83,
+      "MOVE": 2475,
+      "PRIORITY": 160,
+      "SPAWN W": 135
+    },
+    "spawned": {
+      "F": 111,
+      "W": 509
+    },
+    "events": {
+      "capture": 66,
+      "neutral": 48,
+      "battle": 219,
+      "pulled": 1
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      461
+    ],
+    "max_response_after_first": [
+      61,
+      29
+    ]
+  },
+  {
+    "file": "25_인공저능_b4dfabc1.json",
+    "gameId": "rolling-game-b4dfabc1a17fb01bb0be846a845ef376679db63596224c9692dbed325d00ded4",
+    "result": {
+      "reason": "instant",
+      "winner": "Y"
+    },
+    "end_turn": 27,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 20
+        },
+        "resources": {
+          "K": 18,
+          "Y": 10
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 5
+        },
+        "center": {
+          "Y": 4,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 39,
+            "S": 0
+          },
+          "K": {
+            "F": 20,
+            "W": 3,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 142,
+          "K": 109
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 28
+        },
+        "resources": {
+          "K": 16,
+          "Y": 10
+        },
+        "buildings": {
+          "Y": 10,
+          "K": 3
+        },
+        "center": {
+          "Y": 5,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 91,
+            "S": 0
+          },
+          "K": {
+            "F": 21,
+            "W": 3,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 298,
+          "K": 114
+        },
+        "plaza": "Y"
+      },
+      "27": {
+        "turn": 27,
+        "score": {
+          "K": 0,
+          "Y": 40
+        },
+        "resources": {
+          "K": 12,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 14,
+          "K": 0
+        },
+        "center": {
+          "Y": 7,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 121,
+            "S": 0
+          },
+          "K": {
+            "F": 9,
+            "W": 3,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 388,
+          "K": 54
+        },
+        "plaza": "Y"
+      }
+    },
+    "commands": {
+      "SPAWN F": 7,
+      "MOVE": 389,
+      "PRIORITY": 27,
+      "SPAWN W": 24
+    },
+    "spawned": {
+      "F": 9,
+      "W": 121
+    },
+    "events": {
+      "capture": 29,
+      "battle": 20,
+      "pulled": 1,
+      "neutral": 14
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      331
+    ],
+    "max_response_after_first": [
+      2,
+      14
+    ]
+  },
+  {
+    "file": "26_개우진보러갈까_a9f798de.json",
+    "gameId": "rolling-game-a9f798de3070753e2bd4c1d93ea8339fcd1dacc044014d4542c8991b3c403916",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 60,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 10
+        },
+        "resources": {
+          "K": 26,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 7
+        },
+        "center": {
+          "Y": 1,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 33,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 42,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 129,
+          "K": 156
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 14
+        },
+        "resources": {
+          "K": 11,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 10
+        },
+        "center": {
+          "Y": 2,
+          "K": 5
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 48,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 67,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 164,
+          "K": 231
+        },
+        "plaza": "K"
+      },
+      "30": {
+        "turn": 30,
+        "score": {
+          "K": null,
+          "Y": 9
+        },
+        "resources": {
+          "K": 11,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 11
+        },
+        "center": {
+          "Y": 0,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 3,
+            "W": 26,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 71,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 93,
+          "K": 243
+        },
+        "plaza": "K"
+      },
+      "60": {
+        "turn": 60,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 14,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 16
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 1,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 191,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 5,
+          "K": 598
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 45,
+      "MOVE": 607,
+      "PRIORITY": 60,
+      "SPAWN W": 49
+    },
+    "spawned": {
+      "F": 79,
+      "W": 141
+    },
+    "events": {
+      "capture": 33,
+      "neutral": 16,
+      "battle": 118,
+      "pulled": 1
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      412
+    ],
+    "max_response_after_first": [
+      40,
+      42
+    ]
+  },
+  {
+    "file": "27_1026_a04bb1bc.json",
+    "gameId": "rolling-game-a04bb1bcf3c98a133c7e7ac4f7a759efc110108f323de8932575d5bd1f601ada",
+    "result": {
+      "reason": "instant",
+      "winner": "Y"
+    },
+    "end_turn": 58,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 15
+        },
+        "resources": {
+          "K": 10,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 3
+        },
+        "center": {
+          "Y": 3,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 24,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 26,
+            "S": 2
+          }
+        },
+        "unit_value": {
+          "Y": 102,
+          "K": 97
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 27
+        },
+        "resources": {
+          "K": 9,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 11,
+          "K": 6
+        },
+        "center": {
+          "Y": 5,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 79,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 72,
+            "S": 2
+          }
+        },
+        "unit_value": {
+          "Y": 267,
+          "K": 245
+        },
+        "plaza": "Y"
+      },
+      "29": {
+        "turn": 29,
+        "score": {
+          "K": null,
+          "Y": 31
+        },
+        "resources": {
+          "K": 12,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 14,
+          "K": 3
+        },
+        "center": {
+          "Y": 5,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 104,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 75,
+            "S": 2
+          }
+        },
+        "unit_value": {
+          "Y": 342,
+          "K": 249
+        },
+        "plaza": "K"
+      },
+      "58": {
+        "turn": 58,
+        "score": {
+          "K": 0,
+          "Y": 30
+        },
+        "resources": {
+          "K": 9,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 13,
+          "K": 0
+        },
+        "center": {
+          "Y": 5,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 178,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 39,
+            "S": 1
+          }
+        },
+        "unit_value": {
+          "Y": 564,
+          "K": 134
+        },
+        "plaza": "Y"
+      }
+    },
+    "commands": {
+      "SPAWN F": 11,
+      "MOVE": 780,
+      "PRIORITY": 58,
+      "SPAWN W": 55
+    },
+    "spawned": {
+      "F": 14,
+      "W": 300
+    },
+    "events": {
+      "capture": 38,
+      "battle": 61,
+      "neutral": 24,
+      "pulled": 1
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      328
+    ],
+    "max_response_after_first": [
+      39,
+      43
+    ]
+  },
+  {
+    "file": "28_AIKU_96ebcf2f.json",
+    "gameId": "rolling-game-96ebcf2fe8fa102242c43f5f604439c76e4932704886a26a2f1ff362ea6ed255",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 37,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 16
+        },
+        "resources": {
+          "K": 12,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 8
+        },
+        "center": {
+          "Y": 3,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 33,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 33,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 129,
+          "K": 134
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 13
+        },
+        "resources": {
+          "K": 15,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 11
+        },
+        "center": {
+          "Y": 2,
+          "K": 5
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 55,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 86,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 190,
+          "K": 293
+        },
+        "plaza": "K"
+      },
+      "37": {
+        "turn": 37,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 13,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 15
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 0,
+            "W": 21,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 148,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 63,
+          "K": 479
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 29,
+      "MOVE": 369,
+      "PRIORITY": 37,
+      "SPAWN W": 25
+    },
+    "spawned": {
+      "F": 44,
+      "W": 79
+    },
+    "events": {
+      "capture": 27,
+      "battle": 57,
+      "neutral": 9,
+      "pulled": 3
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      330
+    ],
+    "max_response_after_first": [
+      13,
+      22
+    ]
+  },
+  {
+    "file": "29_뉴비들_8807f36b.json",
+    "gameId": "rolling-game-8807f36bd9355b24cb0984baed00d79f57203c57f57bb6d81cebe10cbffe1735",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 54,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 15
+        },
+        "resources": {
+          "K": 26,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 6
+        },
+        "center": {
+          "Y": 3,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 27,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 30,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 111,
+          "K": 115
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 20
+        },
+        "resources": {
+          "K": 13,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 9,
+          "K": 7
+        },
+        "center": {
+          "Y": 4,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 53,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 82,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 189,
+          "K": 271
+        },
+        "plaza": "Y"
+      },
+      "27": {
+        "turn": 27,
+        "score": {
+          "K": null,
+          "Y": 18
+        },
+        "resources": {
+          "K": 13,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 8
+        },
+        "center": {
+          "Y": 4,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 41,
+            "S": 0
+          },
+          "K": {
+            "F": 5,
+            "W": 91,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 143,
+          "K": 298
+        },
+        "plaza": "Y"
+      },
+      "54": {
+        "turn": 54,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 14,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 16
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 3,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 161,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 15,
+          "K": 503
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 37,
+      "MOVE": 684,
+      "PRIORITY": 54,
+      "SPAWN W": 42
+    },
+    "spawned": {
+      "F": 57,
+      "W": 129
+    },
+    "events": {
+      "capture": 35,
+      "battle": 86,
+      "neutral": 19
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      404
+    ],
+    "max_response_after_first": [
+      45,
+      23
+    ]
+  },
+  {
+    "file": "30_어잌후_72a6e629.json",
+    "gameId": "rolling-game-72a6e6297092dca5e1a5db52408237d34895ad65049fc2bf2aea727549167fb1",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 48,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 5
+        },
+        "resources": {
+          "K": 12,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 3,
+          "K": 3
+        },
+        "center": {
+          "Y": 0,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 26,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 31,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 108,
+          "K": 123
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 11
+        },
+        "resources": {
+          "K": 13,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 8
+        },
+        "center": {
+          "Y": 2,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 56,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 65,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 193,
+          "K": 225
+        },
+        "plaza": "K"
+      },
+      "24": {
+        "turn": 24,
+        "score": {
+          "K": null,
+          "Y": 10
+        },
+        "resources": {
+          "K": 13,
+          "Y": 16
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 9
+        },
+        "center": {
+          "Y": 2,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 2,
+            "W": 69,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 87,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 217,
+          "K": 291
+        },
+        "plaza": "K"
+      },
+      "48": {
+        "turn": 48,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 37,
+          "Y": 18
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 14
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 2,
+            "W": 19,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 145,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 67,
+          "K": 450
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 35,
+      "MOVE": 566,
+      "PRIORITY": 48,
+      "SPAWN W": 36
+    },
+    "spawned": {
+      "F": 60,
+      "W": 118
+    },
+    "events": {
+      "capture": 27,
+      "battle": 85,
+      "neutral": 12,
+      "pulled": 1
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      400
+    ],
+    "max_response_after_first": [
+      9,
+      27
+    ]
+  },
+  {
+    "file": "31_모든상금은제세공과금공제후지급됩니다_6a3867d4.json",
+    "gameId": "rolling-game-6a3867d40ea0249fa7a978fbcbaa7d251841d73bab621f68f7a5cc022796dc65",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 59,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 16
+        },
+        "resources": {
+          "K": 9,
+          "Y": 13
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 5
+        },
+        "center": {
+          "Y": 4,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 22,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 28,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 96,
+          "K": 99
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 20
+        },
+        "resources": {
+          "K": 11,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 10,
+          "K": 4
+        },
+        "center": {
+          "Y": 4,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 41,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 54,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 148,
+          "K": 177
+        },
+        "plaza": "Y"
+      },
+      "29": {
+        "turn": 29,
+        "score": {
+          "K": null,
+          "Y": 16
+        },
+        "resources": {
+          "K": 11,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 5
+        },
+        "center": {
+          "Y": 3,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 27,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 59,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 101,
+          "K": 192
+        },
+        "plaza": "Y"
+      },
+      "59": {
+        "turn": 59,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 14,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 15
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 0,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 212,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 0,
+          "K": 651
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 46,
+      "MOVE": 547,
+      "PRIORITY": 59,
+      "SPAWN W": 32
+    },
+    "spawned": {
+      "F": 83,
+      "W": 98
+    },
+    "events": {
+      "capture": 29,
+      "battle": 134,
+      "neutral": 13,
+      "pulled": 1
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      319
+    ],
+    "max_response_after_first": [
+      21,
+      25
+    ]
+  },
+  {
+    "file": "32_학부기_601a31f8.json",
+    "gameId": "rolling-game-601a31f89a6c3b23965e2f23af84a95e6c10d8e47aa49a8f1a9b365e0bbd84c4",
+    "result": {
+      "reason": "score",
+      "winner": "Y"
+    },
+    "end_turn": 160,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 17
+        },
+        "resources": {
+          "K": 10,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 3
+        },
+        "center": {
+          "Y": 4,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 29,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 25,
+            "S": 5
+          }
+        },
+        "unit_value": {
+          "Y": 117,
+          "K": 100
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 24
+        },
+        "resources": {
+          "K": 38,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 11,
+          "K": 5
+        },
+        "center": {
+          "Y": 6,
+          "K": 0
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 47,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 35,
+            "S": 5
+          }
+        },
+        "unit_value": {
+          "Y": 171,
+          "K": 130
+        },
+        "plaza": "Y"
+      },
+      "80": {
+        "turn": 80,
+        "score": {
+          "K": null,
+          "Y": 21
+        },
+        "resources": {
+          "K": 40,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 10,
+          "K": 7
+        },
+        "center": {
+          "Y": 5,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 103,
+            "S": 0
+          },
+          "K": {
+            "F": 3,
+            "W": 82,
+            "S": 1
+          }
+        },
+        "unit_value": {
+          "Y": 334,
+          "K": 263
+        },
+        "plaza": "Y"
+      },
+      "160": {
+        "turn": 160,
+        "score": {
+          "K": null,
+          "Y": 24
+        },
+        "resources": {
+          "K": 40,
+          "Y": 13
+        },
+        "buildings": {
+          "Y": 11,
+          "K": 6
+        },
+        "center": {
+          "Y": 6,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 231,
+            "S": 0
+          },
+          "K": {
+            "F": 2,
+            "W": 72,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 723,
+          "K": 226
+        },
+        "plaza": "Y"
+      }
+    },
+    "commands": {
+      "SPAWN F": 69,
+      "MOVE": 2651,
+      "PRIORITY": 160,
+      "SPAWN W": 155
+    },
+    "spawned": {
+      "F": 82,
+      "W": 699
+    },
+    "events": {
+      "capture": 51,
+      "neutral": 25,
+      "battle": 202,
+      "pulled": 9
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      276
+    ],
+    "max_response_after_first": [
+      90,
+      26
+    ]
+  },
+  {
+    "file": "33_그래피_5f5c1083.json",
+    "gameId": "rolling-game-5f5c1083ef8d23327acf9f3e15c5d0c555bffa7b5f106476509d04b3abd3a5a7",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 46,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 19
+        },
+        "resources": {
+          "K": 27,
+          "Y": 27
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 5
+        },
+        "center": {
+          "Y": 5,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 22,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 28,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 96,
+          "K": 114
+        },
+        "plaza": "Y"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 17
+        },
+        "resources": {
+          "K": 12,
+          "Y": 12
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 7
+        },
+        "center": {
+          "Y": 4,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 3,
+            "W": 40,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 75,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 135,
+          "K": 255
+        },
+        "plaza": "Y"
+      },
+      "23": {
+        "turn": 23,
+        "score": {
+          "K": null,
+          "Y": 10
+        },
+        "resources": {
+          "K": 10,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 6,
+          "K": 9
+        },
+        "center": {
+          "Y": 2,
+          "K": 4
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 45,
+            "S": 0
+          },
+          "K": {
+            "F": 6,
+            "W": 91,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 160,
+          "K": 303
+        },
+        "plaza": "K"
+      },
+      "46": {
+        "turn": 46,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 11,
+          "Y": 18
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 15
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 1,
+            "W": 9,
+            "S": 0
+          },
+          "K": {
+            "F": 4,
+            "W": 157,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 32,
+          "K": 491
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 30,
+      "MOVE": 543,
+      "PRIORITY": 46,
+      "SPAWN W": 36
+    },
+    "spawned": {
+      "F": 47,
+      "W": 102
+    },
+    "events": {
+      "capture": 34,
+      "battle": 77,
+      "neutral": 19
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      404
+    ],
+    "max_response_after_first": [
+      41,
+      23
+    ]
+  },
+  {
+    "file": "34_태호랑이_4b834fdd.json",
+    "gameId": "rolling-game-4b834fdd17cb9a48e37fd26b20f79a04d5ad1f9e99ed3fab7838df8d6b55c73f",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 142,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 15
+        },
+        "resources": {
+          "K": 13,
+          "Y": 17
+        },
+        "buildings": {
+          "Y": 7,
+          "K": 4
+        },
+        "center": {
+          "Y": 2,
+          "K": 1
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 26,
+            "S": 0
+          },
+          "K": {
+            "F": 13,
+            "W": 15,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 108,
+          "K": 110
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 17
+        },
+        "resources": {
+          "K": 12,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 8,
+          "K": 8
+        },
+        "center": {
+          "Y": 3,
+          "K": 3
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 84,
+            "S": 0
+          },
+          "K": {
+            "F": 12,
+            "W": 72,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 282,
+          "K": 276
+        },
+        "plaza": "Y"
+      },
+      "71": {
+        "turn": 71,
+        "score": {
+          "K": null,
+          "Y": 11
+        },
+        "resources": {
+          "K": 12,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 5,
+          "K": 10
+        },
+        "center": {
+          "Y": 2,
+          "K": 5
+        },
+        "units": {
+          "Y": {
+            "F": 5,
+            "W": 59,
+            "S": 0
+          },
+          "K": {
+            "F": 17,
+            "W": 138,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 202,
+          "K": 499
+        },
+        "plaza": "K"
+      },
+      "142": {
+        "turn": 142,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 14,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 16
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 1,
+            "W": 0,
+            "S": 0
+          },
+          "K": {
+            "F": 17,
+            "W": 330,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 5,
+          "K": 1075
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 84,
+      "MOVE": 1557,
+      "PRIORITY": 142,
+      "SPAWN W": 117
+    },
+    "spawned": {
+      "F": 115,
+      "W": 443
+    },
+    "events": {
+      "capture": 73,
+      "battle": 189,
+      "neutral": 53,
+      "pulled": 4
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      312
+    ],
+    "max_response_after_first": [
+      33,
+      22
+    ]
+  },
+  {
+    "file": "35_김씨들외1_2a89ad2f.json",
+    "gameId": "rolling-game-2a89ad2fb31fa6e5268c5b61fe0731322ee7a31dc96f2fbacd046b95efab87ba",
+    "result": {
+      "reason": "instant",
+      "winner": "K"
+    },
+    "end_turn": 42,
+    "snapshots": {
+      "10": {
+        "turn": 10,
+        "score": {
+          "K": null,
+          "Y": 7
+        },
+        "resources": {
+          "K": 10,
+          "Y": 15
+        },
+        "buildings": {
+          "Y": 3,
+          "K": 4
+        },
+        "center": {
+          "Y": 1,
+          "K": 2
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 20,
+            "S": 0
+          },
+          "K": {
+            "F": 8,
+            "W": 18,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 90,
+          "K": 94
+        },
+        "plaza": "N"
+      },
+      "20": {
+        "turn": 20,
+        "score": {
+          "K": null,
+          "Y": 4
+        },
+        "resources": {
+          "K": 11,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 2,
+          "K": 11
+        },
+        "center": {
+          "Y": 0,
+          "K": 4
+        },
+        "units": {
+          "Y": {
+            "F": 6,
+            "W": 33,
+            "S": 0
+          },
+          "K": {
+            "F": 8,
+            "W": 53,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 129,
+          "K": 199
+        },
+        "plaza": "K"
+      },
+      "21": {
+        "turn": 21,
+        "score": {
+          "K": null,
+          "Y": 8
+        },
+        "resources": {
+          "K": 10,
+          "Y": 29
+        },
+        "buildings": {
+          "Y": 3,
+          "K": 14
+        },
+        "center": {
+          "Y": 1,
+          "K": 6
+        },
+        "units": {
+          "Y": {
+            "F": 4,
+            "W": 30,
+            "S": 0
+          },
+          "K": {
+            "F": 8,
+            "W": 52,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 110,
+          "K": 196
+        },
+        "plaza": "K"
+      },
+      "42": {
+        "turn": 42,
+        "score": {
+          "K": null,
+          "Y": 0
+        },
+        "resources": {
+          "K": 12,
+          "Y": 14
+        },
+        "buildings": {
+          "Y": 0,
+          "K": 16
+        },
+        "center": {
+          "Y": 0,
+          "K": 7
+        },
+        "units": {
+          "Y": {
+            "F": 1,
+            "W": 14,
+            "S": 0
+          },
+          "K": {
+            "F": 7,
+            "W": 151,
+            "S": 0
+          }
+        },
+        "unit_value": {
+          "Y": 47,
+          "K": 488
+        },
+        "plaza": "K"
+      }
+    },
+    "commands": {
+      "SPAWN F": 28,
+      "MOVE": 450,
+      "PRIORITY": 42,
+      "SPAWN W": 30
+    },
+    "spawned": {
+      "F": 40,
+      "W": 76
+    },
+    "events": {
+      "capture": 33,
+      "battle": 46,
+      "neutral": 15,
+      "pulled": 2
+    },
+    "command_statuses": [
+      "ok"
+    ],
+    "max_response": [
+      1,
+      357
+    ],
+    "max_response_after_first": [
+      2,
+      19
+    ]
+  }
+]

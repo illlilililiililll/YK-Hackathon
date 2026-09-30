@@ -1,0 +1,311 @@
+[
+  {
+    "file": "cap7_vs_cap7_seed1100.json",
+    "candidate": "cap7",
+    "opponent": "cap7",
+    "seed": 1100,
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 35
+      },
+      "turns": 77,
+      "seed": 1100
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": 0,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": -3,
+          "buildings_gap": 1
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": -1,
+          "buildings_gap": -1
+        }
+      },
+      "spawned": {
+        "F": 97,
+        "W": 138
+      },
+      "estimated_lost": {
+        "F": 91,
+        "W": 137
+      },
+      "threatened_flags": 235,
+      "escorted_flags": 87,
+      "threatened_owned_sites": 138,
+      "guarded_owned_sites": 26,
+      "owned_lost": 24,
+      "f_only_while_w_behind_21_40": 0,
+      "first_big_reversal": {
+        "turn": 41,
+        "kind": "buildings"
+      }
+    }
+  },
+  {
+    "file": "adaptive_vs_cap7_seed1100.json",
+    "candidate": "adaptive",
+    "opponent": "cap7",
+    "seed": 1100,
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 26,
+        "K": 5
+      },
+      "turns": 160,
+      "seed": 1100
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": 0,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": 5,
+          "buildings_gap": 1
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": 39,
+          "buildings_gap": 7
+        }
+      },
+      "spawned": {
+        "F": 76,
+        "W": 740
+      },
+      "estimated_lost": {
+        "F": 69,
+        "W": 254
+      },
+      "threatened_flags": 270,
+      "escorted_flags": 125,
+      "threatened_owned_sites": 188,
+      "guarded_owned_sites": 73,
+      "owned_lost": 58,
+      "f_only_while_w_behind_21_40": 0,
+      "first_big_reversal": null
+    }
+  },
+  {
+    "file": "cap7_vs_cap7_seed1103.json",
+    "candidate": "cap7",
+    "opponent": "cap7",
+    "seed": 1103,
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 29,
+        "K": 7
+      },
+      "turns": 160,
+      "seed": 1103
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": 0,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": 2,
+          "buildings_gap": 1
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": 8,
+          "buildings_gap": -1
+        }
+      },
+      "spawned": {
+        "F": 175,
+        "W": 478
+      },
+      "estimated_lost": {
+        "F": 169,
+        "W": 223
+      },
+      "threatened_flags": 592,
+      "escorted_flags": 266,
+      "threatened_owned_sites": 256,
+      "guarded_owned_sites": 122,
+      "owned_lost": 9,
+      "f_only_while_w_behind_21_40": 1,
+      "first_big_reversal": null
+    }
+  },
+  {
+    "file": "adaptive_vs_cap7_seed1103.json",
+    "candidate": "adaptive",
+    "opponent": "cap7",
+    "seed": 1103,
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 7,
+        "K": 18
+      },
+      "turns": 160,
+      "seed": 1103
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": 0,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": 1,
+          "buildings_gap": 1
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": -13,
+          "buildings_gap": -1
+        }
+      },
+      "spawned": {
+        "F": 138,
+        "W": 536
+      },
+      "estimated_lost": {
+        "F": 135,
+        "W": 454
+      },
+      "threatened_flags": 507,
+      "escorted_flags": 288,
+      "threatened_owned_sites": 304,
+      "guarded_owned_sites": 175,
+      "owned_lost": 43,
+      "f_only_while_w_behind_21_40": 0,
+      "first_big_reversal": {
+        "turn": 33,
+        "kind": "W"
+      }
+    }
+  },
+  {
+    "file": "cap7_vs_v3_seed1100.json",
+    "candidate": "cap7",
+    "opponent": "v3",
+    "seed": 1100,
+    "result": {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 87,
+      "seed": 1100
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": -1,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": -2,
+          "buildings_gap": 2
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": -13,
+          "buildings_gap": 2
+        }
+      },
+      "spawned": {
+        "F": 52,
+        "W": 377
+      },
+      "estimated_lost": {
+        "F": 47,
+        "W": 211
+      },
+      "threatened_flags": 203,
+      "escorted_flags": 95,
+      "threatened_owned_sites": 148,
+      "guarded_owned_sites": 47,
+      "owned_lost": 19,
+      "f_only_while_w_behind_21_40": 3,
+      "first_big_reversal": {
+        "turn": 23,
+        "kind": "buildings"
+      }
+    }
+  },
+  {
+    "file": "defense_vs_v3_seed1100.json",
+    "candidate": "defense",
+    "opponent": "v3",
+    "seed": 1100,
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 37
+      },
+      "turns": 74,
+      "seed": 1100
+    },
+    "diagnostics": {
+      "snapshots": {
+        "10": {
+          "actual_turn": 10,
+          "W_gap": -1,
+          "buildings_gap": 0
+        },
+        "20": {
+          "actual_turn": 20,
+          "W_gap": -21,
+          "buildings_gap": -7
+        },
+        "40": {
+          "actual_turn": 40,
+          "W_gap": -52,
+          "buildings_gap": -6
+        }
+      },
+      "spawned": {
+        "F": 89,
+        "W": 156
+      },
+      "estimated_lost": {
+        "F": 83,
+        "W": 156
+      },
+      "threatened_flags": 233,
+      "escorted_flags": 101,
+      "threatened_owned_sites": 95,
+      "guarded_owned_sites": 49,
+      "owned_lost": 21,
+      "f_only_while_w_behind_21_40": 3,
+      "first_big_reversal": null
+    }
+  }
+]

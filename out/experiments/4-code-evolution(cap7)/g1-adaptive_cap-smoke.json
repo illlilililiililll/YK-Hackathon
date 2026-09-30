@@ -1,0 +1,14 @@
+{
+  "result": {
+    "winner": "Y",
+    "reason": "score",
+    "score": {
+      "Y": 2,
+      "K": 0
+    },
+    "turns": 1,
+    "seed": 399
+  },
+  "max_turn_ms": 450.05,
+  "passed": true
+}

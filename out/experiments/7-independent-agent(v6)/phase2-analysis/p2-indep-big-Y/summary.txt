@@ -1,0 +1,7 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep         cap7        Y    100    97-0-3    27.7       841      846   0     32     81
+indep         lv2         Y    100   100-0-0    32.9       522      504   0     31    100
+indep         raider      Y    100   100-0-0    25.5       276      242   0     19    100
+indep         rush        Y    100   100-0-0    33.5       844      554   0     52    100
+indep         turtle      Y    100   100-0-0    33.1      1774      564   0     34     87
+indep         v3          Y    100    95-0-5    29.0       865      724   0     38     89

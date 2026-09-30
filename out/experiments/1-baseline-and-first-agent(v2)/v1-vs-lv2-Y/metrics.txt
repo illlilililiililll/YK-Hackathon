@@ -1,0 +1,1 @@
+v1-vs-lv2-Y {'win': 10, 'draw': 0, 'loss': 0, 'forfeit': 0, 'max_turn_ms': 87.79} score 34.2 t20 buildings/value (11.8, 254) final buildings/value (15.1, 564)

@@ -1,0 +1,10 @@
+# Shell scripts outside out/ keep LF line endings (they run under WSL/Linux)
+*.sh text eol=lf
+
+# Archives are binary
+*.zip binary
+*.gz binary
+
+# Everything under out/ is evidence: submitted sources whose bytes equal the ZIP entries (v6 was submitted with CRLF line endings),
+# generated data files, path_map.tsv, replays. Store the exact bytes; never normalise line endings.
+out/** -text

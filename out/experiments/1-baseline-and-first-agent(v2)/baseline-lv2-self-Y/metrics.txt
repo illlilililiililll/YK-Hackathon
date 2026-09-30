@@ -1,0 +1,1 @@
+baseline-lv2-self-Y {'win': 0, 'draw': 10, 'loss': 0, 'forfeit': 0, 'max_turn_ms': 94.36} score 14.3 t20 buildings/value (7, 172.9) final buildings/value (6.9, 1052)

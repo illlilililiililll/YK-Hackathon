@@ -1,0 +1,2016 @@
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 109
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 125
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 125
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 161
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 161
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 161
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 82
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 82
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 97
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 96
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 96
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 190
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 190
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 190
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 143
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 143
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 143
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 157
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 157
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 157
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 94
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 97
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 97
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 97
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 165
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 183
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 49
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 168
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+
+Traceback (most recent call last):
+  File "<repo>/candidates/indep/main.py", line 36, in decide
+    for cmd in st["brain"].act(view.turn, view.my_resource, view.opp_resource, units, blds):
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 197, in act
+    self.plan_moves()
+    ~~~~~~~~~~~~~~~^^
+  File "<repo>/candidates/indep/brain.py", line 277, in plan_moves
+    self.rally(claimed)
+    ~~~~~~~~~~^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 362, in rally
+    if c not in fdest or self.bval(j) > self.bval(fdest[c]):
+                                        ~~~~~~~~~^^^^^^^^^^
+  File "<repo>/candidates/indep/brain.py", line 74, in bval
+    t = self.btype[i]
+        ~~~~~~~~~~^^^
+KeyError: 92
+

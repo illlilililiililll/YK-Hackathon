@@ -1,0 +1,136 @@
+﻿
+### 48_건성건성  LOSS score end T160  first irreversible score deficit: T150  W behind (to T60) from: T3  unknown scores: 0
+  T10: score 11:12 bld 6:7 W 27:38 F 10:6 res 10:11 | HAL0:1 ENG1:1 HOS1:1 DEP1:1 PLA0:0
+  T20: score 14:17 bld 8:9 W 73:84 F 9:6 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T40: score 15:13 bld 8:8 W 105:120 F 9:6 res 12:12 | HAL0:2 ENG1:1 HOS1:1 DEP1:1 PLA0:0
+  T1-40 economy Y|K: hall-turns 27|31  ENG-turns 39|39  depot caps 1|1  captures 14|10  neutralize 2|6  capped 0|0
+  Y T1-40 bought F 10 W 196 (hospital 0), F lost 1 = 5 stock; whole game F lost 10
+  Y buildings lost: 34 (9 by T60); escorted (K W on cell) 29; Y garrison before 0/1/2+: 18/4/12; recaptured 26
+  lost by T60 by type: {'PLAZA': 1, 'WATCH': 5, 'HALL': 3}; first 6: T15 PLAZ3 kw5 yw0/5 kn22 rec59, T18 WATC3 kw0 yw0/4 kn6 rec20, T27 WATC3 kw9 yw0/7 kn9 rec29, T34 WATC3 kw12 yw0/21 kn26 rec35, T36 WATC3 kw19 yw12/37 kn19 rec37, T38 HALL1 kw0 yw0/1 kn1 rec51
+
+### 49_2325  WIN instant end T88  first irreversible score deficit: TNone  W behind (to T60) from: T60  unknown scores: 0
+  T10: score 15:9 bld 5:3 W 21:26 F 10:5 res 10:26 | HAL1:1 ENG0:0 HOS0:0 DEP1:1 PLA1:0
+  T20: score 25:14 bld 11:5 W 47:48 F 10:5 res 10:13 | HAL1:1 ENG2:0 HOS2:0 DEP1:1 PLA1:0
+  T40: score 27:12 bld 12:4 W 68:39 F 10:5 res 12:12 | HAL1:1 ENG2:0 HOS2:0 DEP1:1 PLA1:0
+  T1-40 economy Y|K: hall-turns 35|35  ENG-turns 26|8  depot caps 1|1  captures 22|14  neutralize 10|10  capped 0|0
+  Y T1-40 bought F 10 W 174 (hospital 16), F lost 0 = 0 stock; whole game F lost 1
+  Y buildings lost: 13 (12 by T60); escorted (K W on cell) 8; Y garrison before 0/1/2+: 13/0/0; recaptured 13
+  lost by T60 by type: {'WATCH': 6, 'PLAZA': 2, 'ENG': 3, 'STATION': 1}; first 6: T12 WATC3 kw0 yw0/0 kn1 rec15, T12 WATC3 kw1 yw0/0 kn2 rec28, T15 PLAZ3 kw2 yw0/2 kn5 rec20, T21 ENG2 kw0 yw0/0 kn0 rec25, T23 ENG2 kw0 yw0/2 kn0 rec29, T24 WATC3 kw1 yw0/14 kn2 rec25
+
+### 50_요미  LOSS score end T160  first irreversible score deficit: T160  W behind (to T60) from: T2  unknown scores: 0
+  T10: score 14:7 bld 8:5 W 21:27 F 10:7 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP0:0 PLA1:0
+  T20: score 14:19 bld 8:9 W 72:91 F 10:7 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP0:2 PLA1:0
+  T40: score 11:19 bld 6:10 W 93:101 F 7:6 res 11:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 33|32  ENG-turns 35|35  depot caps 1|2  captures 12|18  neutralize 8|6  capped 0|0
+  Y T1-40 bought F 12 W 195 (hospital 91), F lost 5 = 25 stock; whole game F lost 10
+  Y buildings lost: 32 (8 by T60); escorted (K W on cell) 23; Y garrison before 0/1/2+: 27/3/2; recaptured 27
+  lost by T60 by type: {'PLAZA': 2, 'WATCH': 3, 'STATION': 2, 'DEPOT': 1}; first 6: T11 PLAZ3 kw0 yw0/0 kn3 rec19, T12 WATC3 kw1 yw0/0 kn1 rec15, T33 PLAZ3 kw3 yw0/3 kn7 rec48, T34 STAT1 kw2 yw0/0 kn12 rec61, T34 STAT3 kw10 yw1/9 kn19 rec57, T35 WATC3 kw1 yw0/9 kn3 rec39
+
+### 51_뉴비입니다  LOSS instant end T130  first irreversible score deficit: T78  W behind (to T60) from: T36  unknown scores: 0
+  T10: score 12:12 bld 6:6 W 18:14 F 10:13 res 12:10 | HAL0:0 ENG0:0 HOS1:1 DEP1:1 PLA0:0
+  T20: score 20:10 bld 10:6 W 63:52 F 10:13 res 12:11 | HAL1:1 ENG1:0 HOS1:1 DEP1:1 PLA1:0
+  T40: score 17:14 bld 9:8 W 130:133 F 10:9 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA1:0
+  T1-40 economy Y|K: hall-turns 22|29  ENG-turns 18|22  depot caps 2|2  captures 18|17  neutralize 9|9  capped 0|0
+  Y T1-40 bought F 10 W 163 (hospital 160), F lost 0 = 0 stock; whole game F lost 16
+  Y buildings lost: 40 (17 by T60); escorted (K W on cell) 36; Y garrison before 0/1/2+: 24/10/6; recaptured 26
+  lost by T60 by type: {'PLAZA': 3, 'HALL': 4, 'ENG': 3, 'STATION': 2, 'DEPOT': 3, 'WATCH': 2}; first 6: T15 PLAZ3 kw0 yw0/1 kn0 rec17, T17 HALL1 kw4 yw0/0 kn4 rec31, T20 ENG1 kw2 yw0/0 kn7 rec37, T24 HALL1 kw4 yw0/2 kn13 rec48, T27 STAT3 kw7 yw1/1 kn16 rec47, T29 ENG1 kw9 yw4/5 kn10 rec50
+
+### 52_박박이  LOSS instant end T146  first irreversible score deficit: T68  W behind (to T60) from: T2  unknown scores: 0
+  T10: score 13:12 bld 5:5 W 27:43 F 10:4 res 12:25 | HAL1:1 ENG1:1 HOS1:1 DEP0:1 PLA0:0
+  T20: score 21:17 bld 9:7 W 85:98 F 10:6 res 12:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA1:0
+  T40: score 20:9 bld 8:4 W 74:108 F 10:4 res 9:11 | HAL0:1 ENG0:1 HOS1:1 DEP0:0 PLA1:0
+  T1-40 economy Y|K: hall-turns 28|38  ENG-turns 30|39  depot caps 4|2  captures 17|9  neutralize 5|9  capped 0|0
+  Y T1-40 bought F 10 W 188 (hospital 144), F lost 0 = 0 stock; whole game F lost 14
+  Y buildings lost: 42 (18 by T60); escorted (K W on cell) 26; Y garrison before 0/1/2+: 33/6/3; recaptured 29
+  lost by T60 by type: {'DEPOT': 6, 'STATION': 2, 'HALL': 3, 'ENG': 3, 'HOSPITAL': 1, 'WATCH': 2, 'PLAZA': 1}; first 6: T17 DEPO3 kw3 yw0/1 kn16 rec24, T19 DEPO3 kw0 yw0/1 kn0 rec20, T27 STAT1 kw0 yw0/0 kn0 rec55, T30 HALL2 kw10 yw0/6 kn23 rec44, T31 ENG1 kw10 yw1/6 kn21 rec45, T31 DEPO3 kw6 yw1/12 kn8 rec42
+
+### 53_하면해  WIN score end T160  first irreversible score deficit: TNone  W behind (to T60) from: T3  unknown scores: 0
+  T10: score 18:18 bld 8:8 W 29:31 F 10:7 res 13:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:0
+  T20: score 18:21 bld 8:9 W 87:88 F 10:7 res 13:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T40: score 18:21 bld 8:9 W 207:208 F 10:6 res 13:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 36|32  ENG-turns 36|36  depot caps 1|1  captures 8|9  neutralize 0|0  capped 0|0
+  Y T1-40 bought F 10 W 209 (hospital 0), F lost 0 = 0 stock; whole game F lost 8
+  Y buildings lost: 7 (0 by T60); escorted (K W on cell) 6; Y garrison before 0/1/2+: 1/3/3; recaptured 6
+  lost by T60 by type: {}; first 6: T73 LIBR1 kw3 yw3/7 kn6 rec103, T115 STAT3 kw6 yw2/8 kn14 rec116, T117 STAT3 kw24 yw2/49 kn57 rec118, T119 PLAZ3 kw1 yw1/1 kn1 rec134, T125 STAT3 kw13 yw1/5 kn88 rec152, T134 LIBR1 kw0 yw0/3 kn0 rec139
+
+### 54_너구리  LOSS instant end T113  first irreversible score deficit: T70  W behind (to T60) from: T11  unknown scores: 0
+  T10: score 17:12 bld 8:6 W 27:25 F 10:8 res 12:26 | HAL1:1 ENG1:1 HOS0:0 DEP1:1 PLA1:0
+  T20: score 15:12 bld 8:7 W 69:78 F 10:7 res 12:11 | HAL1:1 ENG1:1 HOS1:1 DEP1:0 PLA0:0
+  T40: score 16:17 bld 8:9 W 67:74 F 9:7 res 13:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA1:0
+  T1-40 economy Y|K: hall-turns 32|32  ENG-turns 31|34  depot caps 3|4  captures 24|17  neutralize 8|16  capped 0|0
+  Y T1-40 bought F 10 W 185 (hospital 4), F lost 1 = 5 stock; whole game F lost 11
+  Y buildings lost: 47 (24 by T60); escorted (K W on cell) 39; Y garrison before 0/1/2+: 24/10/13; recaptured 36
+  lost by T60 by type: {'PLAZA': 6, 'WATCH': 9, 'DEPOT': 2, 'ENG': 3, 'STATION': 4}; first 6: T13 PLAZ3 kw1 yw0/0 kn1 rec17, T14 WATC2 kw0 yw0/0 kn0 rec18, T14 DEPO3 kw0 yw0/5 kn0 rec18, T16 WATC2 kw0 yw0/0 kn2 rec24, T19 PLAZ3 kw1 yw0/15 kn7 rec22, T25 WATC2 kw4 yw2/6 kn11 rec32
+
+### 55_학부기  WIN score end T160  first irreversible score deficit: TNone  W behind (to T60) from: T30  unknown scores: 0
+  T10: score 12:12 bld 7:6 W 29:26 F 10:8 res 12:13 | HAL1:1 ENG1:1 HOS0:0 DEP1:1 PLA0:1
+  T20: score 14:14 bld 8:8 W 75:74 F 10:8 res 12:12 | HAL1:1 ENG1:1 HOS1:0 DEP1:1 PLA1:0
+  T40: score 13:16 bld 8:9 W 95:96 F 8:7 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 38|38  ENG-turns 33|31  depot caps 3|3  captures 12|13  neutralize 4|4  capped 0|0
+  Y T1-40 bought F 12 W 205 (hospital 29), F lost 4 = 20 stock; whole game F lost 8
+  Y buildings lost: 4 (4 by T60); escorted (K W on cell) 2; Y garrison before 0/1/2+: 4/0/0; recaptured 4
+  lost by T60 by type: {'DEPOT': 2, 'STATION': 1, 'PLAZA': 1}; first 6: T11 DEPO3 kw0 yw0/0 kn0 rec23, T17 STAT2 kw0 yw0/0 kn0 rec93, T35 PLAZ3 kw4 yw0/1 kn11 rec43, T38 DEPO3 kw2 yw0/3 kn2 rec43
+
+### 56_참새사냥꾼  LOSS instant end T155  first irreversible score deficit: T56  W behind (to T60) from: T44  unknown scores: 0
+  T10: score 15:11 bld 6:5 W 22:27 F 10:7 res 12:13 | HAL1:1 ENG0:0 HOS1:1 DEP1:1 PLA0:0
+  T20: score 8:25 bld 5:10 W 59:59 F 9:6 res 10:24 | HAL1:1 ENG1:1 HOS1:1 DEP0:2 PLA0:0
+  T40: score 17:20 bld 8:9 W 90:90 F 8:5 res 12:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 36|36  ENG-turns 26|24  depot caps 5|3  captures 21|17  neutralize 8|12  capped 0|0
+  Y T1-40 bought F 11 W 183 (hospital 0), F lost 3 = 15 stock; whole game F lost 30
+  Y buildings lost: 43 (22 by T60); escorted (K W on cell) 36; Y garrison before 0/1/2+: 37/5/1; recaptured 30
+  lost by T60 by type: {'ENG': 4, 'DEPOT': 6, 'PLAZA': 4, 'WATCH': 4, 'STATION': 4}; first 6: T14 ENG1 kw0 yw0/0 kn0 rec18, T14 DEPO4 kw0 yw0/1 kn0 rec16, T16 PLAZ3 kw1 yw0/0 kn2 rec21, T17 ENG1 kw1 yw0/0 kn1 rec55, T19 WATC4 kw1 yw0/1 kn5 rec36, T19 DEPO4 kw3 yw0/0 kn5 rec39
+
+### 57_초짜들  WIN instant end T156  first irreversible score deficit: TNone  W behind (to T60) from: T60  unknown scores: 0
+  T10: score 8:8 bld 4:4 W 35:18 F 10:15 res 12:15 | HAL1:1 ENG1:1 HOS0:0 DEP1:1 PLA0:0
+  T20: score 12:19 bld 6:9 W 80:49 F 8:17 res 12:14 | HAL1:1 ENG1:1 HOS0:2 DEP1:0 PLA1:0
+  T40: score 18:11 bld 8:6 W 75:46 F 7:11 res 10:12 | HAL1:1 ENG1:0 HOS0:2 DEP2:0 PLA1:0
+  T1-40 economy Y|K: hall-turns 39|32  ENG-turns 35|24  depot caps 5|6  captures 17|25  neutralize 18|9  capped 0|0
+  Y T1-40 bought F 13 W 183 (hospital 0), F lost 6 = 30 stock; whole game F lost 22
+  Y buildings lost: 21 (14 by T60); escorted (K W on cell) 6; Y garrison before 0/1/2+: 20/1/0; recaptured 20
+  lost by T60 by type: {'HOSPITAL': 1, 'WATCH': 2, 'LIBRARY': 1, 'DEPOT': 5, 'PLAZA': 1, 'STATION': 2, 'ENG': 1, 'HALL': 1}; first 6: T13 HOSP1 kw3 yw0/0 kn6 rec100, T14 WATC4 kw0 yw0/0 kn3 rec58, T16 LIBR2 kw0 yw0/2 kn13 rec101, T20 DEPO2 kw6 yw1/14 kn8 rec40, T22 DEPO2 kw0 yw0/28 kn4 rec26, T26 PLAZ3 kw0 yw0/37 kn14 rec37
+
+### 58_연세찜닭  LOSS instant end T90  first irreversible score deficit: T31  W behind (to T60) from: T7  unknown scores: 0
+  T10: score 19:16 bld 8:7 W 21:25 F 10:10 res 11:13 | HAL1:1 ENG1:1 HOS0:0 DEP1:1 PLA1:0
+  T20: score 15:22 bld 6:10 W 68:69 F 10:10 res 11:11 | HAL0:2 ENG0:2 HOS2:0 DEP0:1 PLA0:1
+  T40: score 14:25 bld 7:10 W 69:108 F 9:10 res 13:13 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 14|41  ENG-turns 27|31  depot caps 3|2  captures 19|18  neutralize 8|12  capped 0|0
+  Y T1-40 bought F 10 W 160 (hospital 0), F lost 1 = 5 stock; whole game F lost 5
+  Y buildings lost: 29 (20 by T60); escorted (K W on cell) 17; Y garrison before 0/1/2+: 23/3/3; recaptured 16
+  lost by T60 by type: {'PLAZA': 1, 'HALL': 4, 'ENG': 4, 'DEPOT': 3, 'LIBRARY': 3, 'HOSPITAL': 2, 'WATCH': 2, 'STATION': 1}; first 6: T13 PLAZ3 kw2 yw0/4 kn2 recNone, T14 HALL2 kw0 yw0/0 kn0 rec28, T19 ENG1 kw0 yw0/0 kn0 rec25, T19 DEPO2 kw0 yw0/24 kn0 rec28, T23 LIBR1 kw0 yw0/0 kn0 rec26, T24 HOSP2 kw3 yw0/0 kn4 recNone
+
+### 59_올림픽정신  LOSS score end T160  first irreversible score deficit: T144  W behind (to T60) from: T14  unknown scores: 0
+  T10: score 10:5 bld 6:3 W 20:20 F 10:5 res 11:38 | HAL1:1 ENG0:0 HOS1:1 DEP1:1 PLA0:0
+  T20: score 13:13 bld 9:7 W 61:71 F 10:6 res 13:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T40: score 11:12 bld 8:7 W 114:121 F 10:6 res 13:12 | HAL1:1 ENG1:1 HOS1:1 DEP1:1 PLA0:1
+  T1-40 economy Y|K: hall-turns 34|34  ENG-turns 25|27  depot caps 3|3  captures 14|12  neutralize 5|6  capped 0|0
+  Y T1-40 bought F 10 W 190 (hospital 196), F lost 0 = 0 stock; whole game F lost 6
+  Y buildings lost: 39 (13 by T60); escorted (K W on cell) 35; Y garrison before 0/1/2+: 27/9/3; recaptured 32
+  lost by T60 by type: {'PLAZA': 1, 'ENG': 2, 'WATCH': 4, 'DEPOT': 3, 'LIBRARY': 1, 'STATION': 2}; first 6: T17 PLAZ3 kw2 yw0/3 kn10 rec71, T17 ENG1 kw2 yw0/0 kn3 recNone, T22 WATC2 kw2 yw0/0 kn7 rec42, T24 DEPO3 kw2 yw0/0 kn6 rec28, T36 DEPO3 kw2 yw0/3 kn8 rec71, T40 WATC2 kw3 yw2/3 kn9 rec55
+
+== LOSSES n=8
+  T10: W 22.9:27.4  F 10.0:7.5  bld 6.6:5.5  score 13.9:10.9  HAL 0.8:0.9 ENG 0.6:0.6 HOS 0.8:0.8 DEP 0.8:0.9 PLA 0.4:0.0
+  T20: W 68.8:75.2  F 9.8:7.6  bld 7.9:8.1  score 15.0:16.9  HAL 0.9:1.1 ENG 0.9:1.0 HOS 1.1:0.9 DEP 0.6:1.1 PLA 0.4:0.4
+  T40: W 92.8:106.9  F 9.0:6.6  bld 7.8:8.1  score 15.1:16.1  HAL 0.8:1.1 ENG 0.9:1.0 HOS 1.0:1.0 DEP 0.9:0.9 PLA 0.4:0.5
+  T1-40 hall_turns   Y 28.2  K 34.1
+  T1-40 eng_turns    Y 28.9  K 31.4
+  T1-40 depot_caps   Y 2.8  K 2.4
+  T1-40 captures     Y 17.4  K 14.8
+  T1-40 neutralize   Y 6.6  K 9.5
+  Y T1-40 F bought 10.4, F lost 1.4, W bought 182.5
+  flips by T60: 16.4/game; escorted 75% (mean K W on cell 3.6); Y W on cell before 0/1/2+: 95/24/12; Y W within 2 before mean 5.2 vs K W within 2 before 9.7; recaptured 88%; by type {'PLAZA': 19, 'WATCH': 31, 'HALL': 14, 'STATION': 17, 'DEPOT': 24, 'ENG': 19, 'HOSPITAL': 3, 'LIBRARY': 4}
+  first irreversible score deficit: [150, 160, 78, 68, 70, 56, 31, 144]
+  W behind from: [3, 2, 36, 2, 11, 44, 7, 14]
+
+== WINS n=4
+  T10: W 28.5:25.2  F 10.0:8.8  bld 6.0:5.2  score 13.2:11.8  HAL 1.0:1.0 ENG 0.8:0.8 HOS 0.2:0.2 DEP 1.0:1.0 PLA 0.2:0.2
+  T20: W 72.2:64.8  F 9.5:9.2  bld 8.2:7.8  score 17.2:17.0  HAL 1.0:1.0 ENG 1.2:0.8 HOS 1.0:0.8 DEP 1.0:0.8 PLA 0.8:0.2
+  T40: W 111.2:97.2  F 8.8:7.2  bld 9.0:7.0  score 19.0:15.0  HAL 1.0:1.0 ENG 1.2:0.5 HOS 1.0:1.0 DEP 1.2:0.8 PLA 0.5:0.5
+  T1-40 hall_turns   Y 37.0  K 34.2
+  T1-40 eng_turns    Y 32.5  K 24.8
+  T1-40 depot_caps   Y 2.5  K 2.8
+  T1-40 captures     Y 14.8  K 15.2
+  T1-40 neutralize   Y 8.0  K 5.8
+  Y T1-40 F bought 11.2, F lost 2.5, W bought 192.8
+  flips by T60: 7.5/game; escorted 47% (mean K W on cell 1.3); Y W on cell before 0/1/2+: 29/1/0; Y W within 2 before mean 6.5 vs K W within 2 before 5.4; recaptured 97%; by type {'WATCH': 8, 'PLAZA': 4, 'ENG': 4, 'STATION': 4, 'DEPOT': 7, 'HOSPITAL': 1, 'LIBRARY': 1, 'HALL': 1}
+  first irreversible score deficit: [None, None, None, None]
+  W behind from: [60, 3, 30, 60]

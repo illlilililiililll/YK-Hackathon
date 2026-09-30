@@ -1,0 +1,77 @@
+﻿01_뚜띠태하소불고기와멸치두명_e7a44437.json L end  59 K10 W/F/S (28, 6, 0) K20 (87, 8, 0) firstKW T2 esc same/near 0.69/0.77 mean 11.3 flips 20 escorted 14 W@flip 10.7 first T12 stacks20 16 hosp 0
+02_하면해_da8cca54.json           L end 109 K10 W/F/S (37, 7, 0) K20 (83, 7, 0) firstKW T3 esc same/near 0.32/0.42 mean 11.1 flips 28 escorted 17 W@flip 14.3 first T11 stacks20 8 hosp 2
+03_tAIger_d8e12e68.json        L end  61 K10 W/F/S (5, 16, 0) K20 (57, 16, 0) firstKW T6 esc same/near 0.27/0.53 mean 4.0 flips 26 escorted 6 W@flip 1.3 first T17 stacks20 11 hosp 0
+04_니땅내땅_9444f1e4.json          L end 160 K10 W/F/S (30, 9, 1) K20 (76, 9, 1) firstKW T2 esc same/near 0.44/0.60 mean 5.7 flips 55 escorted 53 W@flip 142.5 first T12 stacks20 12 hosp 1
+05_신촌도우리땅_90f043a6.json        L end  96 K10 W/F/S (17, 12, 0) K20 (74, 8, 0) firstKW T7 esc same/near 0.31/0.49 mean 3.9 flips 24 escorted 6 W@flip 0.6 first T13 stacks20 26 hosp 4
+06_신촌을못가_8c5d8676.json         L end  36 K10 W/F/S (28, 6, 0) K20 (73, 6, 0) firstKW T4 esc same/near 0.19/0.49 mean 2.0 flips 9 escorted 5 W@flip 1.8 first T18 stacks20 30 hosp 1
+07_어잌후_6a371d3c.json           L end  66 K10 W/F/S (16, 7, 0) K20 (63, 7, 0) firstKW T2 esc same/near 0.33/0.60 mean 4.3 flips 19 escorted 4 W@flip 0.7 first T15 stacks20 22 hosp 2
+08_인공저능_5af5c1d8.json          W end  34 K10 W/F/S (3, 16, 0) K20 (3, 30, 0) firstKW T1 esc same/near 0.05/0.20 mean 0.6 flips 3 escorted 0 W@flip 0.0 first T21 stacks20 1 hosp 0
+09_페이커_56207c03.json           L end  47 K10 W/F/S (33, 4, 0) K20 (67, 4, 0) firstKW T3 esc same/near 0.28/0.60 mean 3.2 flips 14 escorted 11 W@flip 3.7 first T23 stacks20 25 hosp 2
+10_뉴비들_50cf9a3a.json           L end  86 K10 W/F/S (34, 5, 0) K20 (94, 5, 0) firstKW T1 esc same/near 0.26/0.51 mean 4.7 flips 13 escorted 6 W@flip 26.8 first T16 stacks20 26 hosp 0
+11_붉은산호초_39820a40.json         L end  43 K10 W/F/S (30, 6, 0) K20 (81, 6, 0) firstKW T2 esc same/near 0.33/0.76 mean 4.1 flips 11 escorted 8 W@flip 2.5 first T14 stacks20 26 hosp 0
+12_참새튀김기_267215b8.json         L end  83 K10 W/F/S (27, 9, 0) K20 (57, 8, 0) firstKW T3 esc same/near 0.40/0.56 mean 5.3 flips 25 escorted 14 W@flip 4.2 first T13 stacks20 17 hosp 0
+13_요미_0ffc93df.json            L end  62 K10 W/F/S (33, 7, 0) K20 (86, 7, 0) firstKW T2 esc same/near 0.36/0.61 mean 3.7 flips 23 escorted 13 W@flip 1.8 first T15 stacks20 20 hosp 0
+14_신촌을못가_e98a109d.json         L end  36 K10 W/F/S (31, 6, 0) K20 (45, 6, 0) firstKW T4 esc same/near 0.26/0.45 mean 2.3 flips 18 escorted 9 W@flip 1.9 first T12 stacks20 21 hosp 0
+15_붉은산호초_cf330f4c.json         W end  28 K10 W/F/S (0, 13, 0) K20 (0, 16, 0) firstKW TNone esc same/near 0.00/0.00 mean 0.0 flips 6 escorted 0 W@flip 0.0 first T13 stacks20 0 hosp 0
+16_저희집GPU가추위를타요_57d6b7f8.json  W end 160 K10 W/F/S (25, 7, 0) K20 (86, 7, 0) firstKW T4 esc same/near 0.15/0.35 mean 5.0 flips 66 escorted 31 W@flip 6.6 first T17 stacks20 10 hosp 6
+17_뉴비들_46b7e9a1.json           L end  47 K10 W/F/S (33, 5, 0) K20 (54, 5, 0) firstKW T1 esc same/near 0.56/0.82 mean 8.0 flips 12 escorted 9 W@flip 10.3 first T16 stacks20 16 hosp 0
+18_인공저능_2038f7a1.json          W end  44 K10 W/F/S (3, 16, 0) K20 (3, 34, 0) firstKW T1 esc same/near 0.06/0.16 mean 0.3 flips 9 escorted 1 W@flip 0.2 first T17 stacks20 2 hosp 0
+19_tAIger_1b33161f.json        L end  71 K10 W/F/S (17, 15, 0) K20 (53, 15, 0) firstKW T2 esc same/near 0.22/0.43 mean 3.6 flips 27 escorted 15 W@flip 4.4 first T14 stacks20 13 hosp 0
+20_AI고_e1992c0a.json           W end  39 K10 W/F/S (0, 10, 0) K20 (0, 20, 0) firstKW TNone esc same/near 0.00/0.00 mean 0.0 flips 15 escorted 0 W@flip 0.0 first T15 stacks20 0 hosp 0
+21_우주류_d0561a85.json           L end 160 K10 W/F/S (18, 5, 0) K20 (39, 3, 0) firstKW T1 esc same/near 0.76/0.86 mean 8.5 flips 16 escorted 12 W@flip 1.9 first T12 stacks20 15 hosp 0
+22_파전_c953d4b6.json            L end 104 K10 W/F/S (30, 4, 0) K20 (78, 4, 0) firstKW T1 esc same/near 0.79/0.86 mean 6.1 flips 22 escorted 22 W@flip 10.1 first T11 stacks20 22 hosp 0
+23_Team24_c060eb51.json        L end  33 K10 W/F/S (33, 8, 0) K20 (70, 8, 0) firstKW T2 esc same/near 0.30/0.47 mean 4.0 flips 13 escorted 8 W@flip 6.8 first T12 stacks20 17 hosp 0
+24_건성건성_bdb44a3d.json          L end 160 K10 W/F/S (23, 7, 0) K20 (71, 7, 0) firstKW T3 esc same/near 0.25/0.49 mean 4.9 flips 30 escorted 5 W@flip 1.7 first T13 stacks20 17 hosp 0
+25_인공저능_b4dfabc1.json          W end  27 K10 W/F/S (3, 20, 0) K20 (3, 21, 0) firstKW T1 esc same/near 0.02/0.04 mean 0.1 flips 5 escorted 1 W@flip 0.2 first T14 stacks20 2 hosp 0
+26_개우진보러갈까_a9f798de.json       L end  60 K10 W/F/S (42, 6, 0) K20 (67, 6, 0) firstKW T2 esc same/near 0.48/0.69 mean 4.7 flips 12 escorted 8 W@flip 4.7 first T13 stacks20 19 hosp 2
+27_1026_a04bb1bc.json          W end  58 K10 W/F/S (26, 3, 2) K20 (72, 5, 2) firstKW T3 esc same/near 0.20/0.52 mean 5.5 flips 12 escorted 4 W@flip 0.9 first T18 stacks20 10 hosp 0
+28_AIKU_96ebcf2f.json          L end  37 K10 W/F/S (33, 7, 0) K20 (86, 7, 0) firstKW T4 esc same/near 0.43/0.57 mean 5.6 flips 10 escorted 8 W@flip 6.4 first T13 stacks20 20 hosp 1
+29_뉴비들_8807f36b.json           L end  54 K10 W/F/S (30, 5, 0) K20 (82, 5, 0) firstKW T1 esc same/near 0.43/0.65 mean 9.3 flips 14 escorted 9 W@flip 13.7 first T14 stacks20 21 hosp 0
+30_어잌후_72a6e629.json           L end  48 K10 W/F/S (31, 6, 0) K20 (65, 6, 0) firstKW T3 esc same/near 0.29/0.60 mean 3.1 flips 10 escorted 5 W@flip 2.0 first T14 stacks20 22 hosp 3
+31_모든상금은제세공과금공제후지급됩니다_6a3867d4 L end  59 K10 W/F/S (28, 3, 0) K20 (54, 3, 0) firstKW T2 esc same/near 0.34/0.55 mean 3.9 flips 12 escorted 10 W@flip 3.9 first T12 stacks20 27 hosp 0
+32_학부기_601a31f8.json           W end 160 K10 W/F/S (25, 3, 5) K20 (35, 3, 5) firstKW T2 esc same/near 0.97/0.97 mean 7.3 flips 24 escorted 23 W@flip 3.2 first T12 stacks20 12 hosp 8
+33_그래피_5f5c1083.json           L end  46 K10 W/F/S (28, 6, 0) K20 (75, 6, 0) firstKW T4 esc same/near 0.35/0.62 mean 4.9 flips 15 escorted 11 W@flip 7.1 first T13 stacks20 20 hosp 0
+34_태호랑이_4b834fdd.json          L end 142 K10 W/F/S (15, 13, 0) K20 (72, 12, 0) firstKW T3 esc same/near 0.25/0.53 mean 5.5 flips 33 escorted 23 W@flip 17.4 first T11 stacks20 11 hosp 0
+35_김씨들외1_2a89ad2f.json         L end  42 K10 W/F/S (18, 8, 0) K20 (53, 8, 0) firstKW T5 esc same/near 0.19/0.33 mean 2.4 flips 11 escorted 4 W@flip 1.6 first T12 stacks20 12 hosp 0
+36_Yaar_e7880aa4.json          L end  55 K10 W/F/S (23, 8, 0) K20 (54, 8, 0) firstKW T3 esc same/near 0.22/0.40 mean 5.4 flips 17 escorted 5 W@flip 1.8 first T14 stacks20 16 hosp 1
+37_저능박수_e5f6ca80.json          L end  76 K10 W/F/S (23, 8, 0) K20 (57, 8, 0) firstKW T1 esc same/near 0.31/0.57 mean 3.4 flips 22 escorted 18 W@flip 6.0 first T17 stacks20 15 hosp 1
+38_강릉_db4c4f5e.json            L end 104 K10 W/F/S (25, 6, 0) K20 (59, 7, 0) firstKW T3 esc same/near 0.42/0.70 mean 4.5 flips 20 escorted 13 W@flip 4.9 first T11 stacks20 21 hosp 0
+39_우주류_be77e3a8.json           L end 140 K10 W/F/S (31, 4, 0) K20 (65, 6, 0) firstKW T2 esc same/near 0.72/0.90 mean 13.1 flips 19 escorted 17 W@flip 31.5 first T35 stacks20 16 hosp 0
+40_Re-verse_af61b557.json      W end 160 K10 W/F/S (5, 8, 0) K20 (47, 8, 0) firstKW T5 esc same/near 0.33/0.55 mean 3.1 flips 58 escorted 18 W@flip 1.2 first T13 stacks20 21 hosp 1
+41_오산기지정예병_556d9c43.json       L end  61 K10 W/F/S (31, 6, 0) K20 (82, 6, 0) firstKW T3 esc same/near 0.62/0.77 mean 8.9 flips 15 escorted 13 W@flip 7.8 first T18 stacks20 19 hosp 1
+42_정진규컴퓨터시스템D504_531b43a5.json L end  50 K10 W/F/S (41, 5, 0) K20 (81, 5, 0) firstKW T2 esc same/near 0.36/0.67 mean 9.8 flips 16 escorted 12 W@flip 7.5 first T9 stacks20 20 hosp 1
+43_양진장_52507cb6.json           W end 160 K10 W/F/S (24, 7, 0) K20 (47, 7, 0) firstKW T2 esc same/near 0.35/0.65 mean 4.1 flips 37 escorted 10 W@flip 0.8 first T18 stacks20 17 hosp 3
+44_학부기_3674be31.json           W end 160 K10 W/F/S (20, 5, 5) K20 (45, 5, 4) firstKW T2 esc same/near 0.88/0.89 mean 6.3 flips 7 escorted 6 W@flip 1.6 first T12 stacks20 9 hosp 0
+45_탈락도락이다_2b51eafc.json        L end  89 K10 W/F/S (44, 6, 0) K20 (103, 5, 0) firstKW T4 esc same/near 0.28/0.48 mean 5.0 flips 16 escorted 11 W@flip 2.1 first T14 stacks20 22 hosp 0
+46_고대26김준우사랑단_23e8efd6.json    W end 160 K10 W/F/S (22, 8, 0) K20 (39, 8, 0) firstKW T1 esc same/near 0.30/0.57 mean 3.2 flips 23 escorted 11 W@flip 2.8 first T13 stacks20 16 hosp 5
+47_연세대학교인공지능학과_0db9401f.json   L end  41 K10 W/F/S (23, 6, 0) K20 (78, 6, 0) firstKW T3 esc same/near 0.29/0.59 mean 2.7 flips 12 escorted 10 W@flip 5.6 first T11 stacks20 18 hosp 0
+
+== Y lost (n=35)
+  esc_same           0.38
+  esc_near           0.60
+  esc_mean           5.51
+  flip_w_mean        10.63
+  first_flip         14.29
+  stacks20           18.83
+  top20              0.18
+  hosp_spawn_turns   0.63
+  firstKW            2.74
+  K W/F at T5: 6.1 / 6.2   Y W/F: 3.3 / 6.9
+  K W/F at T10: 27.7 / 7.1   Y W/F: 22.3 / 8.5
+  K W/F at T20: 69.7 / 6.9   Y W/F: 51.6 / 7.0
+  flips escorted share: 414/659
+
+== Y won (n=12)
+  esc_same           0.28
+  esc_near           0.41
+  esc_mean           2.93
+  flip_w_mean        1.45
+  first_flip         15.25
+  stacks20           8.33
+  top20              0.33
+  hosp_spawn_turns   1.92
+  firstKW            2.20
+  K W/F at T5: 4.2 / 5.9   Y W/F: 4.5 / 6.6
+  K W/F at T10: 13.0 / 9.7   Y W/F: 24.1 / 7.8
+  K W/F at T20: 31.7 / 13.7   Y W/F: 67.2 / 7.1
+  flips escorted share: 105/265

@@ -1,0 +1,209 @@
+{
+  "number": 2,
+  "candidates": [
+    {
+      "id": "g2-1-focus_w",
+      "source": "out\\evolution\\candidates\\g2-1-focus_w.py",
+      "sha256": "21463675216e56dd0d14f477c3c4d3531e7286f2c6fcf494e44330921881da2a",
+      "parent": "g1-safe_goal",
+      "operation": "focus_w",
+      "hypothesis": "중앙에 가까운 적 깃발병 한 곳에 전투병을 모으면 교전이 유리하다",
+      "generation": 2
+    },
+    {
+      "id": "g2-2-defend_w",
+      "source": "out\\evolution\\candidates\\g2-2-defend_w.py",
+      "sha256": "0659d30deccef83caf745fd7eff7a92667286d710df842b6efa6e8ff89d8b667",
+      "parent": "g1-safe_goal",
+      "operation": "defend_w",
+      "hypothesis": "소유 건물 부근의 적 깃발병을 먼저 추적하면 방어가 좋아진다",
+      "generation": 2
+    },
+    {
+      "id": "g2-3-defend_w",
+      "source": "out\\evolution\\candidates\\g2-3-defend_w.py",
+      "sha256": "d43bda081e36168445c3831eddc97a01ff4f3e8bb841041f07a4f0a133af56d1",
+      "parent": "cap7",
+      "operation": "defend_w",
+      "hypothesis": "소유 건물 부근의 적 깃발병을 먼저 추적하면 방어가 좋아진다",
+      "generation": 2
+    }
+  ],
+  "selection": {
+    "policies": {
+      "v3": {
+        "source_sha256": "f9c05c4d3a44b997faadd94048ff6a6363b9c5bdc5f5f47061ca504ee2a4d195",
+        "parent": null,
+        "operation": null,
+        "hypothesis": "기존 기준선",
+        "reward": 12,
+        "by_opponent": {
+          "v3": 2,
+          "cap7": 1,
+          "slow-defense": 2,
+          "lv2": 4,
+          "v2": 1,
+          "fast-attack": 2
+        },
+        "forfeits": 0,
+        "eligible": true,
+        "summary": {
+          "games": 24,
+          "wins": 12,
+          "draws": 0,
+          "losses": 12,
+          "points": 12,
+          "score_diff": -2.17,
+          "at20_buildings": 7.71,
+          "at20_value": 231.29,
+          "forfeits": 0,
+          "max_ms": 21.108,
+          "max_bytes": 482,
+          "max_lines": 31
+        }
+      },
+      "cap7": {
+        "source_sha256": "58419236b2fc91173c5b2fc594a2eeff6ac996b5a74d9d5324a0e9dc4ab1ba66",
+        "parent": "v3",
+        "operation": "cap7-low",
+        "hypothesis": "이전 미사용 경기 우수 정책",
+        "reward": 19,
+        "by_opponent": {
+          "v3": 3,
+          "cap7": 2,
+          "slow-defense": 3,
+          "lv2": 4,
+          "v2": 3,
+          "fast-attack": 4
+        },
+        "forfeits": 0,
+        "eligible": true,
+        "summary": {
+          "games": 24,
+          "wins": 19,
+          "draws": 0,
+          "losses": 5,
+          "points": 19,
+          "score_diff": 9.08,
+          "at20_buildings": 9.08,
+          "at20_value": 233.75,
+          "forfeits": 0,
+          "max_ms": 32.355,
+          "max_bytes": 535,
+          "max_lines": 33
+        }
+      },
+      "g2-1-focus_w": {
+        "source_sha256": "21463675216e56dd0d14f477c3c4d3531e7286f2c6fcf494e44330921881da2a",
+        "parent": "g1-safe_goal",
+        "operation": "focus_w",
+        "hypothesis": "중앙에 가까운 적 깃발병 한 곳에 전투병을 모으면 교전이 유리하다",
+        "reward": 6,
+        "by_opponent": {
+          "v3": 0,
+          "cap7": 0,
+          "slow-defense": 0,
+          "lv2": 4,
+          "v2": 0,
+          "fast-attack": 2
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 6,
+          "draws": 0,
+          "losses": 18,
+          "points": 6,
+          "score_diff": -12.21,
+          "at20_buildings": 7.71,
+          "at20_value": 239.75,
+          "forfeits": 0,
+          "max_ms": 32.268,
+          "max_bytes": 451,
+          "max_lines": 29
+        }
+      },
+      "g2-2-defend_w": {
+        "source_sha256": "0659d30deccef83caf745fd7eff7a92667286d710df842b6efa6e8ff89d8b667",
+        "parent": "g1-safe_goal",
+        "operation": "defend_w",
+        "hypothesis": "소유 건물 부근의 적 깃발병을 먼저 추적하면 방어가 좋아진다",
+        "reward": 9,
+        "by_opponent": {
+          "v3": 1,
+          "cap7": 2,
+          "slow-defense": 0,
+          "lv2": 4,
+          "v2": 0,
+          "fast-attack": 2
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 9,
+          "draws": 0,
+          "losses": 15,
+          "points": 9,
+          "score_diff": -10.38,
+          "at20_buildings": 8.46,
+          "at20_value": 239.88,
+          "forfeits": 0,
+          "max_ms": 30.865,
+          "max_bytes": 486,
+          "max_lines": 30
+        }
+      },
+      "g2-3-defend_w": {
+        "source_sha256": "d43bda081e36168445c3831eddc97a01ff4f3e8bb841041f07a4f0a133af56d1",
+        "parent": "cap7",
+        "operation": "defend_w",
+        "hypothesis": "소유 건물 부근의 적 깃발병을 먼저 추적하면 방어가 좋아진다",
+        "reward": 5,
+        "by_opponent": {
+          "v3": 0,
+          "cap7": 0,
+          "slow-defense": 0,
+          "lv2": 4,
+          "v2": 0,
+          "fast-attack": 1
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 5,
+          "draws": 0,
+          "losses": 19,
+          "points": 5,
+          "score_diff": -14.46,
+          "at20_buildings": 8.29,
+          "at20_value": 235,
+          "forfeits": 0,
+          "max_ms": 30.992,
+          "max_bytes": 444,
+          "max_lines": 28
+        }
+      }
+    },
+    "baseline_by_opponent": {
+      "v3": 2,
+      "cap7": 1,
+      "slow-defense": 2,
+      "lv2": 4,
+      "v2": 1,
+      "fast-attack": 2
+    },
+    "incumbent_by_opponent": {
+      "v3": 3,
+      "cap7": 2,
+      "slow-defense": 3,
+      "lv2": 4,
+      "v2": 3,
+      "fast-attack": 4
+    },
+    "leader": "cap7",
+    "specialist": "cap7"
+  }
+}

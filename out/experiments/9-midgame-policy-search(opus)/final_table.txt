@@ -1,0 +1,26 @@
+== final Y (6000-6199)
+cand               D4          F76        F76G0           G0        front     pressure           v6   pool: pts  +/-   p(sign)   flips lost_st  st_diff prod_diff  ff maxms
+base      139.0        134.0        155.0        135.0        144.0        171.0        114.0          878.0 +0/-0      nan    30.1    1097      463      42.2   0    60
+nofar     165.0 (+26)  160.0 (+26)  168.0 (+13)  153.0 (+18)  164.0 (+20)   177.0 (+6)  129.0 (+15)    987.0 +253/-144    0.000    32.8    1246      574      85.6   0    97
+== final K (6000-6099)
+cand               D4          F76        F76G0           G0        front     pressure           v6   pool: pts  +/-   p(sign)   flips lost_st  st_diff prod_diff  ff maxms
+base       75.0         73.0         78.0         66.0         68.0         79.0         59.0          439.0 +0/-0      nan    30.6    1078      457      41.0   0   127
+nofar      85.0 (+10)    76.0 (+3)    84.0 (+6)   80.0 (+14)    77.0 (+9)    87.0 (+8)    60.0 (+1)    489.0 +125/-75    0.000    32.9    1222      596      89.5   0    66
+== both sides
+cand               D4          F76        F76G0           G0        front     pressure           v6   pool: pts  +/-   p(sign)   flips lost_st  st_diff prod_diff  ff maxms
+base      214.0        207.0        233.0        201.0        212.0        250.0        173.0         1317.0 +0/-0      nan    30.3    1091      461      41.8   0   127
+nofar     250.0 (+36)  236.0 (+29)  252.0 (+19)  233.0 (+32)  241.0 (+29)  264.0 (+14)  189.0 (+16)   1476.0 +378/-219    0.000    32.8    1238      581      86.9   0    97
+== held-out pair (front, F76G0), both sides
+cand            F76G0        front           D4          F76           G0     pressure           v6   pool: pts  +/-   p(sign)   flips lost_st  st_diff prod_diff  ff maxms
+base      233.0        212.0        214.0        207.0        201.0        250.0        173.0          445.0 +0/-0      nan    28.6    1042      472      50.9   0   127
+nofar     252.0 (+19)  241.0 (+29)  250.0 (+36)  236.0 (+29)  233.0 (+32)  264.0 (+14)  189.0 (+16)    493.0 +125/-77    0.000    31.5    1205      620      93.1   0    97
+== regression (Y 6000-6099)
+cand             cap7       escort         g1e0      indepv0         pack       raider         rush       turtle           v3   pool: pts  +/-   p(sign)   flips lost_st  st_diff prod_diff  ff maxms
+base      100.0        100.0         97.0        100.0        100.0        100.0        100.0        100.0        100.0          897.0 +0/-0      nan     7.5     184      983      77.8   0    90
+nofar      100.0 (+0)   100.0 (+0)   100.0 (+3)    98.0 (-2)   100.0 (+0)   100.0 (+0)   100.0 (+0)   100.0 (+0)   100.0 (+0)    898.0 +3/-2    0.500     8.3     227     1003      87.6   0    76
+== timing (challenging 6, both sides)
+base     n 1800  T10 bld  5.6: 5.5 score 11.6:11.6  T20 bld  8.1: 7.9 score 16.7:16.7  T40 bld  8.4: 7.6 score 17.5:16.2  | losses 483: decided T11-140 263, after T140 220
+nofar    n 1800  T10 bld  5.6: 5.6 score 11.5:11.6  T20 bld  7.9: 8.0 score 16.0:17.3  T40 bld  8.5: 7.6 score 17.4:16.3  | losses 324: decided T11-140 182, after T140 142
+== timing (v6)
+base     n  300  T10 bld  5.5: 5.5 score 11.4:11.4  T20 bld  7.7: 7.7 score 15.7:15.7  T40 bld  7.7: 7.7 score 15.8:15.8  | losses 127: decided T11-140 0, after T140 127
+nofar    n  300  T10 bld  5.5: 5.5 score 11.5:11.5  T20 bld  7.7: 8.3 score 15.7:17.7  T40 bld  8.2: 8.0 score 17.1:16.7  | losses 111: decided T11-140 72, after T140 39

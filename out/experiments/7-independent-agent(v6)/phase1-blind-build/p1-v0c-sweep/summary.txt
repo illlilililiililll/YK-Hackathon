@@ -1,0 +1,6 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep         lv1         Y     30    30-0-0    34.2       457      406   0     11    100
+indep         lv2         Y     30    30-0-0    33.5       529      496   0     16    100
+indep         raider      Y     30    30-0-0    27.7       300      261   0     28    100
+indep         rush        Y     30    30-0-0    33.1       763      512   0     13    100
+indep         turtle      Y     30    30-0-0    32.9      1411      440   0     11     93

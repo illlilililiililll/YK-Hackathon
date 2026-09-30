@@ -1,0 +1,69 @@
+{
+  "source": {
+    "id": "cap7",
+    "source": "out/evolution/candidates/cap7.py",
+    "sha256": "58419236b2fc91173c5b2fc594a2eeff6ac996b5a74d9d5324a0e9dc4ab1ba66",
+    "parent": "v3",
+    "operation": "cap7-low",
+    "hypothesis": "이전 미사용 경기 우수 정책",
+    "generation": 0
+  },
+  "opponent": "v3",
+  "results": [
+    {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 600,
+      "max_turn_ms": 551.76
+    },
+    {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 9,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 601,
+      "max_turn_ms": 506.29
+    },
+    {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 21
+      },
+      "turns": 160,
+      "seed": 602,
+      "max_turn_ms": 634.76
+    },
+    {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 69,
+      "seed": 603,
+      "max_turn_ms": 587.43
+    },
+    {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 17
+      },
+      "turns": 160,
+      "seed": 604,
+      "max_turn_ms": 496.85
+    }
+  ]
+}

@@ -1,0 +1,4112 @@
+{
+  "phase": "train",
+  "seeds": [
+    20,
+    21,
+    22,
+    23
+  ],
+  "policies": {
+    "v3": {
+      "cap": 6,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap4": {
+      "cap": 4,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap5": {
+      "cap": 5,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "low-reserve": {
+      "cap": 6,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "high-reserve": {
+      "cap": 6,
+      "reserve": 7,
+      "plaza_reserve": 4,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "score-focus": {
+      "cap": 6,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1.6,
+      "bonus": 1,
+      "danger": 4
+    },
+    "safe-flags": {
+      "cap": 6,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 3,
+      "danger": 8
+    },
+    "attack-mix": {
+      "cap": 4,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1.4,
+      "bonus": 2,
+      "danger": 4
+    }
+  },
+  "opponents": {
+    "v2": {
+      "cap": 12,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "v3": {
+      "cap": 6,
+      "reserve": 4,
+      "plaza_reserve": 2,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "fast-attack": {
+      "cap": 3,
+      "reserve": 0,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "slow-defense": {
+      "cap": 8,
+      "reserve": 6,
+      "plaza_reserve": 4,
+      "score": 1,
+      "bonus": 2,
+      "danger": 8
+    },
+    "lv2": "official example_lv2.py"
+  },
+  "results": [
+    {
+      "candidate": "v3",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 81,
+      "at20": [
+        5,
+        178
+      ],
+      "final": [
+        15,
+        486
+      ],
+      "max_ms": 6.951,
+      "max_bytes": 423,
+      "max_lines": 26
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 155,
+      "at20": [
+        4,
+        315
+      ],
+      "final": [
+        0,
+        34
+      ],
+      "max_ms": 6.858,
+      "max_bytes": 387,
+      "max_lines": 23
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 14,
+        "K": 16
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        163
+      ],
+      "final": [
+        7,
+        913
+      ],
+      "max_ms": 7.428,
+      "max_bytes": 426,
+      "max_lines": 26
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 78,
+      "at20": [
+        7,
+        259
+      ],
+      "final": [
+        15,
+        724
+      ],
+      "max_ms": 6.641,
+      "max_bytes": 441,
+      "max_lines": 27
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 12,
+        "K": 17
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        162
+      ],
+      "final": [
+        6,
+        457
+      ],
+      "max_ms": 7.429,
+      "max_bytes": 421,
+      "max_lines": 26
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 38
+      },
+      "turns": 81,
+      "at20": [
+        5,
+        310
+      ],
+      "final": [
+        0,
+        79
+      ],
+      "max_ms": 6.718,
+      "max_bytes": 365,
+      "max_lines": 22
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        99
+      ],
+      "final": [
+        12,
+        936
+      ],
+      "max_ms": 7.58,
+      "max_bytes": 504,
+      "max_lines": 32
+    },
+    {
+      "candidate": "v3",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 24,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        280
+      ],
+      "final": [
+        11,
+        349
+      ],
+      "max_ms": 6.555,
+      "max_bytes": 424,
+      "max_lines": 27
+    },
+    {
+      "candidate": "v3",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 65,
+      "at20": [
+        7,
+        206
+      ],
+      "final": [
+        13,
+        357
+      ],
+      "max_ms": 7.503,
+      "max_bytes": 403,
+      "max_lines": 25
+    },
+    {
+      "candidate": "v3",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "occupation_turns",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        303
+      ],
+      "final": [
+        8,
+        634
+      ],
+      "max_ms": 6.819,
+      "max_bytes": 472,
+      "max_lines": 29
+    },
+    {
+      "candidate": "v3",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 14,
+        "K": 19
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        137
+      ],
+      "final": [
+        7,
+        55
+      ],
+      "max_ms": 7.704,
+      "max_bytes": 362,
+      "max_lines": 22
+    },
+    {
+      "candidate": "v3",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 15,
+        "K": 10
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        262
+      ],
+      "final": [
+        8,
+        194
+      ],
+      "max_ms": 7.975,
+      "max_bytes": 451,
+      "max_lines": 28
+    },
+    {
+      "candidate": "v3",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 12,
+        "K": 19
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        195
+      ],
+      "final": [
+        6,
+        192
+      ],
+      "max_ms": 8.438,
+      "max_bytes": 372,
+      "max_lines": 22
+    },
+    {
+      "candidate": "v3",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 36
+      },
+      "turns": 125,
+      "at20": [
+        7,
+        301
+      ],
+      "final": [
+        0,
+        36
+      ],
+      "max_ms": 7.791,
+      "max_bytes": 410,
+      "max_lines": 25
+    },
+    {
+      "candidate": "v3",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 13,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        150
+      ],
+      "final": [
+        7,
+        15
+      ],
+      "max_ms": 6.604,
+      "max_bytes": 351,
+      "max_lines": 20
+    },
+    {
+      "candidate": "v3",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 5
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        258
+      ],
+      "final": [
+        12,
+        807
+      ],
+      "max_ms": 7.65,
+      "max_bytes": 443,
+      "max_lines": 27
+    },
+    {
+      "candidate": "v3",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 47,
+      "at20": [
+        11,
+        252
+      ],
+      "final": [
+        16,
+        677
+      ],
+      "max_ms": 6.624,
+      "max_bytes": 366,
+      "max_lines": 23
+    },
+    {
+      "candidate": "v3",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 38,
+        "K": 0
+      },
+      "turns": 49,
+      "at20": [
+        9,
+        321
+      ],
+      "final": [
+        15,
+        771
+      ],
+      "max_ms": 6.83,
+      "max_bytes": 393,
+      "max_lines": 24
+    },
+    {
+      "candidate": "v3",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 36,
+      "at20": [
+        11,
+        207
+      ],
+      "final": [
+        14,
+        452
+      ],
+      "max_ms": 6.92,
+      "max_bytes": 356,
+      "max_lines": 22
+    },
+    {
+      "candidate": "v3",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 52,
+      "at20": [
+        10,
+        282
+      ],
+      "final": [
+        15,
+        650
+      ],
+      "max_ms": 6.989,
+      "max_bytes": 482,
+      "max_lines": 29
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 148,
+      "at20": [
+        3,
+        173
+      ],
+      "final": [
+        16,
+        1145
+      ],
+      "max_ms": 7.766,
+      "max_bytes": 462,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 28
+      },
+      "turns": 160,
+      "at20": [
+        4,
+        323
+      ],
+      "final": [
+        2,
+        237
+      ],
+      "max_ms": 6.562,
+      "max_bytes": 356,
+      "max_lines": 21
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 86,
+      "at20": [
+        4,
+        191
+      ],
+      "final": [
+        16,
+        662
+      ],
+      "max_ms": 7.533,
+      "max_bytes": 391,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 17,
+        "K": 9
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        263
+      ],
+      "final": [
+        9,
+        1628
+      ],
+      "max_ms": 6.714,
+      "max_bytes": 429,
+      "max_lines": 27
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 2
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        194
+      ],
+      "final": [
+        13,
+        933
+      ],
+      "max_ms": 10.046,
+      "max_bytes": 416,
+      "max_lines": 26
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 31
+      },
+      "turns": 145,
+      "at20": [
+        4,
+        323
+      ],
+      "final": [
+        0,
+        165
+      ],
+      "max_ms": 9.289,
+      "max_bytes": 394,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 21,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        153
+      ],
+      "final": [
+        10,
+        1427
+      ],
+      "max_ms": 6.74,
+      "max_bytes": 469,
+      "max_lines": 30
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        287
+      ],
+      "final": [
+        12,
+        590
+      ],
+      "max_ms": 7.365,
+      "max_bytes": 411,
+      "max_lines": 25
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 12
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        168
+      ],
+      "final": [
+        9,
+        299
+      ],
+      "max_ms": 7.06,
+      "max_bytes": 382,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 18,
+        "K": 23
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        320
+      ],
+      "final": [
+        7,
+        634
+      ],
+      "max_ms": 6.835,
+      "max_bytes": 396,
+      "max_lines": 24
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 7,
+        "K": 23
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        122
+      ],
+      "final": [
+        4,
+        117
+      ],
+      "max_ms": 6.939,
+      "max_bytes": 368,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 23,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        287
+      ],
+      "final": [
+        11,
+        822
+      ],
+      "max_ms": 6.973,
+      "max_bytes": 357,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 8
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        182
+      ],
+      "final": [
+        12,
+        564
+      ],
+      "max_ms": 6.898,
+      "max_bytes": 444,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 23,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        311
+      ],
+      "final": [
+        9,
+        755
+      ],
+      "max_ms": 6.822,
+      "max_bytes": 451,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 25,
+        "K": 5
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        182
+      ],
+      "final": [
+        12,
+        971
+      ],
+      "max_ms": 6.601,
+      "max_bytes": 421,
+      "max_lines": 26
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        254
+      ],
+      "final": [
+        12,
+        1181
+      ],
+      "max_ms": 6.633,
+      "max_bytes": 432,
+      "max_lines": 27
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 22,
+      "at20": [
+        12,
+        206
+      ],
+      "final": [
+        13,
+        227
+      ],
+      "max_ms": 6.65,
+      "max_bytes": 356,
+      "max_lines": 22
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 42,
+        "K": 0
+      },
+      "turns": 54,
+      "at20": [
+        7,
+        329
+      ],
+      "final": [
+        16,
+        851
+      ],
+      "max_ms": 6.647,
+      "max_bytes": 484,
+      "max_lines": 30
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 47,
+      "at20": [
+        8,
+        174
+      ],
+      "final": [
+        16,
+        521
+      ],
+      "max_ms": 6.637,
+      "max_bytes": 388,
+      "max_lines": 24
+    },
+    {
+      "candidate": "cap4",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 40,
+      "at20": [
+        9,
+        281
+      ],
+      "final": [
+        16,
+        632
+      ],
+      "max_ms": 6.694,
+      "max_bytes": 390,
+      "max_lines": 24
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 2
+      },
+      "turns": 160,
+      "at20": [
+        3,
+        169
+      ],
+      "final": [
+        15,
+        1448
+      ],
+      "max_ms": 7.812,
+      "max_bytes": 519,
+      "max_lines": 32
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 110,
+      "at20": [
+        4,
+        319
+      ],
+      "final": [
+        0,
+        94
+      ],
+      "max_ms": 6.786,
+      "max_bytes": 385,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 19,
+        "K": 11
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        175
+      ],
+      "final": [
+        9,
+        1114
+      ],
+      "max_ms": 6.8,
+      "max_bytes": 446,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 130,
+      "at20": [
+        8,
+        263
+      ],
+      "final": [
+        16,
+        1168
+      ],
+      "max_ms": 6.757,
+      "max_bytes": 487,
+      "max_lines": 30
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 8
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        224
+      ],
+      "final": [
+        12,
+        985
+      ],
+      "max_ms": 6.917,
+      "max_bytes": 483,
+      "max_lines": 31
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 33
+      },
+      "turns": 87,
+      "at20": [
+        5,
+        319
+      ],
+      "final": [
+        0,
+        305
+      ],
+      "max_ms": 6.814,
+      "max_bytes": 453,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "occupation_turns",
+      "forfeit": null,
+      "score": {
+        "Y": 16,
+        "K": 16
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        130
+      ],
+      "final": [
+        8,
+        283
+      ],
+      "max_ms": 6.798,
+      "max_bytes": 377,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 27,
+        "K": 5
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        290
+      ],
+      "final": [
+        13,
+        928
+      ],
+      "max_ms": 7.271,
+      "max_bytes": 466,
+      "max_lines": 30
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 58,
+      "at20": [
+        10,
+        182
+      ],
+      "final": [
+        16,
+        455
+      ],
+      "max_ms": 6.658,
+      "max_bytes": 370,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 8,
+        "K": 35
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        319
+      ],
+      "final": [
+        4,
+        29
+      ],
+      "max_ms": 6.595,
+      "max_bytes": 412,
+      "max_lines": 26
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 30
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        174
+      ],
+      "final": [
+        2,
+        83
+      ],
+      "max_ms": 6.632,
+      "max_bytes": 374,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 27,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        277
+      ],
+      "final": [
+        13,
+        823
+      ],
+      "max_ms": 6.814,
+      "max_bytes": 393,
+      "max_lines": 24
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        175
+      ],
+      "final": [
+        13,
+        1045
+      ],
+      "max_ms": 6.716,
+      "max_bytes": 496,
+      "max_lines": 31
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 15,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        307
+      ],
+      "final": [
+        7,
+        511
+      ],
+      "max_ms": 6.797,
+      "max_bytes": 460,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 156,
+      "at20": [
+        6,
+        131
+      ],
+      "final": [
+        13,
+        919
+      ],
+      "max_ms": 6.725,
+      "max_bytes": 470,
+      "max_lines": 29
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        9,
+        262
+      ],
+      "final": [
+        12,
+        1180
+      ],
+      "max_ms": 6.626,
+      "max_bytes": 447,
+      "max_lines": 28
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 28,
+      "at20": [
+        12,
+        241
+      ],
+      "final": [
+        15,
+        335
+      ],
+      "max_ms": 6.619,
+      "max_bytes": 340,
+      "max_lines": 21
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 40,
+        "K": 0
+      },
+      "turns": 41,
+      "at20": [
+        7,
+        325
+      ],
+      "final": [
+        15,
+        634
+      ],
+      "max_ms": 6.877,
+      "max_bytes": 412,
+      "max_lines": 26
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 38,
+      "at20": [
+        9,
+        194
+      ],
+      "final": [
+        15,
+        452
+      ],
+      "max_ms": 6.865,
+      "max_bytes": 363,
+      "max_lines": 23
+    },
+    {
+      "candidate": "cap5",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 53,
+      "at20": [
+        10,
+        292
+      ],
+      "final": [
+        16,
+        679
+      ],
+      "max_ms": 6.919,
+      "max_bytes": 466,
+      "max_lines": 28
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 147,
+      "at20": [
+        4,
+        187
+      ],
+      "final": [
+        15,
+        865
+      ],
+      "max_ms": 6.608,
+      "max_bytes": 435,
+      "max_lines": 27
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 39
+      },
+      "turns": 113,
+      "at20": [
+        5,
+        318
+      ],
+      "final": [
+        0,
+        42
+      ],
+      "max_ms": 6.935,
+      "max_bytes": 386,
+      "max_lines": 23
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 152,
+      "at20": [
+        7,
+        177
+      ],
+      "final": [
+        14,
+        1500
+      ],
+      "max_ms": 6.917,
+      "max_bytes": 542,
+      "max_lines": 34
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        283
+      ],
+      "final": [
+        12,
+        1542
+      ],
+      "max_ms": 6.853,
+      "max_bytes": 480,
+      "max_lines": 31
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 112,
+      "at20": [
+        6,
+        200
+      ],
+      "final": [
+        15,
+        1036
+      ],
+      "max_ms": 6.733,
+      "max_bytes": 423,
+      "max_lines": 26
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 37
+      },
+      "turns": 89,
+      "at20": [
+        7,
+        313
+      ],
+      "final": [
+        0,
+        20
+      ],
+      "max_ms": 6.87,
+      "max_bytes": 385,
+      "max_lines": 23
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        163
+      ],
+      "final": [
+        13,
+        1104
+      ],
+      "max_ms": 7.144,
+      "max_bytes": 472,
+      "max_lines": 30
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 24,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        280
+      ],
+      "final": [
+        11,
+        1012
+      ],
+      "max_ms": 6.821,
+      "max_bytes": 453,
+      "max_lines": 28
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 0
+      },
+      "turns": 62,
+      "at20": [
+        8,
+        216
+      ],
+      "final": [
+        12,
+        382
+      ],
+      "max_ms": 6.662,
+      "max_bytes": 439,
+      "max_lines": 27
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 12
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        306
+      ],
+      "final": [
+        8,
+        367
+      ],
+      "max_ms": 6.808,
+      "max_bytes": 447,
+      "max_lines": 28
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        140
+      ],
+      "final": [
+        13,
+        610
+      ],
+      "max_ms": 6.88,
+      "max_bytes": 432,
+      "max_lines": 27
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 18,
+        "K": 15
+      },
+      "turns": 160,
+      "at20": [
+        9,
+        244
+      ],
+      "final": [
+        9,
+        184
+      ],
+      "max_ms": 6.935,
+      "max_bytes": 404,
+      "max_lines": 25
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 159,
+      "at20": [
+        8,
+        180
+      ],
+      "final": [
+        16,
+        1105
+      ],
+      "max_ms": 7.077,
+      "max_bytes": 548,
+      "max_lines": 34
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 33
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        304
+      ],
+      "final": [
+        2,
+        13
+      ],
+      "max_ms": 6.892,
+      "max_bytes": 451,
+      "max_lines": 27
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 135,
+      "at20": [
+        6,
+        169
+      ],
+      "final": [
+        14,
+        921
+      ],
+      "max_ms": 6.735,
+      "max_bytes": 491,
+      "max_lines": 30
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 104,
+      "at20": [
+        8,
+        258
+      ],
+      "final": [
+        15,
+        730
+      ],
+      "max_ms": 7.152,
+      "max_bytes": 480,
+      "max_lines": 30
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 47,
+      "at20": [
+        11,
+        255
+      ],
+      "final": [
+        16,
+        680
+      ],
+      "max_ms": 6.847,
+      "max_bytes": 366,
+      "max_lines": 23
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 38,
+        "K": 0
+      },
+      "turns": 49,
+      "at20": [
+        9,
+        324
+      ],
+      "final": [
+        15,
+        774
+      ],
+      "max_ms": 6.853,
+      "max_bytes": 410,
+      "max_lines": 25
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 37,
+      "at20": [
+        11,
+        192
+      ],
+      "final": [
+        16,
+        493
+      ],
+      "max_ms": 6.964,
+      "max_bytes": 374,
+      "max_lines": 23
+    },
+    {
+      "candidate": "low-reserve",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 35,
+      "at20": [
+        12,
+        298
+      ],
+      "final": [
+        16,
+        511
+      ],
+      "max_ms": 6.85,
+      "max_bytes": 399,
+      "max_lines": 25
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 144,
+      "at20": [
+        5,
+        195
+      ],
+      "final": [
+        13,
+        732
+      ],
+      "max_ms": 7.565,
+      "max_bytes": 428,
+      "max_lines": 26
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 42,
+        "K": 0
+      },
+      "turns": 145,
+      "at20": [
+        6,
+        298
+      ],
+      "final": [
+        16,
+        961
+      ],
+      "max_ms": 6.732,
+      "max_bytes": 485,
+      "max_lines": 31
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        147
+      ],
+      "final": [
+        13,
+        1299
+      ],
+      "max_ms": 6.671,
+      "max_bytes": 425,
+      "max_lines": 26
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 11
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        265
+      ],
+      "final": [
+        10,
+        664
+      ],
+      "max_ms": 6.737,
+      "max_bytes": 430,
+      "max_lines": 26
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 2
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        219
+      ],
+      "final": [
+        15,
+        1284
+      ],
+      "max_ms": 6.639,
+      "max_bytes": 493,
+      "max_lines": 31
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 41
+      },
+      "turns": 102,
+      "at20": [
+        6,
+        293
+      ],
+      "final": [
+        0,
+        60
+      ],
+      "max_ms": 6.798,
+      "max_bytes": 416,
+      "max_lines": 25
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        129
+      ],
+      "final": [
+        12,
+        982
+      ],
+      "max_ms": 6.603,
+      "max_bytes": 485,
+      "max_lines": 30
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 22,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        256
+      ],
+      "final": [
+        10,
+        789
+      ],
+      "max_ms": 6.745,
+      "max_bytes": 501,
+      "max_lines": 31
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 73,
+      "at20": [
+        7,
+        169
+      ],
+      "final": [
+        16,
+        317
+      ],
+      "max_ms": 7.653,
+      "max_bytes": 375,
+      "max_lines": 22
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 23,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        294
+      ],
+      "final": [
+        9,
+        1001
+      ],
+      "max_ms": 7.845,
+      "max_bytes": 522,
+      "max_lines": 32
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        148
+      ],
+      "final": [
+        13,
+        1117
+      ],
+      "max_ms": 6.877,
+      "max_bytes": 427,
+      "max_lines": 27
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 11,
+        "K": 18
+      },
+      "turns": 160,
+      "at20": [
+        9,
+        232
+      ],
+      "final": [
+        7,
+        101
+      ],
+      "max_ms": 6.933,
+      "max_bytes": 410,
+      "max_lines": 25
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 8
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        180
+      ],
+      "final": [
+        12,
+        1036
+      ],
+      "max_ms": 6.638,
+      "max_bytes": 445,
+      "max_lines": 28
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 40
+      },
+      "turns": 77,
+      "at20": [
+        6,
+        296
+      ],
+      "final": [
+        0,
+        134
+      ],
+      "max_ms": 7.034,
+      "max_bytes": 386,
+      "max_lines": 23
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 17,
+        "K": 13
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        150
+      ],
+      "final": [
+        8,
+        1074
+      ],
+      "max_ms": 7.167,
+      "max_bytes": 446,
+      "max_lines": 28
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 18,
+        "K": 10
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        253
+      ],
+      "final": [
+        9,
+        468
+      ],
+      "max_ms": 6.749,
+      "max_bytes": 493,
+      "max_lines": 30
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 36,
+        "K": 0
+      },
+      "turns": 40,
+      "at20": [
+        12,
+        252
+      ],
+      "final": [
+        16,
+        522
+      ],
+      "max_ms": 6.65,
+      "max_bytes": 429,
+      "max_lines": 27
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 42,
+        "K": 0
+      },
+      "turns": 42,
+      "at20": [
+        11,
+        291
+      ],
+      "final": [
+        16,
+        609
+      ],
+      "max_ms": 6.88,
+      "max_bytes": 396,
+      "max_lines": 25
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 32,
+      "at20": [
+        8,
+        180
+      ],
+      "final": [
+        15,
+        348
+      ],
+      "max_ms": 6.556,
+      "max_bytes": 354,
+      "max_lines": 22
+    },
+    {
+      "candidate": "high-reserve",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 42,
+      "at20": [
+        11,
+        285
+      ],
+      "final": [
+        14,
+        630
+      ],
+      "max_ms": 6.79,
+      "max_bytes": 389,
+      "max_lines": 25
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 2
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        150
+      ],
+      "final": [
+        15,
+        1412
+      ],
+      "max_ms": 7.562,
+      "max_bytes": 453,
+      "max_lines": 28
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 129,
+      "at20": [
+        4,
+        304
+      ],
+      "final": [
+        0,
+        27
+      ],
+      "max_ms": 6.587,
+      "max_bytes": 381,
+      "max_lines": 22
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 21,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        150
+      ],
+      "final": [
+        10,
+        1520
+      ],
+      "max_ms": 8.958,
+      "max_bytes": 443,
+      "max_lines": 27
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        264
+      ],
+      "final": [
+        12,
+        1343
+      ],
+      "max_ms": 6.736,
+      "max_bytes": 471,
+      "max_lines": 30
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 32,
+        "K": 5
+      },
+      "turns": 160,
+      "at20": [
+        10,
+        165
+      ],
+      "final": [
+        14,
+        938
+      ],
+      "max_ms": 7.068,
+      "max_bytes": 462,
+      "max_lines": 28
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 35
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        313
+      ],
+      "final": [
+        2,
+        71
+      ],
+      "max_ms": 6.562,
+      "max_bytes": 409,
+      "max_lines": 25
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 4
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        112
+      ],
+      "final": [
+        14,
+        944
+      ],
+      "max_ms": 6.7,
+      "max_bytes": 486,
+      "max_lines": 30
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 155,
+      "at20": [
+        7,
+        280
+      ],
+      "final": [
+        14,
+        603
+      ],
+      "max_ms": 6.651,
+      "max_bytes": 488,
+      "max_lines": 30
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 71,
+      "at20": [
+        7,
+        203
+      ],
+      "final": [
+        16,
+        590
+      ],
+      "max_ms": 6.756,
+      "max_bytes": 389,
+      "max_lines": 25
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 23
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        309
+      ],
+      "final": [
+        8,
+        346
+      ],
+      "max_ms": 6.483,
+      "max_bytes": 404,
+      "max_lines": 25
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 13,
+        "K": 11
+      },
+      "turns": 160,
+      "at20": [
+        4,
+        122
+      ],
+      "final": [
+        7,
+        93
+      ],
+      "max_ms": 6.78,
+      "max_bytes": 388,
+      "max_lines": 24
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        262
+      ],
+      "final": [
+        12,
+        837
+      ],
+      "max_ms": 7.22,
+      "max_bytes": 461,
+      "max_lines": 29
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 134,
+      "at20": [
+        5,
+        192
+      ],
+      "final": [
+        0,
+        161
+      ],
+      "max_ms": 7.58,
+      "max_bytes": 396,
+      "max_lines": 24
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 37
+      },
+      "turns": 120,
+      "at20": [
+        7,
+        297
+      ],
+      "final": [
+        0,
+        13
+      ],
+      "max_ms": 6.726,
+      "max_bytes": 395,
+      "max_lines": 24
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 14,
+        "K": 21
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        126
+      ],
+      "final": [
+        7,
+        156
+      ],
+      "max_ms": 6.491,
+      "max_bytes": 369,
+      "max_lines": 23
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 133,
+      "at20": [
+        8,
+        258
+      ],
+      "final": [
+        16,
+        997
+      ],
+      "max_ms": 6.596,
+      "max_bytes": 438,
+      "max_lines": 27
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 47,
+      "at20": [
+        11,
+        252
+      ],
+      "final": [
+        16,
+        677
+      ],
+      "max_ms": 6.57,
+      "max_bytes": 366,
+      "max_lines": 23
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 45,
+      "at20": [
+        11,
+        312
+      ],
+      "final": [
+        13,
+        684
+      ],
+      "max_ms": 6.784,
+      "max_bytes": 397,
+      "max_lines": 25
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 27,
+        "K": 0
+      },
+      "turns": 29,
+      "at20": [
+        9,
+        183
+      ],
+      "final": [
+        13,
+        280
+      ],
+      "max_ms": 7.109,
+      "max_bytes": 379,
+      "max_lines": 24
+    },
+    {
+      "candidate": "score-focus",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 28,
+        "K": 0
+      },
+      "turns": 38,
+      "at20": [
+        11,
+        265
+      ],
+      "final": [
+        14,
+        549
+      ],
+      "max_ms": 6.713,
+      "max_bytes": 440,
+      "max_lines": 28
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 32,
+        "K": 0
+      },
+      "turns": 68,
+      "at20": [
+        3,
+        192
+      ],
+      "final": [
+        14,
+        510
+      ],
+      "max_ms": 6.66,
+      "max_bytes": 391,
+      "max_lines": 24
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 41
+      },
+      "turns": 139,
+      "at20": [
+        4,
+        316
+      ],
+      "final": [
+        0,
+        0
+      ],
+      "max_ms": 6.688,
+      "max_bytes": 367,
+      "max_lines": 22
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 16,
+        "K": 14
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        150
+      ],
+      "final": [
+        8,
+        1032
+      ],
+      "max_ms": 6.77,
+      "max_bytes": 462,
+      "max_lines": 29
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        261
+      ],
+      "final": [
+        10,
+        970
+      ],
+      "max_ms": 6.78,
+      "max_bytes": 435,
+      "max_lines": 27
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        222
+      ],
+      "final": [
+        12,
+        1195
+      ],
+      "max_ms": 7.684,
+      "max_bytes": 548,
+      "max_lines": 34
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 6,
+        "K": 31
+      },
+      "turns": 160,
+      "at20": [
+        4,
+        316
+      ],
+      "final": [
+        3,
+        169
+      ],
+      "max_ms": 6.672,
+      "max_bytes": 387,
+      "max_lines": 22
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 131,
+      "at20": [
+        7,
+        195
+      ],
+      "final": [
+        15,
+        940
+      ],
+      "max_ms": 6.645,
+      "max_bytes": 440,
+      "max_lines": 28
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 15,
+        "K": 18
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        280
+      ],
+      "final": [
+        8,
+        243
+      ],
+      "max_ms": 6.618,
+      "max_bytes": 379,
+      "max_lines": 23
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 74,
+      "at20": [
+        7,
+        198
+      ],
+      "final": [
+        16,
+        558
+      ],
+      "max_ms": 7.029,
+      "max_bytes": 415,
+      "max_lines": 26
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 6,
+        "K": 34
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        306
+      ],
+      "final": [
+        3,
+        15
+      ],
+      "max_ms": 6.756,
+      "max_bytes": 433,
+      "max_lines": 27
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        181
+      ],
+      "final": [
+        14,
+        1003
+      ],
+      "max_ms": 6.606,
+      "max_bytes": 385,
+      "max_lines": 24
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 7,
+        "K": 18
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        262
+      ],
+      "final": [
+        5,
+        111
+      ],
+      "max_ms": 6.912,
+      "max_bytes": 415,
+      "max_lines": 25
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 34,
+        "K": 0
+      },
+      "turns": 95,
+      "at20": [
+        9,
+        198
+      ],
+      "final": [
+        15,
+        810
+      ],
+      "max_ms": 6.756,
+      "max_bytes": 475,
+      "max_lines": 30
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 9,
+        "K": 34
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        322
+      ],
+      "final": [
+        3,
+        391
+      ],
+      "max_ms": 7.242,
+      "max_bytes": 426,
+      "max_lines": 26
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 7,
+        "K": 25
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        130
+      ],
+      "final": [
+        4,
+        76
+      ],
+      "max_ms": 6.961,
+      "max_bytes": 387,
+      "max_lines": 23
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 100,
+      "at20": [
+        9,
+        256
+      ],
+      "final": [
+        15,
+        764
+      ],
+      "max_ms": 6.745,
+      "max_bytes": 452,
+      "max_lines": 28
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 29,
+      "at20": [
+        11,
+        252
+      ],
+      "final": [
+        16,
+        399
+      ],
+      "max_ms": 7.234,
+      "max_bytes": 383,
+      "max_lines": 24
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 36,
+        "K": 0
+      },
+      "turns": 34,
+      "at20": [
+        10,
+        297
+      ],
+      "final": [
+        14,
+        508
+      ],
+      "max_ms": 6.649,
+      "max_bytes": 413,
+      "max_lines": 26
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 47,
+      "at20": [
+        6,
+        168
+      ],
+      "final": [
+        16,
+        598
+      ],
+      "max_ms": 6.817,
+      "max_bytes": 348,
+      "max_lines": 22
+    },
+    {
+      "candidate": "safe-flags",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 64,
+      "at20": [
+        11,
+        289
+      ],
+      "final": [
+        16,
+        1055
+      ],
+      "max_ms": 6.947,
+      "max_bytes": 417,
+      "max_lines": 26
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 36,
+        "K": 0
+      },
+      "turns": 149,
+      "at20": [
+        3,
+        177
+      ],
+      "final": [
+        16,
+        950
+      ],
+      "max_ms": 7.945,
+      "max_bytes": 383,
+      "max_lines": 23
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 129,
+      "at20": [
+        5,
+        326
+      ],
+      "final": [
+        0,
+        337
+      ],
+      "max_ms": 6.689,
+      "max_bytes": 406,
+      "max_lines": 24
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 7,
+        "K": 28
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        159
+      ],
+      "final": [
+        4,
+        47
+      ],
+      "max_ms": 6.699,
+      "max_bytes": 354,
+      "max_lines": 22
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 27,
+        "K": 6
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        281
+      ],
+      "final": [
+        13,
+        1172
+      ],
+      "max_ms": 8.146,
+      "max_bytes": 430,
+      "max_lines": 26
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v3",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 35,
+        "K": 0
+      },
+      "turns": 127,
+      "at20": [
+        6,
+        170
+      ],
+      "final": [
+        16,
+        863
+      ],
+      "max_ms": 6.88,
+      "max_bytes": 419,
+      "max_lines": 26
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v3",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 12
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        326
+      ],
+      "final": [
+        11,
+        371
+      ],
+      "max_ms": 6.886,
+      "max_bytes": 411,
+      "max_lines": 25
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v3",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 16,
+        "K": 11
+      },
+      "turns": 160,
+      "at20": [
+        5,
+        168
+      ],
+      "final": [
+        8,
+        863
+      ],
+      "max_ms": 6.987,
+      "max_bytes": 461,
+      "max_lines": 29
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "v3",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 27,
+        "K": 5
+      },
+      "turns": 160,
+      "at20": [
+        8,
+        290
+      ],
+      "final": [
+        13,
+        864
+      ],
+      "max_ms": 6.852,
+      "max_bytes": 412,
+      "max_lines": 26
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "fast-attack",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 26,
+        "K": 8
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        155
+      ],
+      "final": [
+        11,
+        899
+      ],
+      "max_ms": 6.885,
+      "max_bytes": 438,
+      "max_lines": 28
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "fast-attack",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 20,
+        "K": 23
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        323
+      ],
+      "final": [
+        8,
+        1431
+      ],
+      "max_ms": 6.908,
+      "max_bytes": 391,
+      "max_lines": 23
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "fast-attack",
+      "seed": 22,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 28
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        103
+      ],
+      "final": [
+        2,
+        107
+      ],
+      "max_ms": 6.895,
+      "max_bytes": 313,
+      "max_lines": 19
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "fast-attack",
+      "seed": 23,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 6,
+        "K": 27
+      },
+      "turns": 160,
+      "at20": [
+        9,
+        272
+      ],
+      "final": [
+        4,
+        96
+      ],
+      "max_ms": 7.178,
+      "max_bytes": 427,
+      "max_lines": 26
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "slow-defense",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 29,
+        "K": 7
+      },
+      "turns": 160,
+      "at20": [
+        6,
+        164
+      ],
+      "final": [
+        12,
+        1100
+      ],
+      "max_ms": 7.015,
+      "max_bytes": 446,
+      "max_lines": 28
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "slow-defense",
+      "seed": 21,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 16,
+        "K": 20
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        314
+      ],
+      "final": [
+        7,
+        659
+      ],
+      "max_ms": 6.856,
+      "max_bytes": 472,
+      "max_lines": 29
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "slow-defense",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 22,
+        "K": 11
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        170
+      ],
+      "final": [
+        10,
+        365
+      ],
+      "max_ms": 7.05,
+      "max_bytes": 400,
+      "max_lines": 24
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "slow-defense",
+      "seed": 23,
+      "side": "Y",
+      "winner": "K",
+      "reason": "score",
+      "forfeit": null,
+      "score": {
+        "Y": 4,
+        "K": 22
+      },
+      "turns": 160,
+      "at20": [
+        7,
+        257
+      ],
+      "final": [
+        3,
+        524
+      ],
+      "max_ms": 7.045,
+      "max_bytes": 409,
+      "max_lines": 25
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "lv2",
+      "seed": 20,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 30,
+        "K": 0
+      },
+      "turns": 22,
+      "at20": [
+        12,
+        209
+      ],
+      "final": [
+        13,
+        230
+      ],
+      "max_ms": 6.792,
+      "max_bytes": 357,
+      "max_lines": 22
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "lv2",
+      "seed": 21,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 41,
+        "K": 0
+      },
+      "turns": 52,
+      "at20": [
+        7,
+        332
+      ],
+      "final": [
+        16,
+        770
+      ],
+      "max_ms": 7.126,
+      "max_bytes": 480,
+      "max_lines": 30
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "lv2",
+      "seed": 22,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 38,
+      "at20": [
+        9,
+        194
+      ],
+      "final": [
+        15,
+        464
+      ],
+      "max_ms": 6.699,
+      "max_bytes": 359,
+      "max_lines": 22
+    },
+    {
+      "candidate": "attack-mix",
+      "opponent": "lv2",
+      "seed": 23,
+      "side": "Y",
+      "winner": "Y",
+      "reason": "instant",
+      "forfeit": null,
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 49,
+      "at20": [
+        12,
+        309
+      ],
+      "final": [
+        16,
+        773
+      ],
+      "max_ms": 6.723,
+      "max_bytes": 405,
+      "max_lines": 25
+    }
+  ]
+}

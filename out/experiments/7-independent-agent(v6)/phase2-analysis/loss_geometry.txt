@@ -1,0 +1,28 @@
+
+== v2 losss: 324 Y-building losses
+ cause: neutral=287, pulled=37, other=0
+ region: home(x<=4)=135, center=159, K-home=30
+ no Y W within 3 cells before the loss turn: 35%; any within 1: 17%; mean nearest-Y-W dist 4.1; mean Y W within 3 8.2
+ K escort W on the building: mean 29.0; share with K W>0 there: 59%; K flags mean 1.1; Y flag was on building: 27%
+ by type: {'STATION': 70, 'ENG': 63, 'DEPOT': 52, 'WATCH': 40, 'HALL': 32, 'LIBRARY': 29, 'PLAZA': 21, 'HOSPITAL': 17}
+
+== v2 wins: 84 Y-building losses
+ cause: neutral=77, pulled=7, other=0
+ region: home(x<=4)=8, center=60, K-home=16
+ no Y W within 3 cells before the loss turn: 21%; any within 1: 4%; mean nearest-Y-W dist 2.9; mean Y W within 3 29.4
+ K escort W on the building: mean 5.2; share with K W>0 there: 38%; K flags mean 1.3; Y flag was on building: 12%
+ by type: {'STATION': 21, 'WATCH': 19, 'DEPOT': 17, 'PLAZA': 8, 'HALL': 7, 'LIBRARY': 6, 'HOSPITAL': 3, 'ENG': 3}
+
+== v3 losss: 335 Y-building losses
+ cause: neutral=284, pulled=51, other=0
+ region: home(x<=4)=146, center=174, K-home=15
+ no Y W within 3 cells before the loss turn: 32%; any within 1: 13%; mean nearest-Y-W dist 4.4; mean Y W within 3 10.1
+ K escort W on the building: mean 8.0; share with K W>0 there: 67%; K flags mean 1.0; Y flag was on building: 16%
+ by type: {'STATION': 74, 'WATCH': 54, 'DEPOT': 52, 'HALL': 41, 'LIBRARY': 35, 'ENG': 35, 'PLAZA': 25, 'HOSPITAL': 19}
+
+== v3 wins: 181 Y-building losses
+ cause: neutral=166, pulled=15, other=0
+ region: home(x<=4)=25, center=119, K-home=37
+ no Y W within 3 cells before the loss turn: 33%; any within 1: 8%; mean nearest-Y-W dist 3.6; mean Y W within 3 13.0
+ K escort W on the building: mean 1.4; share with K W>0 there: 40%; K flags mean 1.2; Y flag was on building: 10%
+ by type: {'STATION': 46, 'WATCH': 34, 'PLAZA': 26, 'HALL': 23, 'DEPOT': 22, 'LIBRARY': 17, 'ENG': 10, 'HOSPITAL': 3}

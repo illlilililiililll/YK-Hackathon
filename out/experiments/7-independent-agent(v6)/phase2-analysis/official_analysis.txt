@@ -1,0 +1,131 @@
+
+## v2 games (eval time < v3 submit): n=19 wins=4 losses=15 (ff/cmd-errors: see status)
+losses with K_W > Y_W at T20: 14/15 (games with a T20 snapshot); losses ending before T20: 0
+01 v2 뚜띠태하소불고기와멸치두명  L insta end= 59 maxF15=12 T10[7:6 W15:28 F12:6] T20[8:7 W63:87 F8:8] 2026-09-27T11:00+00:00
+02 v2 하면해            L insta end=109 maxF15=12 T10[10:7 W21:37 F12:7] T20[8:9 W50:83 F10:7] 2026-09-27T11:00+00:00
+03 v2 tAIger         L insta end= 61 maxF15=12 T10[2:4 W11:5 F12:16] T20[7:8 W45:57 F12:16] 2026-09-27T11:00+00:00
+04 v2 니땅내땅           L score end=160 maxF15=12 T10[8:4 W18:30 F12:9] T20[10:7 W55:76 F8:9] 2026-09-27T11:00+00:00
+05 v2 신촌도우리땅         L insta end= 96 maxF15=12 T10[5:5 W14:17 F12:12] T20[8:8 W67:74 F11:8] 2026-09-27T11:00+00:00
+06 v2 신촌을못가          L insta end= 36 maxF15=12 T10[4:3 W15:28 F12:6] T20[5:10 W44:73 F9:6] 2026-09-27T11:00+00:00
+07 v2 어잌후            L insta end= 66 maxF15=12 T10[5:5 W15:16 F12:7] T20[7:6 W65:63 F11:7] 2026-09-27T11:00+00:00
+08 v2 인공저능           W insta end= 34 maxF15=12 T10[5:3 W15:3 F11:16] T20[12:5 W70:3 F11:30] 2026-09-27T11:00+00:00
+09 v2 페이커            L insta end= 47 maxF15=12 T10[4:4 W19:33 F12:4] T20[9:7 W42:67 F7:4] 2026-09-27T11:00+00:00
+10 v2 뉴비들            L insta end= 86 maxF15=12 T10[5:5 W15:34 F12:5] T20[9:7 W65:94 F4:5] 2026-09-27T11:00+00:00
+11 v2 붉은산호초          L insta end= 43 maxF15=12 T10[4:2 W14:30 F12:6] T20[6:11 W46:81 F11:6] 2026-09-27T11:00+00:00
+12 v2 참새튀김기          L insta end= 83 maxF15=12 T10[7:8 W18:27 F12:9] T20[6:8 W36:57 F11:8] 2026-09-27T11:00+00:00
+13 v2 요미             L insta end= 62 maxF15=12 T10[6:7 W20:33 F12:7] T20[10:6 W67:86 F8:7] 2026-09-27T11:00+00:00
+14 v2 신촌을못가          L insta end= 36 maxF15=12 T10[5:6 W17:31 F12:6] T20[5:9 W21:45 F12:6] 2026-09-27T00:00+00:00
+15 v2 붉은산호초          W insta end= 28 maxF15=12 T10[7:8 W19:0 F12:13] T20[10:2 W73:0 F12:16] 2026-09-27T00:00+00:00
+16 v2 저희집GPU가추위를타요   W score end=160 maxF15=12 T10[6:4 W22:25 F12:7] T20[12:3 W71:86 F9:7] 2026-09-27T00:00+00:00
+17 v2 뉴비들            L insta end= 47 maxF15=12 T10[5:4 W15:33 F12:5] T20[8:7 W15:54 F9:5] 2026-09-27T00:00+00:00
+18 v2 인공저능           W insta end= 44 maxF15=12 T10[4:3 W10:3 F12:16] T20[11:5 W65:3 F9:34] 2026-09-27T00:00+00:00
+19 v2 tAIger         L insta end= 71 maxF15=12 T10[3:3 W22:17 F12:15] T20[9:7 W46:53 F10:15] 2026-09-27T00:00+00:00
+
+## v3 games 20-35 (heartbeat 28 Sep 22:00 round): n=16 wins=4 losses=12 (ff/cmd-errors: see status)
+losses with K_W > Y_W at T20: 11/12 (games with a T20 snapshot); losses ending before T20: 0
+20 v3 AI고            W insta end= 39 maxF15= 6 T10[5:4 W30:0 F6:10] T20[9:4 W93:0 F6:20] 2026-09-27T23:00+00:00
+21 v3 우주류            L score end=160 maxF15= 6 T10[6:4 W27:18 F5:5] T20[8:7 W22:39 F6:3] 2026-09-27T23:00+00:00
+22 v3 파전             L insta end=104 maxF15= 6 T10[7:5 W31:30 F5:4] T20[7:10 W71:78 F6:4] 2026-09-27T23:00+00:00
+23 v3 Team24         L insta end= 33 maxF15= 6 T10[6:8 W20:33 F6:8] T20[4:13 W44:70 F3:8] 2026-09-27T23:00+00:00
+24 v3 건성건성           L score end=160 maxF15= 6 T10[6:6 W23:23 F6:7] T20[9:8 W55:71 F6:7] 2026-09-27T23:00+00:00
+25 v3 인공저능           W insta end= 27 maxF15= 6 T10[7:5 W39:3 F5:20] T20[10:3 W91:3 F5:21] 2026-09-27T23:00+00:00
+26 v3 개우진보러갈까        L insta end= 60 maxF15= 6 T10[5:7 W33:42 F6:6] T20[7:10 W48:67 F4:6] 2026-09-27T23:00+00:00
+27 v3 1026           W insta end= 58 maxF15= 6 T10[6:3 W24:26 F6:3] T20[11:6 W79:72 F6:5] 2026-09-27T23:00+00:00
+28 v3 AIKU           L insta end= 37 maxF15= 6 T10[8:8 W33:33 F6:7] T20[6:11 W55:86 F5:7] 2026-09-27T23:00+00:00
+29 v3 뉴비들            L insta end= 54 maxF15= 6 T10[7:6 W27:30 F6:5] T20[9:7 W53:82 F6:5] 2026-09-27T23:00+00:00
+30 v3 어잌후            L insta end= 48 maxF15= 6 T10[3:3 W26:31 F6:6] T20[6:8 W56:65 F5:6] 2026-09-27T23:00+00:00
+31 v3 모든상금은제세공과금공제후지 L insta end= 59 maxF15= 6 T10[7:5 W22:28 F6:3] T20[10:4 W41:54 F5:3] 2026-09-27T23:00+00:00
+32 v3 학부기            W score end=160 maxF15= 6 T10[8:3 W29:25 F6:3] T20[11:5 W47:35 F6:3] 2026-09-27T23:00+00:00
+33 v3 그래피            L insta end= 46 maxF15= 6 T10[8:5 W22:28 F6:6] T20[8:7 W40:75 F3:6] 2026-09-27T23:00+00:00
+34 v3 태호랑이           L insta end=142 maxF15= 6 T10[7:4 W26:15 F6:13] T20[8:8 W84:72 F6:12] 2026-09-27T23:00+00:00
+35 v3 김씨들외1          L insta end= 42 maxF15= 6 T10[3:4 W20:18 F6:8] T20[2:11 W33:53 F6:8] 2026-09-27T23:00+00:00
+
+## v3 games 36-47 (29 Sep 10:00 round): n=12 wins=4 losses=8 (ff/cmd-errors: see status)
+losses with K_W > Y_W at T20: 6/8 (games with a T20 snapshot); losses ending before T20: 0
+36 v3 Yaar           L insta end= 55 maxF15= 6 T10[6:6 W24:23 F6:8] T20[8:8 W45:54 F6:8] 2026-09-28T11:00+00:00
+37 v3 저능박수           L insta end= 76 maxF15= 6 T10[2:2 W26:23 F6:8] T20[7:7 W63:57 F6:8] 2026-09-28T11:00+00:00
+38 v3 강릉             L insta end=104 maxF15= 6 T10[8:5 W18:25 F6:6] T20[10:5 W65:59 F6:7] 2026-09-28T11:00+00:00
+39 v3 우주류            L insta end=140 maxF15= 6 T10[3:4 W25:31 F6:4] T20[8:8 W54:65 F5:6] 2026-09-28T11:00+00:00
+40 v3 Re-verse       W score end=160 maxF15= 6 T10[6:7 W23:5 F6:8] T20[9:7 W66:47 F5:8] 2026-09-28T11:00+00:00
+41 v3 오산기지정예병        L insta end= 61 maxF15= 6 T10[5:4 W26:31 F6:6] T20[8:9 W65:82 F5:6] 2026-09-28T11:00+00:00
+42 v3 정진규컴퓨터시스템D504  L insta end= 50 maxF15= 6 T10[7:6 W37:41 F6:5] T20[4:11 W52:81 F5:5] 2026-09-28T11:00+00:00
+43 v3 양진장            W score end=160 maxF15= 6 T10[5:5 W25:24 F6:7] T20[9:8 W53:47 F5:7] 2026-09-28T11:00+00:00
+44 v3 학부기            W score end=160 maxF15= 6 T10[7:4 W29:20 F6:5] T20[10:7 W60:45 F5:5] 2026-09-28T11:00+00:00
+45 v3 탈락도락이다         L insta end= 89 maxF15= 6 T10[7:7 W42:44 F6:6] T20[4:10 W79:103 F4:5] 2026-09-28T11:00+00:00
+46 v3 고대26김준우사랑단     W score end=160 maxF15= 6 T10[6:4 W24:22 F6:8] T20[9:7 W38:39 F6:8] 2026-09-28T11:00+00:00
+47 v3 연세대학교인공지능학과    L insta end= 41 maxF15= 6 T10[5:4 W22:23 F6:6] T20[4:7 W53:78 F6:6] 2026-09-28T11:00+00:00
+
+# ---- outcome vs early W lead (all 47 games; lead = Y_W - K_W) ----
+T10: K ahead: 2W-27L; Y ahead: 10W-8L
+T20: K ahead: 2W-31L; Y ahead: 10W-4L
+
+## v2 wins (n=4)
+ T 5: bld Y/K 1.8/1.8  W Y/K 1.2/2.8  F Y/K 7.8/7.5  res Y/K 14.5/11.2  Wtop1 Y/K 0.50/0.53  Wtop3 Y/K 0.75/0.75
+ T10: bld Y/K 5.5/4.5  W Y/K 16.5/7.8  F Y/K 11.8/13.0  res Y/K 14.8/20.5  Wtop1 Y/K 0.43/0.39  Wtop3 Y/K 0.87/0.66
+ T20: bld Y/K 11.2/3.8  W Y/K 69.8/23.0  F Y/K 10.2/21.8  res Y/K 16.5/22.8  Wtop1 Y/K 0.23/0.46  Wtop3 Y/K 0.54/0.62
+ T40: bld Y/K 13.0/2.5  W Y/K 156.0/64.0  F Y/K 6.5/7.0  res Y/K 15.5/14.5  Wtop1 Y/K 0.22/0.58  Wtop3 Y/K 0.53/0.86
+ first capture turn (mean over games that captured), Y | K:
+   HALL      Y   7.5 (4/4)   K   9.2 (4/4)
+   ENG       Y   9.5 (4/4)   K  10.2 (4/4)
+   DEPOT     Y   9.0 (4/4)   K  16.0 (3/4)
+   PLAZA     Y  15.2 (4/4)   K 104.0 (1/4)
+   LIBRARY   Y  11.0 (4/4)   K   9.0 (3/4)
+   HOSPITAL  Y   7.0 (4/4)   K   7.2 (4/4)
+   STATION   Y   3.0 (4/4)   K   4.5 (4/4)
+   WATCH     Y   8.8 (4/4)   K  12.5 (4/4)
+ Y buildings lost per game by phase/cause: {'11-20/neutralized-by-K': 2.0, '11-20/pulled': 0.25, '21-40/neutralized-by-K': 3.75, '21-40/pulled': 0.25, '41+/neutralized-by-K': 13.5, '41+/pulled': 1.25}
+ F spawned/dead per game: 42.0/33.2   W spawned/dead: 272/111   turns with Y res>=38: 0.0
+
+## v2 losses (n=15)
+ T 5: bld Y/K 2.0/2.1  W Y/K 1.7/5.9  F Y/K 8.2/6.6  res Y/K 15.3/11.5  Wtop1 Y/K 0.73/0.44  Wtop3 Y/K 0.87/0.79
+ T10: bld Y/K 5.3/4.9  W Y/K 16.6/26.6  F Y/K 12.0/8.0  res Y/K 17.3/14.5  Wtop1 Y/K 0.33/0.26  Wtop3 Y/K 0.81/0.63
+ T20: bld Y/K 7.7/7.8  W Y/K 48.5/70.0  F Y/K 9.4/7.8  res Y/K 14.9/12.7  Wtop1 Y/K 0.30/0.19  Wtop3 Y/K 0.66/0.42
+ T40: bld Y/K 4.6/11.4  W Y/K 32.2/119.2  F Y/K 7.3/7.2  res Y/K 15.4/13.6  Wtop1 Y/K 0.31/0.18  Wtop3 Y/K 0.61/0.37
+ first capture turn (mean over games that captured), Y | K:
+   HALL      Y   8.8 (15/15)   K   7.9 (15/15)
+   ENG       Y   6.6 (15/15)   K   5.8 (15/15)
+   DEPOT     Y   8.5 (15/15)   K   9.5 (15/15)
+   PLAZA     Y  11.8 (12/15)   K  19.1 (15/15)
+   LIBRARY   Y   8.1 (15/15)   K   8.1 (15/15)
+   HOSPITAL  Y   8.9 (15/15)   K  12.4 (15/15)
+   STATION   Y   7.5 (15/15)   K   8.3 (15/15)
+   WATCH     Y   9.9 (15/15)   K  11.2 (15/15)
+ Y buildings lost per game by phase/cause: {'11-20/neutralized-by-K': 3.8, '11-20/pulled': 0.2, '21-40/neutralized-by-K': 7.27, '21-40/pulled': 0.8, '41+/neutralized-by-K': 8.07, '41+/pulled': 1.47}
+ F spawned/dead per game: 102.2/100.1   W spawned/dead: 123/118   turns with Y res>=38: 0.0
+
+## v3 wins (n=8)
+ T 5: bld Y/K 2.2/1.5  W Y/K 6.1/4.9  F Y/K 6.0/5.1  res Y/K 14.2/17.8  Wtop1 Y/K 0.69/0.45  Wtop3 Y/K 1.00/0.85
+ T10: bld Y/K 6.2/4.4  W Y/K 27.9/15.6  F Y/K 5.9/8.0  res Y/K 16.2/18.6  Wtop1 Y/K 0.28/0.27  Wtop3 Y/K 0.63/0.55
+ T20: bld Y/K 9.8/5.9  W Y/K 65.9/36.0  F Y/K 5.5/9.6  res Y/K 13.9/21.4  Wtop1 Y/K 0.22/0.27  Wtop3 Y/K 0.51/0.50
+ T40: bld Y/K 9.5/5.8  W Y/K 84.7/60.7  F Y/K 5.0/5.3  res Y/K 15.2/11.8  Wtop1 Y/K 0.23/0.35  Wtop3 Y/K 0.55/0.59
+ first capture turn (mean over games that captured), Y | K:
+   HALL      Y   8.4 (8/8)   K   8.9 (8/8)
+   ENG       Y  10.5 (8/8)   K  11.1 (8/8)
+   DEPOT     Y   6.4 (8/8)   K  11.6 (7/8)
+   PLAZA     Y  11.2 (8/8)   K  22.0 (5/8)
+   LIBRARY   Y  11.6 (8/8)   K  14.4 (8/8)
+   HOSPITAL  Y   6.1 (8/8)   K   6.0 (7/8)
+   STATION   Y   6.0 (8/8)   K   7.5 (8/8)
+   WATCH     Y   8.5 (8/8)   K  17.1 (7/8)
+ Y buildings lost per game by phase/cause: {'11-20/neutralized-by-K': 2.38, '11-20/pulled': 0.25, '21-40/neutralized-by-K': 5.88, '21-40/pulled': 0.62, '41+/neutralized-by-K': 12.5, '41+/pulled': 1.0}
+ F spawned/dead per game: 69.0/63.8   W spawned/dead: 502/304   turns with Y res>=38: 0.0
+
+## v3 losses (n=20)
+ T 5: bld Y/K 2.6/2.0  W Y/K 4.5/6.2  F Y/K 6.0/5.9  res Y/K 15.4/12.3  Wtop1 Y/K 0.64/0.58  Wtop3 Y/K 1.00/0.97
+ T10: bld Y/K 5.8/5.2  W Y/K 26.5/28.5  F Y/K 5.9/6.3  res Y/K 15.5/16.1  Wtop1 Y/K 0.28/0.26  Wtop3 Y/K 0.63/0.57
+ T20: bld Y/K 6.8/8.4  W Y/K 53.9/69.5  F Y/K 5.2/6.3  res Y/K 15.3/11.9  Wtop1 Y/K 0.25/0.17  Wtop3 Y/K 0.58/0.40
+ T40: bld Y/K 4.6/11.6  W Y/K 46.2/119.9  F Y/K 4.0/5.5  res Y/K 15.8/14.0  Wtop1 Y/K 0.41/0.15  Wtop3 Y/K 0.73/0.36
+ first capture turn (mean over games that captured), Y | K:
+   HALL      Y   6.8 (20/20)   K   6.5 (20/20)
+   ENG       Y  10.5 (18/20)   K   8.2 (20/20)
+   DEPOT     Y   9.8 (20/20)   K  12.3 (20/20)
+   PLAZA     Y  11.1 (15/20)   K  18.7 (20/20)
+   LIBRARY   Y   7.2 (20/20)   K   7.5 (20/20)
+   HOSPITAL  Y   8.1 (20/20)   K  10.9 (20/20)
+   STATION   Y   5.2 (20/20)   K   8.2 (20/20)
+   WATCH     Y   9.3 (20/20)   K   9.5 (20/20)
+ Y buildings lost per game by phase/cause: {'11-20/neutralized-by-K': 3.4, '11-20/pulled': 0.3, '21-40/neutralized-by-K': 4.65, '21-40/pulled': 0.85, '41+/neutralized-by-K': 6.1, '41+/pulled': 1.4, '<=10/neutralized-by-K': 0.05}
+ F spawned/dead per game: 80.8/79.4   W spawned/dead: 209/200   turns with Y res>=38: 0.0
+
+version vs peak F (first 15 turns): {'v2': [12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12], 'v3': [6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]}
+sides: Counter({'Y': 47})  max response ms: 546

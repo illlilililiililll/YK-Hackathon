@@ -1,0 +1,7 @@
+1200 games; K-side outcome differs from Y-side outcome on 0 seeds
+  F65        vs base     87-0-13  win 87%  CI[79,92]  n=100
+  G1         vs base     65-0-35  win 65%  CI[55,74]  n=100
+  G1H6       vs base     67-0-33  win 67%  CI[57,75]  n=100
+  G1H6F65    vs base     92-0-8  win 92%  CI[85,96]  n=100
+  G2A        vs base     59-0-41  win 59%  CI[49,68]  n=100
+  H6         vs base     61-0-39  win 61%  CI[51,70]  n=100

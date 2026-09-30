@@ -1,0 +1,1 @@
+cap5-vs-cap6-Y {'win': 3, 'draw': 0, 'loss': 7, 'forfeit': 0, 'max_turn_ms': 1309.25} score 14.9 t20 buildings/value (8.4, 201.3) final buildings/value (7.2, 517.4)

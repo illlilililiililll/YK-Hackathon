@@ -1,0 +1,7 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+base          front       K      5     0-0-5   -27.2     -2115     -380   0     11     40
+base          pressure    K      5     1-0-4   -18.2     -1647     -381   0      8     60
+cap7          front       K      5     0-0-5   -36.6      -896     -558   0      8    100
+cap7          pressure    K      5     0-0-5   -36.8      -922     -533   0     12    100
+indep1        front       K      5     2-0-3     9.8       721      155   0      8     20
+indep1        pressure    K      5     4-0-1    20.8       831      223   0      9     20

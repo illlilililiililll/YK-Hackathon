@@ -1,0 +1,22 @@
+== games 48-59
+games 12, flips of Y buildings T11-140: 322  by type {'WATCH': 70, 'STATION': 62, 'DEPOT': 52, 'PLAZA': 50, 'ENG': 39, 'HALL': 26, 'LIBRARY': 16, 'HOSPITAL': 7}
+at onset (3 turns before): K flag within 3 99%, Y W on building 39%, Y W<=3 > K W<=3 21%
+where all Y W stood at onset (mean share by steps to the building): <=3 13%, 4-6 28%, 7-10 35%, >10 24%
+Y majority radius vs K flag distance at onset: majority radius > flag distance in 44% (median radius 2, median flag distance 3)
+orders given to the Y W within 3 steps, over the 3 decisions before each flip (W-moves):
+  hunt          3456 ( 34%)  closer  31%  stay  35%  away  34%
+  hunt_far      3325 ( 32%)  closer  55%  stay   0%  away  45%
+  escort        1842 ( 18%)  closer  26%  stay  20%  away  53%
+  rally         1152 ( 11%)  closer  26%  stay  20%  away  54%
+  garrison       515 (  5%)  closer  49%  stay  24%  away  27%
+== games 60-71
+games 12, flips of Y buildings T11-140: 282  by type {'STATION': 76, 'DEPOT': 54, 'WATCH': 48, 'PLAZA': 29, 'ENG': 29, 'LIBRARY': 23, 'HALL': 17, 'HOSPITAL': 6}
+at onset (3 turns before): K flag within 3 100%, Y W on building 38%, Y W<=3 > K W<=3 30%
+where all Y W stood at onset (mean share by steps to the building): <=3 17%, 4-6 27%, 7-10 35%, >10 21%
+Y majority radius vs K flag distance at onset: majority radius > flag distance in 41% (median radius 1, median flag distance 2)
+orders given to the Y W within 3 steps, over the 3 decisions before each flip (W-moves):
+  hunt_far      4800 ( 34%)  closer  50%  stay   0%  away  50%
+  hunt          4751 ( 34%)  closer  43%  stay  29%  away  29%
+  escort        2253 ( 16%)  closer  28%  stay  18%  away  54%
+  rally         1866 ( 13%)  closer  22%  stay  17%  away  61%
+  garrison       512 (  4%)  closer  56%  stay  21%  away  23%

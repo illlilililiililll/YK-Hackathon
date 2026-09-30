@@ -1,0 +1,128 @@
+{
+  "args": {
+    "candidate": "bots/dist/starter/python/main_cap6.py",
+    "opponent": "bots/dist/starter/python/main_v2.py",
+    "side": "Y",
+    "seeds": 10,
+    "name": "cap6-vs-v2-Y"
+  },
+  "summary": {
+    "win": 9,
+    "draw": 0,
+    "loss": 1,
+    "forfeit": 0,
+    "max_turn_ms": 146.18
+  },
+  "results": [
+    {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 92,
+      "seed": 0,
+      "candidate_max_turn_ms": 146.18
+    },
+    {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 33,
+        "K": 0
+      },
+      "turns": 60,
+      "seed": 1,
+      "candidate_max_turn_ms": 77.29
+    },
+    {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 20,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 2,
+      "candidate_max_turn_ms": 92.52
+    },
+    {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 31,
+        "K": 0
+      },
+      "turns": 125,
+      "seed": 3,
+      "candidate_max_turn_ms": 88.05
+    },
+    {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 39,
+        "K": 0
+      },
+      "turns": 50,
+      "seed": 4,
+      "candidate_max_turn_ms": 94.66
+    },
+    {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 22,
+        "K": 7
+      },
+      "turns": 160,
+      "seed": 5,
+      "candidate_max_turn_ms": 95.97
+    },
+    {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 27,
+        "K": 8
+      },
+      "turns": 160,
+      "seed": 6,
+      "candidate_max_turn_ms": 79.19
+    },
+    {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 6,
+        "K": 23
+      },
+      "turns": 160,
+      "seed": 7,
+      "candidate_max_turn_ms": 104.2
+    },
+    {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 19,
+        "K": 11
+      },
+      "turns": 160,
+      "seed": 8,
+      "candidate_max_turn_ms": 139.26
+    },
+    {
+      "winner": "Y",
+      "reason": "instant",
+      "score": {
+        "Y": 29,
+        "K": 0
+      },
+      "turns": 96,
+      "seed": 9,
+      "candidate_max_turn_ms": 87.96
+    }
+  ]
+}

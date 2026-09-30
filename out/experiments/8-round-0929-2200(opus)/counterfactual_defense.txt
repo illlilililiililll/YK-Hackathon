@@ -1,0 +1,12 @@
+﻿48_건성건성.json                [none] flips 34: W placed 14, W > K W on cell 3 | [defend=1] flips 34: W placed 14, W > K W on cell 3 | [defend=1,defend_eta=3] flips 34: W placed 14, W > K W on cell 3
+50_요미.json                  [none] flips 32: W placed 7, W > K W on cell 2 | [defend=1] flips 32: W placed 7, W > K W on cell 2 | [defend=1,defend_eta=3] flips 32: W placed 5, W > K W on cell 1
+51_뉴비입니다.json               [none] flips 40: W placed 13, W > K W on cell 1 | [defend=1] flips 40: W placed 14, W > K W on cell 1 | [defend=1,defend_eta=3] flips 40: W placed 14, W > K W on cell 1
+52_박박이.json                 [none] flips 42: W placed 9, W > K W on cell 1 | [defend=1] flips 42: W placed 10, W > K W on cell 2 | [defend=1,defend_eta=3] flips 42: W placed 10, W > K W on cell 2
+54_너구리.json                 [none] flips 47: W placed 13, W > K W on cell 4 | [defend=1] flips 47: W placed 14, W > K W on cell 4 | [defend=1,defend_eta=3] flips 47: W placed 14, W > K W on cell 4
+56_참새사냥꾼.json               [none] flips 43: W placed 7, W > K W on cell 0 | [defend=1] flips 43: W placed 7, W > K W on cell 0 | [defend=1,defend_eta=3] flips 43: W placed 7, W > K W on cell 0
+58_연세찜닭.json                [none] flips 29: W placed 7, W > K W on cell 4 | [defend=1] flips 29: W placed 7, W > K W on cell 4 | [defend=1,defend_eta=3] flips 29: W placed 8, W > K W on cell 4
+59_올림픽정신.json               [none] flips 39: W placed 11, W > K W on cell 2 | [defend=1] flips 39: W placed 11, W > K W on cell 2 | [defend=1,defend_eta=3] flips 39: W placed 10, W > K W on cell 2
+TOTAL [none]: flips 306; source would have had W on the building in 81 (26%); more W than the K W that were there in 17 (6%)
+TOTAL [defend=1]: flips 306; source would have had W on the building in 84 (27%); more W than the K W that were there in 18 (6%)
+TOTAL [defend=1,defend_eta=3]: flips 306; source would have had W on the building in 82 (27%); more W than the K W that were there in 17 (6%)
+Caveat: K's moves held fixed (response check only); these games generated the hypothesis (not held out).

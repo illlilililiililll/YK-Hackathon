@@ -1,0 +1,7 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+base          front       Y     20    1-0-19   -21.4     -1842     -291   0     17     15
+base          pressure    Y     20    2-0-18   -22.4     -1728     -368   0     28     55
+cap7          front       Y     20    0-0-20   -33.6      -721     -478   0     13    100
+cap7          pressure    Y     20    0-0-20   -32.4      -593     -446   0     14    100
+indep1        front       Y     20    13-0-7    10.1       619      154   0     16     10
+indep1        pressure    Y     20    17-0-3    17.4      1099      250   0     22     15

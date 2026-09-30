@@ -1,0 +1,1347 @@
+{
+  "loss_games": 12,
+  "f_only_while_behind_21_40": 43,
+  "by_game": {
+    "21": 1,
+    "22": 0,
+    "23": 9,
+    "24": 0,
+    "26": 1,
+    "28": 9,
+    "29": 1,
+    "30": 5,
+    "31": 5,
+    "33": 5,
+    "34": 0,
+    "35": 7
+  },
+  "cases": {
+    "31": {
+      "file": "31_모든상금은제세공과금공제후지급됩니다_6a3867d4.json",
+      "gameId": "rolling-game-6a3867d40ea0249fa7a978fbcbaa7d251841d73bab621f68f7a5cc022796dc65",
+      "snapshots": {
+        "10": {
+          "turn": 10,
+          "buildings": {
+            "Y": 7,
+            "K": 5
+          },
+          "F": {
+            "Y": 6,
+            "K": 3
+          },
+          "W": {
+            "Y": 22,
+            "K": 28
+          },
+          "Y_resource": 13,
+          "Y_public_score": 16
+        },
+        "20": {
+          "turn": 20,
+          "buildings": {
+            "Y": 10,
+            "K": 4
+          },
+          "F": {
+            "Y": 5,
+            "K": 3
+          },
+          "W": {
+            "Y": 41,
+            "K": 54
+          },
+          "Y_resource": 17,
+          "Y_public_score": 20
+        },
+        "30": {
+          "turn": 30,
+          "buildings": {
+            "Y": 8,
+            "K": 5
+          },
+          "F": {
+            "Y": 5,
+            "K": 3
+          },
+          "W": {
+            "Y": 21,
+            "K": 57
+          },
+          "Y_resource": 15,
+          "Y_public_score": 16
+        },
+        "40": {
+          "turn": 40,
+          "buildings": {
+            "Y": 6,
+            "K": 8
+          },
+          "F": {
+            "Y": 4,
+            "K": 3
+          },
+          "W": {
+            "Y": 0,
+            "K": 85
+          },
+          "Y_resource": 12,
+          "Y_public_score": 13
+        }
+      },
+      "diagnostics": {
+        "estimated_lost_F": 83,
+        "owned_lost": 12,
+        "first_big_reversal": [
+          39,
+          "buildings"
+        ],
+        "first_W_reversal": null,
+        "first_building_reversal": 39,
+        "threatened_F": 127,
+        "escorted_F": 56,
+        "threatened_owned_sites": 229,
+        "guarded_owned_sites": 31,
+        "unguarded_examples": [
+          [
+            20,
+            0,
+            7,
+            7
+          ],
+          [
+            20,
+            2,
+            12,
+            2
+          ],
+          [
+            20,
+            3,
+            3,
+            4
+          ],
+          [
+            20,
+            5,
+            1,
+            10
+          ],
+          [
+            20,
+            12,
+            5,
+            5
+          ]
+        ]
+      },
+      "counterfactual": {
+        "21": {
+          "v3": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 5 U"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 5",
+              "MOVE 5 9 F 1 D",
+              "MOVE 4 8 F 1 D",
+              "MOVE 3 8 F 1 R",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 5 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 10 13 4"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 3 U"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 3",
+              "MOVE 5 9 F 1 D",
+              "MOVE 4 8 F 1 D",
+              "MOVE 3 8 F 1 R",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 4 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 3 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 10 13 4"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 4 3 W 2 D",
+              "MOVE 5 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 4 9 W 5 R",
+              "MOVE 4 9 W 1 R",
+              "MOVE 5 10 W 2 U",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 3",
+              "MOVE 5 9 F 1 D",
+              "MOVE 4 8 F 1 D",
+              "MOVE 3 8 F 1 R",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 4 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 3 W 2 D",
+              "MOVE 5 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 4 9 W 5 R",
+              "MOVE 4 9 W 1 R",
+              "MOVE 5 10 W 2 U",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 10 13 4"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 5 U"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 5",
+              "MOVE 5 9 F 1 D",
+              "MOVE 4 8 F 1 D",
+              "MOVE 3 8 F 1 R",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 3 W 2 R",
+              "MOVE 5 3 W 7 R",
+              "MOVE 6 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 12 4 W 2 U",
+              "MOVE 4 9 W 6 R",
+              "MOVE 5 10 W 2 D",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 5 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 10 13 4"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 3 W 2 D",
+              "MOVE 5 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 4 9 W 5 R",
+              "MOVE 4 9 W 1 R",
+              "MOVE 5 10 W 2 U",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 1 U"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 5",
+              "MOVE 5 9 F 1 D",
+              "MOVE 4 8 F 1 D",
+              "MOVE 3 8 F 1 R",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 3 W 2 D",
+              "MOVE 5 3 W 7 R",
+              "MOVE 11 3 W 4 R",
+              "MOVE 11 4 W 3 U",
+              "MOVE 4 9 W 5 R",
+              "MOVE 4 9 W 1 R",
+              "MOVE 5 10 W 2 U",
+              "MOVE 4 13 W 3 D",
+              "MOVE 6 13 W 5 D",
+              "MOVE 4 4 W 1 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 10 13 4"
+            ]
+          }
+        },
+        "30": {
+          "v3": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 1"
+            ],
+            "warrior_moves": [
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D",
+              "MOVE 4 4 W 1 D"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 1",
+              "MOVE 5 3 F 1 R",
+              "MOVE 4 8 F 1 D",
+              "MOVE 4 3 F 1 R",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 4 F 1 D",
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D",
+              "MOVE 4 4 W 1 D",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 3 6 10 13 4 12 2"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 3"
+            ],
+            "warrior_moves": [
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D"
+            ],
+            "commands": [
+              "SPAWN F 3",
+              "MOVE 5 3 F 1 R",
+              "MOVE 4 8 F 1 D",
+              "MOVE 4 3 F 1 R",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 4 F 1 D",
+              "MOVE 4 4 F 1 D",
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 3 6 10 13 4 12 2"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 3"
+            ],
+            "warrior_moves": [
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 6 W 3 U",
+              "MOVE 4 7 W 4 D",
+              "MOVE 4 7 W 1 D",
+              "MOVE 6 9 W 1 U"
+            ],
+            "commands": [
+              "SPAWN F 3",
+              "MOVE 5 3 F 1 R",
+              "MOVE 4 8 F 1 D",
+              "MOVE 4 3 F 1 R",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 4 F 1 U",
+              "MOVE 4 4 F 1 D",
+              "MOVE 4 4 F 1 D",
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 6 W 3 U",
+              "MOVE 4 7 W 4 D",
+              "MOVE 4 7 W 1 D",
+              "MOVE 6 9 W 1 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 3 6 10 13 4 12 2"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 4"
+            ],
+            "warrior_moves": [
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D",
+              "MOVE 4 4 W 4 D"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 4",
+              "MOVE 5 3 F 1 R",
+              "MOVE 4 8 F 1 D",
+              "MOVE 4 3 F 1 R",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 4 F 1 U",
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 3 W 1 D",
+              "MOVE 4 6 W 3 D",
+              "MOVE 4 7 W 5 D",
+              "MOVE 6 9 W 1 D",
+              "MOVE 4 4 W 4 D",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 3 6 10 13 4 12 2"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 4"
+            ],
+            "warrior_moves": [
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 6 W 3 U",
+              "MOVE 4 7 W 4 D",
+              "MOVE 4 7 W 1 D",
+              "MOVE 6 9 W 1 U"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 4",
+              "MOVE 5 3 F 1 R",
+              "MOVE 4 8 F 1 D",
+              "MOVE 4 3 F 1 R",
+              "MOVE 4 5 F 1 D",
+              "MOVE 4 4 F 1 U",
+              "MOVE 12 1 W 6 D",
+              "MOVE 7 2 W 2 D",
+              "MOVE 8 2 W 1 D",
+              "MOVE 10 2 W 1 D",
+              "MOVE 12 2 W 7 D",
+              "MOVE 4 6 W 3 U",
+              "MOVE 4 7 W 4 D",
+              "MOVE 4 7 W 1 D",
+              "MOVE 6 9 W 1 U",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 6 3 6 10 13 4 12 2"
+            ]
+          }
+        },
+        "40": {
+          "v3": {
+            "spawn": [
+              "SPAWN F 2"
+            ],
+            "warrior_moves": [
+              "MOVE 13 6 W 3 L"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "MOVE 5 4 F 1 R",
+              "MOVE 3 8 F 1 L",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 4 F 1 R",
+              "MOVE 4 4 F 1 D",
+              "MOVE 13 6 W 3 L",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 8 4 6 10 1 10 13 4 2 12 12 2"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 2"
+            ],
+            "warrior_moves": [
+              "MOVE 13 6 W 3 L"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "MOVE 5 4 F 1 R",
+              "MOVE 3 8 F 1 L",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 4 F 1 R",
+              "MOVE 4 4 F 1 D",
+              "MOVE 13 6 W 3 L",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 8 4 6 10 1 10 13 4 2 12 12 2"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 2"
+            ],
+            "warrior_moves": [],
+            "commands": [
+              "SPAWN F 2",
+              "MOVE 5 4 F 1 R",
+              "MOVE 3 8 F 1 L",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 4 F 1 R",
+              "MOVE 4 4 F 1 D",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 8 4 6 10 1 10 13 4 2 12 12 2"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 13 6 W 3 L",
+              "MOVE 4 4 W 3 R"
+            ],
+            "commands": [
+              "SPAWN W 3",
+              "MOVE 5 4 F 1 R",
+              "MOVE 3 8 F 1 L",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 6 F 1 D",
+              "MOVE 13 6 W 3 L",
+              "MOVE 4 4 W 3 R",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 8 4 6 10 1 10 13 4 2 12 12 2"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 4 4 W 3 R"
+            ],
+            "commands": [
+              "SPAWN W 3",
+              "MOVE 5 4 F 1 R",
+              "MOVE 3 8 F 1 L",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 6 F 1 D",
+              "MOVE 4 4 W 3 R",
+              "PRIORITY 11 10 14 14 11 12 9 9 8 11 8 4 6 10 1 10 13 4 2 12 12 2"
+            ]
+          }
+        }
+      }
+    },
+    "34": {
+      "file": "34_태호랑이_4b834fdd.json",
+      "gameId": "rolling-game-4b834fdd17cb9a48e37fd26b20f79a04d5ad1f9e99ed3fab7838df8d6b55c73f",
+      "snapshots": {
+        "10": {
+          "turn": 10,
+          "buildings": {
+            "Y": 7,
+            "K": 4
+          },
+          "F": {
+            "Y": 6,
+            "K": 13
+          },
+          "W": {
+            "Y": 26,
+            "K": 15
+          },
+          "Y_resource": 17,
+          "Y_public_score": 15
+        },
+        "20": {
+          "turn": 20,
+          "buildings": {
+            "Y": 8,
+            "K": 8
+          },
+          "F": {
+            "Y": 6,
+            "K": 12
+          },
+          "W": {
+            "Y": 84,
+            "K": 72
+          },
+          "Y_resource": 14,
+          "Y_public_score": 17
+        },
+        "30": {
+          "turn": 30,
+          "buildings": {
+            "Y": 7,
+            "K": 9
+          },
+          "F": {
+            "Y": 6,
+            "K": 16
+          },
+          "W": {
+            "Y": 81,
+            "K": 80
+          },
+          "Y_resource": 12,
+          "Y_public_score": 17
+        },
+        "40": {
+          "turn": 40,
+          "buildings": {
+            "Y": 6,
+            "K": 10
+          },
+          "F": {
+            "Y": 5,
+            "K": 17
+          },
+          "W": {
+            "Y": 61,
+            "K": 77
+          },
+          "Y_resource": 17,
+          "Y_public_score": 11
+        }
+      },
+      "diagnostics": {
+        "estimated_lost_F": 114,
+        "owned_lost": 33,
+        "first_big_reversal": [
+          30,
+          "buildings"
+        ],
+        "first_W_reversal": 37,
+        "first_building_reversal": 30,
+        "threatened_F": 374,
+        "escorted_F": 129,
+        "threatened_owned_sites": 410,
+        "guarded_owned_sites": 98,
+        "unguarded_examples": [
+          [
+            21,
+            11,
+            7,
+            9
+          ],
+          [
+            22,
+            11,
+            7,
+            9
+          ],
+          [
+            22,
+            14,
+            7,
+            8
+          ],
+          [
+            23,
+            0,
+            7,
+            7
+          ],
+          [
+            23,
+            11,
+            7,
+            9
+          ]
+        ]
+      },
+      "counterfactual": {
+        "20": {
+          "v3": {
+            "spawn": [
+              "SPAWN W 13 2 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 16 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L"
+            ],
+            "commands": [
+              "SPAWN W 13 2 5",
+              "MOVE 8 12 F 1 R",
+              "MOVE 4 5 F 1 R",
+              "MOVE 6 7 F 1 D",
+              "MOVE 2 8 F 1 D",
+              "MOVE 5 2 F 1 R",
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 16 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L",
+              "PRIORITY 7 6 7 8 14 1 12 5 12 9 14 7 7 5 9 12 10 8"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5",
+              "MOVE 8 12 F 1 R",
+              "MOVE 4 5 F 1 R",
+              "MOVE 6 7 F 1 D",
+              "MOVE 2 8 F 1 D",
+              "MOVE 5 2 F 1 R",
+              "MOVE 2 5 F 1 R",
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L",
+              "PRIORITY 7 6 7 8 14 1 12 5 12 9 14 7 7 5 9 12 10 8"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 D",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 U",
+              "MOVE 4 8 W 1 U",
+              "MOVE 5 8 W 5 U",
+              "MOVE 6 8 W 7 U",
+              "MOVE 8 8 W 1 U"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5",
+              "MOVE 8 12 F 1 R",
+              "MOVE 4 5 F 1 R",
+              "MOVE 6 7 F 1 D",
+              "MOVE 2 8 F 1 D",
+              "MOVE 5 2 F 1 R",
+              "MOVE 2 5 F 1 R",
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 D",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 U",
+              "MOVE 4 8 W 1 U",
+              "MOVE 5 8 W 5 U",
+              "MOVE 6 8 W 7 U",
+              "MOVE 8 8 W 1 U",
+              "PRIORITY 7 6 7 8 14 1 12 5 12 9 14 7 7 5 9 12 10 8"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5",
+              "MOVE 8 12 F 1 R",
+              "MOVE 4 5 F 1 R",
+              "MOVE 6 7 F 1 D",
+              "MOVE 2 8 F 1 D",
+              "MOVE 5 2 F 1 R",
+              "MOVE 2 5 F 1 R",
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 R",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 R",
+              "MOVE 4 8 W 1 R",
+              "MOVE 5 8 W 5 R",
+              "MOVE 6 8 W 7 R",
+              "MOVE 8 8 W 1 L",
+              "PRIORITY 7 6 7 8 14 1 12 5 12 9 14 7 7 5 9 12 10 8"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5"
+            ],
+            "warrior_moves": [
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 D",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 U",
+              "MOVE 4 8 W 1 U",
+              "MOVE 5 8 W 5 U",
+              "MOVE 6 8 W 7 U",
+              "MOVE 8 8 W 1 U"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 11 2 5",
+              "MOVE 8 12 F 1 R",
+              "MOVE 4 5 F 1 R",
+              "MOVE 6 7 F 1 D",
+              "MOVE 2 8 F 1 D",
+              "MOVE 5 2 F 1 R",
+              "MOVE 2 5 F 1 R",
+              "MOVE 4 2 W 6 R",
+              "MOVE 5 2 W 10 R",
+              "MOVE 6 2 W 5 D",
+              "MOVE 2 5 W 14 R",
+              "MOVE 3 5 W 10 R",
+              "MOVE 4 5 W 6 D",
+              "MOVE 2 8 W 6 R",
+              "MOVE 3 8 W 11 U",
+              "MOVE 4 8 W 1 U",
+              "MOVE 5 8 W 5 U",
+              "MOVE 6 8 W 7 U",
+              "MOVE 8 8 W 1 U",
+              "PRIORITY 7 6 7 8 14 1 12 5 12 9 14 7 7 5 9 12 10 8"
+            ]
+          }
+        },
+        "30": {
+          "v3": {
+            "spawn": [
+              "SPAWN F 1",
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 3 D"
+            ],
+            "commands": [
+              "SPAWN F 1",
+              "SPAWN W 3",
+              "MOVE 6 8 F 1 R",
+              "MOVE 1 8 F 1 D",
+              "MOVE 4 9 F 1 R",
+              "MOVE 3 8 F 1 R",
+              "MOVE 2 9 F 1 R",
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 3 D",
+              "PRIORITY 7 8 14 1 12 5 12 9 14 7 7 9 9 12 10 8 0 13"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 1"
+            ],
+            "warrior_moves": [
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 1 D"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 1",
+              "MOVE 6 8 F 1 R",
+              "MOVE 1 8 F 1 D",
+              "MOVE 1 8 F 1 U",
+              "MOVE 4 9 F 1 R",
+              "MOVE 3 8 F 1 R",
+              "MOVE 2 9 F 1 R",
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 1 D",
+              "PRIORITY 7 8 14 1 12 5 12 9 14 7 7 9 9 12 10 8 0 13"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 1"
+            ],
+            "warrior_moves": [
+              "MOVE 1 9 W 3 U",
+              "MOVE 1 10 W 2 U",
+              "MOVE 3 10 W 3 U",
+              "MOVE 4 10 W 15 U",
+              "MOVE 4 10 W 6 D",
+              "MOVE 5 10 W 18 U",
+              "MOVE 5 10 W 14 D",
+              "MOVE 6 10 W 17 U"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 1",
+              "MOVE 6 8 F 1 R",
+              "MOVE 1 8 F 1 D",
+              "MOVE 1 8 F 1 U",
+              "MOVE 4 9 F 1 R",
+              "MOVE 3 8 F 1 R",
+              "MOVE 2 9 F 1 R",
+              "MOVE 1 9 W 3 U",
+              "MOVE 1 10 W 2 U",
+              "MOVE 3 10 W 3 U",
+              "MOVE 4 10 W 15 U",
+              "MOVE 4 10 W 6 D",
+              "MOVE 5 10 W 18 U",
+              "MOVE 5 10 W 14 D",
+              "MOVE 6 10 W 17 U",
+              "PRIORITY 7 8 14 1 12 5 12 9 14 7 7 9 9 12 10 8 0 13"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 1"
+            ],
+            "warrior_moves": [
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 1 D"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 1",
+              "MOVE 6 8 F 1 R",
+              "MOVE 1 8 F 1 D",
+              "MOVE 1 8 F 1 U",
+              "MOVE 4 9 F 1 R",
+              "MOVE 3 8 F 1 R",
+              "MOVE 2 9 F 1 R",
+              "MOVE 1 9 W 3 D",
+              "MOVE 1 10 W 2 D",
+              "MOVE 3 10 W 3 D",
+              "MOVE 4 10 W 21 D",
+              "MOVE 5 10 W 32 D",
+              "MOVE 6 10 W 17 D",
+              "MOVE 1 8 W 1 D",
+              "PRIORITY 7 8 14 1 12 5 12 9 14 7 7 9 9 12 10 8 0 13"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN F 2",
+              "SPAWN W 1"
+            ],
+            "warrior_moves": [
+              "MOVE 1 9 W 3 U",
+              "MOVE 1 10 W 2 U",
+              "MOVE 3 10 W 3 U",
+              "MOVE 4 10 W 15 U",
+              "MOVE 4 10 W 6 D",
+              "MOVE 5 10 W 18 U",
+              "MOVE 5 10 W 14 D",
+              "MOVE 6 10 W 17 U"
+            ],
+            "commands": [
+              "SPAWN F 2",
+              "SPAWN W 1",
+              "MOVE 6 8 F 1 R",
+              "MOVE 1 8 F 1 D",
+              "MOVE 1 8 F 1 U",
+              "MOVE 4 9 F 1 R",
+              "MOVE 3 8 F 1 R",
+              "MOVE 2 9 F 1 R",
+              "MOVE 1 9 W 3 U",
+              "MOVE 1 10 W 2 U",
+              "MOVE 3 10 W 3 U",
+              "MOVE 4 10 W 15 U",
+              "MOVE 4 10 W 6 D",
+              "MOVE 5 10 W 18 U",
+              "MOVE 5 10 W 14 D",
+              "MOVE 6 10 W 17 U",
+              "PRIORITY 7 8 14 1 12 5 12 9 14 7 7 9 9 12 10 8 0 13"
+            ]
+          }
+        },
+        "40": {
+          "v3": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 3"
+            ],
+            "warrior_moves": [
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 3 D"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 3",
+              "MOVE 6 8 F 1 R",
+              "MOVE 5 5 F 1 R",
+              "MOVE 3 6 F 1 R",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 12 F 1 R",
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 3 D",
+              "PRIORITY 7 6 7 8 7 7 14 1 12 5 12 9 14 7 7 9 7 5 9 12 10 8"
+            ]
+          },
+          "cap7": {
+            "spawn": [
+              "SPAWN F 2 2 5",
+              "SPAWN W 2"
+            ],
+            "warrior_moves": [
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 2 D"
+            ],
+            "commands": [
+              "SPAWN F 2 2 5",
+              "SPAWN W 2",
+              "MOVE 6 8 F 1 R",
+              "MOVE 5 5 F 1 R",
+              "MOVE 3 6 F 1 R",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 12 F 1 R",
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 2 D",
+              "PRIORITY 7 6 7 8 7 7 14 1 12 5 12 9 14 7 7 9 7 5 9 12 10 8"
+            ]
+          },
+          "defense": {
+            "spawn": [
+              "SPAWN F 2 2 5",
+              "SPAWN W 2"
+            ],
+            "warrior_moves": [
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 D",
+              "MOVE 6 7 W 5 D",
+              "MOVE 0 9 W 3 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 2 D"
+            ],
+            "commands": [
+              "SPAWN F 2 2 5",
+              "SPAWN W 2",
+              "MOVE 6 8 F 1 R",
+              "MOVE 5 5 F 1 R",
+              "MOVE 3 6 F 1 R",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 12 F 1 R",
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 D",
+              "MOVE 6 7 W 5 D",
+              "MOVE 0 9 W 3 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 2 D",
+              "PRIORITY 7 6 7 8 7 7 14 1 12 5 12 9 14 7 7 9 7 5 9 12 10 8"
+            ]
+          },
+          "adaptive": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 4"
+            ],
+            "warrior_moves": [
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 4 D"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 4",
+              "MOVE 6 8 F 1 R",
+              "MOVE 5 5 F 1 R",
+              "MOVE 3 6 F 1 R",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 12 F 1 R",
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 U",
+              "MOVE 5 7 W 3 U",
+              "MOVE 6 7 W 5 U",
+              "MOVE 0 9 W 3 R",
+              "MOVE 1 9 W 4 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 4 D",
+              "PRIORITY 7 6 7 8 7 7 14 1 12 5 12 9 14 7 7 9 7 5 9 12 10 8"
+            ]
+          },
+          "combined": {
+            "spawn": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 4"
+            ],
+            "warrior_moves": [
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 D",
+              "MOVE 6 7 W 5 D",
+              "MOVE 0 9 W 3 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 4 D"
+            ],
+            "commands": [
+              "SPAWN F 1 2 5",
+              "SPAWN W 4",
+              "MOVE 6 8 F 1 R",
+              "MOVE 5 5 F 1 R",
+              "MOVE 3 6 F 1 R",
+              "MOVE 2 5 F 1 D",
+              "MOVE 2 12 F 1 R",
+              "MOVE 3 5 W 6 D",
+              "MOVE 4 5 W 3 D",
+              "MOVE 5 5 W 5 D",
+              "MOVE 6 5 W 4 D",
+              "MOVE 7 6 W 3 D",
+              "MOVE 6 7 W 5 D",
+              "MOVE 0 9 W 3 R",
+              "MOVE 3 13 W 3 U",
+              "MOVE 5 13 W 21 U",
+              "MOVE 5 14 W 2 U",
+              "MOVE 1 8 W 4 D",
+              "PRIORITY 7 6 7 8 7 7 14 1 12 5 12 9 14 7 7 9 7 5 9 12 10 8"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "limitation": "Candidate commands are isolated decisions on v3 observations; opponent code and original seed are unavailable."
+}

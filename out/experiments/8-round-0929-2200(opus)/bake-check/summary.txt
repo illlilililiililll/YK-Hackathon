@@ -1,0 +1,3 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+eg20baked     eg20env     K     20    0-20-0     0.0         0        0   0      6      0
+eg20baked     eg20env     Y     20    0-20-0     0.0         0        0   0     10      0

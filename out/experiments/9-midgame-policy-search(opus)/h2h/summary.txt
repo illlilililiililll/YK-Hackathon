@@ -1,0 +1,2 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+nofar         eg20frozen  Y    200  124-0-76     4.5       190       95   0     20     16

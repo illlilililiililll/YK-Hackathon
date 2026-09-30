@@ -1,0 +1,258 @@
+{
+  "train_seeds": [
+    700,
+    701,
+    702,
+    703
+  ],
+  "holdout_seeds": [
+    800,
+    801,
+    802,
+    803,
+    804,
+    805,
+    806,
+    807
+  ],
+  "settings": {
+    "cap7": {
+      "cap": 7,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap5-zero": {
+      "cap": 5,
+      "reserve": 0,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap6-zero": {
+      "cap": 6,
+      "reserve": 0,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap5-low": {
+      "cap": 5,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap6-low": {
+      "cap": 6,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    }
+  },
+  "train": {
+    "cap7": {
+      "games": 24,
+      "wins": 14,
+      "draws": 0,
+      "losses": 10,
+      "points": 14,
+      "score_diff": 7.46,
+      "at20_buildings": 8.17,
+      "at20_value": 220.21,
+      "forfeits": 0,
+      "max_ms": 28.356,
+      "max_bytes": 511,
+      "max_lines": 33
+    },
+    "cap5-zero": {
+      "games": 24,
+      "wins": 12,
+      "draws": 0,
+      "losses": 12,
+      "points": 12,
+      "score_diff": 2.46,
+      "at20_buildings": 7.42,
+      "at20_value": 223.83,
+      "forfeits": 0,
+      "max_ms": 28.522,
+      "max_bytes": 481,
+      "max_lines": 29
+    },
+    "cap6-zero": {
+      "games": 24,
+      "wins": 14,
+      "draws": 0,
+      "losses": 10,
+      "points": 14,
+      "score_diff": 7.25,
+      "at20_buildings": 7.88,
+      "at20_value": 220.46,
+      "forfeits": 0,
+      "max_ms": 24.017,
+      "max_bytes": 485,
+      "max_lines": 30
+    },
+    "cap5-low": {
+      "games": 24,
+      "wins": 17,
+      "draws": 0,
+      "losses": 7,
+      "points": 17,
+      "score_diff": 7.92,
+      "at20_buildings": 8,
+      "at20_value": 223.79,
+      "forfeits": 0,
+      "max_ms": 21.466,
+      "max_bytes": 490,
+      "max_lines": 29
+    },
+    "cap6-low": {
+      "games": 24,
+      "wins": 17,
+      "draws": 0,
+      "losses": 7,
+      "points": 17,
+      "score_diff": 10.54,
+      "at20_buildings": 7.92,
+      "at20_value": 217.5,
+      "forfeits": 0,
+      "max_ms": 31.245,
+      "max_bytes": 484,
+      "max_lines": 30
+    }
+  },
+  "selected_for_holdout": "cap6-low",
+  "holdout": {
+    "cap7": {
+      "Y": {
+        "games": 48,
+        "wins": 31,
+        "draws": 0,
+        "losses": 17,
+        "points": 31,
+        "score_diff": 7.04,
+        "at20_buildings": 8.62,
+        "at20_value": 223.73,
+        "forfeits": 0,
+        "max_ms": 31.62,
+        "max_bytes": 546,
+        "max_lines": 33
+      },
+      "K": {
+        "games": 12,
+        "wins": 10,
+        "draws": 0,
+        "losses": 2,
+        "points": 10,
+        "score_diff": 12.17,
+        "at20_buildings": 8.92,
+        "at20_value": 239.42,
+        "forfeits": 0,
+        "max_ms": 19.675,
+        "max_bytes": 564,
+        "max_lines": 35
+      }
+    },
+    "cap6-low": {
+      "Y": {
+        "games": 48,
+        "wins": 32,
+        "draws": 0,
+        "losses": 16,
+        "points": 32,
+        "score_diff": 7.79,
+        "at20_buildings": 8.5,
+        "at20_value": 226.4,
+        "forfeits": 0,
+        "max_ms": 30.291,
+        "max_bytes": 532,
+        "max_lines": 33
+      },
+      "K": {
+        "games": 12,
+        "wins": 9,
+        "draws": 0,
+        "losses": 3,
+        "points": 9,
+        "score_diff": 13.67,
+        "at20_buildings": 8.83,
+        "at20_value": 242.92,
+        "forfeits": 0,
+        "max_ms": 25.356,
+        "max_bytes": 541,
+        "max_lines": 34
+      }
+    }
+  },
+  "unseen_diagnostic": {
+    "cap7": {
+      "Y": {
+        "games": 8,
+        "wins": 8,
+        "draws": 0,
+        "losses": 0,
+        "points": 8,
+        "score_diff": 19.38,
+        "at20_buildings": 9.25,
+        "at20_value": 226,
+        "forfeits": 0,
+        "max_ms": 22.621,
+        "max_bytes": 500,
+        "max_lines": 31
+      },
+      "K": {
+        "games": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "points": 2,
+        "score_diff": 13,
+        "at20_buildings": 9.5,
+        "at20_value": 238,
+        "forfeits": 0,
+        "max_ms": 32.559,
+        "max_bytes": 549,
+        "max_lines": 34
+      }
+    },
+    "cap6-low": {
+      "Y": {
+        "games": 8,
+        "wins": 6,
+        "draws": 0,
+        "losses": 2,
+        "points": 6,
+        "score_diff": 10.75,
+        "at20_buildings": 9,
+        "at20_value": 224.38,
+        "forfeits": 0,
+        "max_ms": 27.217,
+        "max_bytes": 479,
+        "max_lines": 30
+      },
+      "K": {
+        "games": 2,
+        "wins": 2,
+        "draws": 0,
+        "losses": 0,
+        "points": 2,
+        "score_diff": 4.5,
+        "at20_buildings": 9,
+        "at20_value": 242,
+        "forfeits": 0,
+        "max_ms": 19.256,
+        "max_bytes": 485,
+        "max_lines": 30
+      }
+    }
+  },
+  "adopt": false
+}

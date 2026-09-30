@@ -1,0 +1,2 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep         indepmirror Y     30    0-30-0     0.0         0        0   0     11      0

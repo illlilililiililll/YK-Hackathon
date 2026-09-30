@@ -1,0 +1,132 @@
+[
+  {
+    "policy": "v3",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 11,
+        "K": 24
+      },
+      "turns": 160,
+      "seed": 600
+    }
+  },
+  {
+    "policy": "cap7",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 600
+    }
+  },
+  {
+    "policy": "v3",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 19,
+        "K": 16
+      },
+      "turns": 160,
+      "seed": 601
+    }
+  },
+  {
+    "policy": "cap7",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 9,
+        "K": 25
+      },
+      "turns": 160,
+      "seed": 601
+    }
+  },
+  {
+    "policy": "v3",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 29,
+        "K": 2
+      },
+      "turns": 160,
+      "seed": 602
+    }
+  },
+  {
+    "policy": "cap7",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 8,
+        "K": 21
+      },
+      "turns": 160,
+      "seed": 602
+    }
+  },
+  {
+    "policy": "v3",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 118,
+      "seed": 603
+    }
+  },
+  {
+    "policy": "cap7",
+    "result": {
+      "winner": "K",
+      "reason": "instant",
+      "score": {
+        "Y": 0,
+        "K": 32
+      },
+      "turns": 69,
+      "seed": 603
+    }
+  },
+  {
+    "policy": "v3",
+    "result": {
+      "winner": "Y",
+      "reason": "score",
+      "score": {
+        "Y": 15,
+        "K": 12
+      },
+      "turns": 160,
+      "seed": 604
+    }
+  },
+  {
+    "policy": "cap7",
+    "result": {
+      "winner": "K",
+      "reason": "score",
+      "score": {
+        "Y": 14,
+        "K": 17
+      },
+      "turns": 160,
+      "seed": 604
+    }
+  }
+]

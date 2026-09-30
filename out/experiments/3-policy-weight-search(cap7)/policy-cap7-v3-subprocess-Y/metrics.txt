@@ -1,0 +1,1 @@
+policy-cap7-v3-subprocess-Y {'win': 5, 'draw': 0, 'loss': 5, 'forfeit': 0, 'max_turn_ms': 529.27} score 18.4 t20 buildings/value (7.8, 202.8) final buildings/value (8.7, 392.6)

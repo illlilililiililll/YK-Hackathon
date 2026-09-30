@@ -115,4 +115,4 @@ KiB는 1024바이트, MiB는 1024 KiB입니다. 디버그 로그는 stderr의 �
 
 ## 대회 서버 운영
 
-[플랫폼 운영 안내](../../../docs/PLATFORM_OPERATIONS.md)를 확인하세요.
+[플랫폼 운영 안내](../../../README.md#platform-notes-and-kit-provenance)를 확인하세요.

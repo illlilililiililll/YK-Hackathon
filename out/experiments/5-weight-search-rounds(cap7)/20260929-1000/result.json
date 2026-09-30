@@ -1,0 +1,216 @@
+{
+  "train_seeds": [
+    1100,
+    1101,
+    1102
+  ],
+  "holdout_seeds": [
+    1200,
+    1201,
+    1202,
+    1203,
+    1204,
+    1205
+  ],
+  "settings": {
+    "cap7": {
+      "cap": 7,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "cap5-low": {
+      "cap": 5,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 4
+    },
+    "danger6": {
+      "cap": 7,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 2,
+      "danger": 6
+    },
+    "bonus3": {
+      "cap": 7,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 1,
+      "bonus": 3,
+      "danger": 4
+    },
+    "score-half": {
+      "cap": 7,
+      "reserve": 1,
+      "plaza_reserve": 0,
+      "score": 0.5,
+      "bonus": 2,
+      "danger": 4
+    }
+  },
+  "train": {
+    "cap7": {
+      "games": 21,
+      "wins": 12,
+      "draws": 0,
+      "losses": 9,
+      "points": 12,
+      "score_diff": 2.71,
+      "at20_buildings": 8.95,
+      "at20_value": 199.76,
+      "forfeits": 0,
+      "max_ms": 49.845,
+      "max_bytes": 524,
+      "max_lines": 33
+    },
+    "cap5-low": {
+      "games": 21,
+      "wins": 12,
+      "draws": 0,
+      "losses": 9,
+      "points": 12,
+      "score_diff": 4.76,
+      "at20_buildings": 8.48,
+      "at20_value": 202.62,
+      "forfeits": 0,
+      "max_ms": 28.001,
+      "max_bytes": 458,
+      "max_lines": 28
+    },
+    "danger6": {
+      "games": 21,
+      "wins": 12,
+      "draws": 0,
+      "losses": 9,
+      "points": 12,
+      "score_diff": 6.62,
+      "at20_buildings": 8.86,
+      "at20_value": 205.43,
+      "forfeits": 0,
+      "max_ms": 25.616,
+      "max_bytes": 467,
+      "max_lines": 29
+    },
+    "bonus3": {
+      "games": 21,
+      "wins": 12,
+      "draws": 0,
+      "losses": 9,
+      "points": 12,
+      "score_diff": 2.38,
+      "at20_buildings": 8.86,
+      "at20_value": 205.48,
+      "forfeits": 0,
+      "max_ms": 18.945,
+      "max_bytes": 472,
+      "max_lines": 29
+    },
+    "score-half": {
+      "games": 21,
+      "wins": 15,
+      "draws": 0,
+      "losses": 6,
+      "points": 15,
+      "score_diff": 8.76,
+      "at20_buildings": 9.05,
+      "at20_value": 202.38,
+      "forfeits": 0,
+      "max_ms": 47.856,
+      "max_bytes": 524,
+      "max_lines": 32
+    }
+  },
+  "selected_for_holdout": "score-half",
+  "adopt": false,
+  "holdout": {
+    "cap7": {
+      "Y": {
+        "games": 48,
+        "wins": 26,
+        "draws": 0,
+        "losses": 22,
+        "points": 26,
+        "score_diff": 3.35,
+        "at20_buildings": 8.35,
+        "at20_value": 214.42,
+        "forfeits": 0,
+        "max_ms": 37.161,
+        "max_bytes": 523,
+        "max_lines": 32
+      },
+      "K": {
+        "games": 16,
+        "wins": 9,
+        "draws": 0,
+        "losses": 7,
+        "points": 9,
+        "score_diff": 6,
+        "at20_buildings": 8.69,
+        "at20_value": 235,
+        "forfeits": 0,
+        "max_ms": 35.95,
+        "max_bytes": 544,
+        "max_lines": 33
+      }
+    },
+    "score-half": {
+      "Y": {
+        "games": 48,
+        "wins": 23,
+        "draws": 0,
+        "losses": 25,
+        "points": 23,
+        "score_diff": 3.19,
+        "at20_buildings": 8.38,
+        "at20_value": 215.08,
+        "forfeits": 0,
+        "max_ms": 28.097,
+        "max_bytes": 545,
+        "max_lines": 35
+      },
+      "K": {
+        "games": 16,
+        "wins": 9,
+        "draws": 0,
+        "losses": 7,
+        "points": 9,
+        "score_diff": 7.69,
+        "at20_buildings": 7.94,
+        "at20_value": 232.94,
+        "forfeits": 0,
+        "max_ms": 24.83,
+        "max_bytes": 544,
+        "max_lines": 33
+      }
+    }
+  },
+  "holdout_by_opponent": {
+    "cap7": {
+      "v2": 4,
+      "v3": 1,
+      "cap7": 2,
+      "g1-safe-goal": 1,
+      "fast-attack": 4,
+      "slow-defense": 3,
+      "lv2": 6,
+      "unseen-mixed": 5
+    },
+    "score-half": {
+      "v2": 2,
+      "v3": 4,
+      "cap7": 1,
+      "g1-safe-goal": 1,
+      "fast-attack": 3,
+      "slow-defense": 3,
+      "lv2": 6,
+      "unseen-mixed": 3
+    }
+  },
+  "games": 233
+}

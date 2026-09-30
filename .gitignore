@@ -1,0 +1,32 @@
+# Python bytecode caches (some were tracked before; they are removed from the index)
+__pycache__/
+*.py[cod]
+
+# Temporary, editor and OS files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Claude Code / agent scratch (worktrees, local settings)
+.claude/
+
+# Local bulk match output - reproducible with the commands in out/experiments/*/README.md
+# * replays of local runs: Codex runs write seed-N.json, Claude runs write *.json.gz, both under a "replays/" folder
+out/experiments/**/replays/
+# * default output folder of the evaluation tools
+out/experiments/local-runs/
+# * scratch folders for temporary candidate variants (documented in the READMEs) and scratch submission ZIPs
+#   (the kit's examples write out/submission-python.zip); kept submission ZIPs live in model folders
+/out/_scratch*/
+/out/*.zip
+# * generated replay / result dumps of the kit's own tools (play_local.py and runner/cli.py defaults)
+/out/local-replay.json
+/out/replay.json
+/out/result.json
+
+# NOT ignored on purpose: out/official-replays/ (official originals), */failures/ and 6-decision-policies(cap7)/cases/ (selected failure cases),
+# every summary.json / metrics.txt / results.jsonl / games.jsonl / result.json, and the model ZIPs.

@@ -1,0 +1,89 @@
+﻿{
+  "ok": true,
+  "language": "python",
+  "issues": [],
+  "result": {
+    "winner": "Y",
+    "reason": "instant",
+    "score": {
+      "Y": 21,
+      "K": 0
+    },
+    "turns": 12,
+    "seed": 52
+  },
+  "output_usage": {
+    "stdout_bytes": 2157,
+    "stderr_bytes": 0,
+    "max_line_bytes": 37,
+    "turns": [
+      {
+        "turn": 1,
+        "bytes": 29,
+        "lines": 3
+      },
+      {
+        "turn": 2,
+        "bytes": 44,
+        "lines": 4
+      },
+      {
+        "turn": 3,
+        "bytes": 74,
+        "lines": 6
+      },
+      {
+        "turn": 4,
+        "bytes": 119,
+        "lines": 9
+      },
+      {
+        "turn": 5,
+        "bytes": 149,
+        "lines": 11
+      },
+      {
+        "turn": 6,
+        "bytes": 181,
+        "lines": 13
+      },
+      {
+        "turn": 7,
+        "bytes": 196,
+        "lines": 14
+      },
+      {
+        "turn": 8,
+        "bytes": 211,
+        "lines": 15
+      },
+      {
+        "turn": 9,
+        "bytes": 242,
+        "lines": 17
+      },
+      {
+        "turn": 10,
+        "bytes": 273,
+        "lines": 19
+      },
+      {
+        "turn": 11,
+        "bytes": 298,
+        "lines": 20
+      },
+      {
+        "turn": 12,
+        "bytes": 341,
+        "lines": 22
+      }
+    ],
+    "unfinished_turn": {
+      "turn": 13,
+      "bytes": 0,
+      "lines": 0
+    },
+    "warnings": []
+  },
+  "warnings": []
+}

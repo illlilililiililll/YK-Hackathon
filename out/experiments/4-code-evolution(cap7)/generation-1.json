@@ -1,0 +1,249 @@
+{
+  "number": 1,
+  "candidates": [
+    {
+      "id": "independent",
+      "source": "out\\evolution\\candidates\\independent.py",
+      "sha256": "2f30ccb8df7f051fbc5449be6d402477dd678a22e2b9fc428f9796d4089ad3d7",
+      "parent": null,
+      "operation": "new-policy",
+      "hypothesis": "독립 생산·점령·집결 정책",
+      "generation": 1
+    },
+    {
+      "id": "g1-safe_goal",
+      "source": "out\\evolution\\candidates\\g1-safe_goal.py",
+      "sha256": "0ca7b49c39b64b099a4315031f86561e8458279ef958579097c1d8f19dc7722c",
+      "parent": "cap7",
+      "operation": "safe_goal",
+      "hypothesis": "적 전투병과 인접한 점령 목표도 피하면 깃발병 생존이 오른다",
+      "generation": 1
+    },
+    {
+      "id": "g1-focus_w",
+      "source": "out\\evolution\\candidates\\g1-focus_w.py",
+      "sha256": "98497a9fb0047ff0d6f4b8d7267b222b20502ab94207d352bce723d67e87f008",
+      "parent": "cap7",
+      "operation": "focus_w",
+      "hypothesis": "중앙에 가까운 적 깃발병 한 곳에 전투병을 모으면 교전이 유리하다",
+      "generation": 1
+    },
+    {
+      "id": "g1-adaptive_cap",
+      "source": "out\\evolution\\candidates\\g1-adaptive_cap.py",
+      "sha256": "82e828bad6df270d1a36dc01604ff4d6c976f9e1296a0e2aed4628d82a0aa165",
+      "parent": "cap7",
+      "operation": "adaptive_cap",
+      "hypothesis": "전투병 열세일 때 깃발병 생산 상한을 줄여 전투병 자원을 확보한다",
+      "generation": 1
+    }
+  ],
+  "selection": {
+    "policies": {
+      "v3": {
+        "source_sha256": "f9c05c4d3a44b997faadd94048ff6a6363b9c5bdc5f5f47061ca504ee2a4d195",
+        "parent": null,
+        "operation": null,
+        "hypothesis": "기존 기준선",
+        "reward": 12,
+        "by_opponent": {
+          "v3": 2,
+          "cap7": 1,
+          "slow-defense": 2,
+          "lv2": 4,
+          "v2": 1,
+          "fast-attack": 2
+        },
+        "forfeits": 0,
+        "eligible": true,
+        "summary": {
+          "games": 24,
+          "wins": 12,
+          "draws": 0,
+          "losses": 12,
+          "points": 12,
+          "score_diff": -2.17,
+          "at20_buildings": 7.71,
+          "at20_value": 231.29,
+          "forfeits": 0,
+          "max_ms": 21.108,
+          "max_bytes": 482,
+          "max_lines": 31
+        }
+      },
+      "cap7": {
+        "source_sha256": "58419236b2fc91173c5b2fc594a2eeff6ac996b5a74d9d5324a0e9dc4ab1ba66",
+        "parent": "v3",
+        "operation": "cap7-low",
+        "hypothesis": "이전 미사용 경기 우수 정책",
+        "reward": 19,
+        "by_opponent": {
+          "v3": 3,
+          "cap7": 2,
+          "slow-defense": 3,
+          "lv2": 4,
+          "v2": 3,
+          "fast-attack": 4
+        },
+        "forfeits": 0,
+        "eligible": true,
+        "summary": {
+          "games": 24,
+          "wins": 19,
+          "draws": 0,
+          "losses": 5,
+          "points": 19,
+          "score_diff": 9.08,
+          "at20_buildings": 9.08,
+          "at20_value": 233.75,
+          "forfeits": 0,
+          "max_ms": 32.355,
+          "max_bytes": 535,
+          "max_lines": 33
+        }
+      },
+      "independent": {
+        "source_sha256": "2f30ccb8df7f051fbc5449be6d402477dd678a22e2b9fc428f9796d4089ad3d7",
+        "parent": null,
+        "operation": "new-policy",
+        "hypothesis": "독립 생산·점령·집결 정책",
+        "reward": 4,
+        "by_opponent": {
+          "v3": 0,
+          "cap7": 0,
+          "slow-defense": 0,
+          "lv2": 4,
+          "v2": 0,
+          "fast-attack": 0
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 4,
+          "draws": 0,
+          "losses": 20,
+          "points": 4,
+          "score_diff": -18.04,
+          "at20_buildings": 6.67,
+          "at20_value": 251.5,
+          "forfeits": 0,
+          "max_ms": 29.558,
+          "max_bytes": 479,
+          "max_lines": 30
+        }
+      },
+      "g1-safe_goal": {
+        "source_sha256": "0ca7b49c39b64b099a4315031f86561e8458279ef958579097c1d8f19dc7722c",
+        "parent": "cap7",
+        "operation": "safe_goal",
+        "hypothesis": "적 전투병과 인접한 점령 목표도 피하면 깃발병 생존이 오른다",
+        "reward": 22,
+        "by_opponent": {
+          "v3": 2,
+          "cap7": 4,
+          "slow-defense": 4,
+          "lv2": 4,
+          "v2": 4,
+          "fast-attack": 4
+        },
+        "forfeits": 0,
+        "eligible": true,
+        "summary": {
+          "games": 24,
+          "wins": 22,
+          "draws": 0,
+          "losses": 2,
+          "points": 22,
+          "score_diff": 14.25,
+          "at20_buildings": 9.29,
+          "at20_value": 235.75,
+          "forfeits": 0,
+          "max_ms": 22.684,
+          "max_bytes": 546,
+          "max_lines": 33
+        }
+      },
+      "g1-focus_w": {
+        "source_sha256": "98497a9fb0047ff0d6f4b8d7267b222b20502ab94207d352bce723d67e87f008",
+        "parent": "cap7",
+        "operation": "focus_w",
+        "hypothesis": "중앙에 가까운 적 깃발병 한 곳에 전투병을 모으면 교전이 유리하다",
+        "reward": 5,
+        "by_opponent": {
+          "v3": 0,
+          "cap7": 0,
+          "slow-defense": 0,
+          "lv2": 4,
+          "v2": 0,
+          "fast-attack": 1
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 5,
+          "draws": 0,
+          "losses": 19,
+          "points": 5,
+          "score_diff": -15.71,
+          "at20_buildings": 7.33,
+          "at20_value": 237.46,
+          "forfeits": 0,
+          "max_ms": 29.072,
+          "max_bytes": 493,
+          "max_lines": 30
+        }
+      },
+      "g1-adaptive_cap": {
+        "source_sha256": "82e828bad6df270d1a36dc01604ff4d6c976f9e1296a0e2aed4628d82a0aa165",
+        "parent": "cap7",
+        "operation": "adaptive_cap",
+        "hypothesis": "전투병 열세일 때 깃발병 생산 상한을 줄여 전투병 자원을 확보한다",
+        "reward": 16,
+        "by_opponent": {
+          "v3": 3,
+          "cap7": 3,
+          "slow-defense": 2,
+          "lv2": 4,
+          "v2": 3,
+          "fast-attack": 1
+        },
+        "forfeits": 0,
+        "eligible": false,
+        "summary": {
+          "games": 24,
+          "wins": 16,
+          "draws": 0,
+          "losses": 8,
+          "points": 16,
+          "score_diff": 8.96,
+          "at20_buildings": 8.79,
+          "at20_value": 232.04,
+          "forfeits": 0,
+          "max_ms": 25.168,
+          "max_bytes": 535,
+          "max_lines": 34
+        }
+      }
+    },
+    "baseline_by_opponent": {
+      "v3": 2,
+      "cap7": 1,
+      "slow-defense": 2,
+      "lv2": 4,
+      "v2": 1,
+      "fast-attack": 2
+    },
+    "incumbent_by_opponent": {
+      "v3": 3,
+      "cap7": 2,
+      "slow-defense": 3,
+      "lv2": 4,
+      "v2": 3,
+      "fast-attack": 4
+    },
+    "leader": "g1-safe_goal",
+    "specialist": "g1-safe_goal"
+  }
+}

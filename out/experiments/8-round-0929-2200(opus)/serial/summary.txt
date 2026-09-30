@@ -1,0 +1,4 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+eg20baked     g1e0        Y      6     5-0-1    27.2      1415      402   0      3     50
+eg20baked     pressure    Y      6     3-0-3     2.5       181      167   0      2     17
+eg20baked     v6          Y      6     5-0-1     7.3       -22      -10   0      4      0

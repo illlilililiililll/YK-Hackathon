@@ -1,0 +1,9 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep1        base        Y      6     5-0-1    24.5       990      365   0     19     67
+indep1        cap7        Y      6     6-0-0    34.0       712      475   0     20    100
+indep1        rush        Y      6     6-0-0    34.7       620      380   0     21    100
+indep1        v3          Y      6     6-0-0    34.7       832      498   0     15    100
+indep1_py312winbase        Y      6     5-0-1    24.5       990      365   0     45     67
+indep1_py312wincap7        Y      6     6-0-0    34.0       712      475   0     10    100
+indep1_py312winrush        Y      6     6-0-0    34.7       620      380   0     10    100
+indep1_py312winv3          Y      6     6-0-0    34.7       832      498   0     13    100

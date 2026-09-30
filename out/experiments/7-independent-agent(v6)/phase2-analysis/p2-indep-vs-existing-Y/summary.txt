@@ -1,0 +1,4 @@
+cand          opp         side   n     W-D-L  margin  occ(c-o)  uv(c-o)  ff  maxms  inst%
+indep         cap7        Y     30    30-0-0    31.0       816      714   0     19     87
+indep         v2          Y     30    30-0-0    31.6       970      996   0     21     93
+indep         v3          Y     30    30-0-0    31.4       981      749   0     46     87

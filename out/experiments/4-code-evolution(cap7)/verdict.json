@@ -1,0 +1,214 @@
+{
+  "verdict": {
+    "by_policy": {
+      "v3": {
+        "Y": {
+          "games": 56,
+          "wins": 36,
+          "draws": 0,
+          "losses": 20,
+          "points": 36,
+          "score_diff": 8.04,
+          "at20_buildings": 8.27,
+          "at20_value": 244.07,
+          "forfeits": 0,
+          "max_ms": 28.917,
+          "max_bytes": 520,
+          "max_lines": 33
+        },
+        "K": {
+          "games": 14,
+          "wins": 5,
+          "draws": 0,
+          "losses": 9,
+          "points": 5,
+          "score_diff": -5.21,
+          "at20_buildings": 7.43,
+          "at20_value": 248.36,
+          "forfeits": 0,
+          "max_ms": 22.24,
+          "max_bytes": 482,
+          "max_lines": 29
+        }
+      },
+      "cap7": {
+        "Y": {
+          "games": 56,
+          "wins": 42,
+          "draws": 0,
+          "losses": 14,
+          "points": 42,
+          "score_diff": 9.98,
+          "at20_buildings": 8.73,
+          "at20_value": 238,
+          "forfeits": 0,
+          "max_ms": 27.105,
+          "max_bytes": 518,
+          "max_lines": 33
+        },
+        "K": {
+          "games": 14,
+          "wins": 5,
+          "draws": 0,
+          "losses": 9,
+          "points": 5,
+          "score_diff": -5.57,
+          "at20_buildings": 8.57,
+          "at20_value": 243.21,
+          "forfeits": 0,
+          "max_ms": 29.823,
+          "max_bytes": 524,
+          "max_lines": 31
+        }
+      },
+      "independent": {
+        "Y": {
+          "games": 56,
+          "wins": 16,
+          "draws": 0,
+          "losses": 40,
+          "points": 16,
+          "score_diff": -9.61,
+          "at20_buildings": 7.04,
+          "at20_value": 246.07,
+          "forfeits": 0,
+          "max_ms": 19.146,
+          "max_bytes": 488,
+          "max_lines": 29
+        },
+        "K": {
+          "games": 14,
+          "wins": 4,
+          "draws": 0,
+          "losses": 10,
+          "points": 4,
+          "score_diff": -8.07,
+          "at20_buildings": 6.71,
+          "at20_value": 243.21,
+          "forfeits": 0,
+          "max_ms": 27.75,
+          "max_bytes": 472,
+          "max_lines": 30
+        }
+      },
+      "g1-safe_goal": {
+        "Y": {
+          "games": 56,
+          "wins": 42,
+          "draws": 0,
+          "losses": 14,
+          "points": 42,
+          "score_diff": 13.71,
+          "at20_buildings": 8.84,
+          "at20_value": 236.86,
+          "forfeits": 0,
+          "max_ms": 30.835,
+          "max_bytes": 491,
+          "max_lines": 31
+        },
+        "K": {
+          "games": 14,
+          "wins": 9,
+          "draws": 0,
+          "losses": 5,
+          "points": 9,
+          "score_diff": 8.64,
+          "at20_buildings": 9.5,
+          "at20_value": 249.71,
+          "forfeits": 0,
+          "max_ms": 20.016,
+          "max_bytes": 530,
+          "max_lines": 32
+        }
+      },
+      "g2-2-defend_w": {
+        "Y": {
+          "games": 56,
+          "wins": 26,
+          "draws": 0,
+          "losses": 30,
+          "points": 26,
+          "score_diff": -1.62,
+          "at20_buildings": 8.61,
+          "at20_value": 239.12,
+          "forfeits": 0,
+          "max_ms": 33.029,
+          "max_bytes": 472,
+          "max_lines": 29
+        },
+        "K": {
+          "games": 14,
+          "wins": 5,
+          "draws": 0,
+          "losses": 9,
+          "points": 5,
+          "score_diff": -7.79,
+          "at20_buildings": 9.21,
+          "at20_value": 249.21,
+          "forfeits": 0,
+          "max_ms": 27.723,
+          "max_bytes": 500,
+          "max_lines": 31
+        }
+      }
+    },
+    "incumbent": "cap7",
+    "accepted": [],
+    "chosen": "cap7",
+    "final_seed_range": [
+      500,
+      507
+    ],
+    "unused_opponent": "unseen-mixed-attack"
+  },
+  "finalists": [
+    {
+      "id": "v3",
+      "source": "out\\evolution\\candidates\\v3.py",
+      "sha256": "f9c05c4d3a44b997faadd94048ff6a6363b9c5bdc5f5f47061ca504ee2a4d195",
+      "parent": null,
+      "operation": null,
+      "hypothesis": "기존 기준선",
+      "generation": 0
+    },
+    {
+      "id": "cap7",
+      "source": "out\\evolution\\candidates\\cap7.py",
+      "sha256": "58419236b2fc91173c5b2fc594a2eeff6ac996b5a74d9d5324a0e9dc4ab1ba66",
+      "parent": "v3",
+      "operation": "cap7-low",
+      "hypothesis": "이전 미사용 경기 우수 정책",
+      "generation": 0
+    },
+    {
+      "id": "independent",
+      "source": "out\\evolution\\candidates\\independent.py",
+      "sha256": "2f30ccb8df7f051fbc5449be6d402477dd678a22e2b9fc428f9796d4089ad3d7",
+      "parent": null,
+      "operation": "new-policy",
+      "hypothesis": "독립 생산·점령·집결 정책",
+      "generation": 1
+    },
+    {
+      "id": "g1-safe_goal",
+      "source": "out\\evolution\\candidates\\g1-safe_goal.py",
+      "sha256": "0ca7b49c39b64b099a4315031f86561e8458279ef958579097c1d8f19dc7722c",
+      "parent": "cap7",
+      "operation": "safe_goal",
+      "hypothesis": "적 전투병과 인접한 점령 목표도 피하면 깃발병 생존이 오른다",
+      "generation": 1
+    },
+    {
+      "id": "g2-2-defend_w",
+      "source": "out\\evolution\\candidates\\g2-2-defend_w.py",
+      "sha256": "0659d30deccef83caf745fd7eff7a92667286d710df842b6efa6e8ff89d8b667",
+      "parent": "g1-safe_goal",
+      "operation": "defend_w",
+      "hypothesis": "소유 건물 부근의 적 깃발병을 먼저 추적하면 방어가 좋아진다",
+      "generation": 2
+    }
+  ],
+  "games": 566,
+  "elapsed_seconds": 285.8,
+  "match_seconds": 534.1
+}
